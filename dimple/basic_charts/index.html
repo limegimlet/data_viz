@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="http://d3js.org/d3.v3.min.js"></script>
+  <script src="http://dimplejs.org/dist/dimple.v2.0.0.min.js"></script>
+
+  <style type="text/css">
+
+    body {
+      font-family: sans-serif;
+
+    }
+
+    h3 {
+      font-size: 20px;
+      font-style: italic;
+    }
+
+    .title {
+      margin-left: 75px;
+    }
+
+  </style>
+
+  <script type="text/javascript">
+
+    var myData =
+    [
+      {
+      "year" : "2004",
+      "country" : "US",
+      "investment": 5.6
+      },
+      {
+      "year" : "2005",
+      "country" : "US",
+      "investment": 11.9
+      },
+      {
+      "year" : "2006",
+      "country" : "US",
+      "investment": 29.1
+      },
+      {
+      "year" : "2007",
+      "country" : "US",
+      "investment": 33.2
+      },
+      {
+      "year" : "2008",
+      "country" : "US",
+      "investment": 35.5
+      },
+      {
+      "year" : "2009",
+      "country" : "US",
+      "investment": 23
+      },
+      {
+      "year" : "2010",
+      "country" : "US",
+      "investment": 34.7
+      },
+      {
+      "year" : "2011",
+      "country" : "US",
+      "investment": 49.1
+      },
+      {
+      "year" : "2012",
+      "country" : "US",
+      "investment": 40.6
+      },
+      {
+      "year" : "2013",
+      "country" : "US",
+      "investment": 35.3
+      },
+      {
+      "year" : "2014",
+      "country" : "US",
+      "investment": 37
+      },
+      {
+      "year" : "2015",
+      "country" : "US",
+      "investment": 44.1
+      },
+      {
+      "year" : "2004",
+      "country" : "China",
+      "investment": 3
+      },
+      {
+      "year" : "2005",
+      "country" : "China",
+      "investment": 8.3
+      },
+      {
+      "year" : "2006",
+      "country" : "China",
+      "investment": 11.2
+      },
+      {
+      "year" : "2007",
+      "country" : "China",
+      "investment": 16.7
+      },
+      {
+      "year" : "2008",
+      "country" : "China",
+      "investment": 25.6
+      },
+      {
+      "year" : "2009",
+      "country" : "China",
+      "investment": 38.8
+      },
+      {
+      "year" : "2010",
+      "country" : "China",
+      "investment": 39.6
+      },
+      {
+      "year" : "2011",
+      "country" : "China",
+      "investment": 47.4
+      },
+      {
+      "year" : "2012",
+      "country" : "China",
+      "investment": 61.7
+      },
+      {
+      "year" : "2013",
+      "country" : "China",
+      "investment": 62
+      },
+      {
+      "year" : "2014",
+      "country" : "China",
+      "investment": 87.8
+      },
+      {
+      "year" : "2015",
+      "country" : "China",
+      "investment": 102.9
+      }
+    ];
+
+      function draw(data) {
+
+      /*
+        D3.js setup code
+      */
+
+          "use strict";
+          var margin = 75,
+              width = 700 - margin,
+              height = 500 - margin;
+
+        var title = d3.select("body")
+            .append("div")
+              .attr("class", "title")
+                .append("h2")
+                  .text("Investment in Renewable Energy:");
+
+        var subtitle = d3.select("body")
+            .append("div")
+              .attr("class", "title")
+                .append("h3")
+                  .text("The US is falling behind");
+
+
+          var svg = d3.select("body")
+            .append("svg")
+              .attr("width", width + margin)
+              .attr("height", height + margin)
+            .append('g')
+                .attr('class','chart');
+
+
+
+      /*
+        Dimple.js Chart construction code
+      */
+
+          var myChart = new dimple.chart(svg, data);
+          var x = myChart.addTimeAxis("x", "year");
+          var y = myChart.addMeasureAxis("y", "investment");
+          x.dateParseFormat = "%Y";
+          x.tickFormat = "%Y";
+          x.title = "Year";
+          y.title = "Investment (in billions of US$)";
+          myChart.addSeries("brand", dimple.plot.bar);
+          myChart.addLegend(100, 10, 550, 200, "right");
+          myChart.draw();
+        };
+      </script>
+  </head>
+<body>
+  <script type="text/javascript">
+  /*
+    Use D3 (not dimple.js) to load the TSV file
+    and pass the contents of it to the draw function
+    */
+  draw(myData);
+  </script>
+</body>
+</html>

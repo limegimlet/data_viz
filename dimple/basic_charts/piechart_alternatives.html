@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link href='https://fonts.googleapis.com/css?family=Roboto:100,300,500' rel='stylesheet' type='text/css'>
+  <script src="http://d3js.org/d3.v3.min.js"></script>
+  <script src="http://dimplejs.org/dist/dimple.v2.0.0.min.js"></script>
+
+  <style type="text/css">
+
+    body {
+      font-family: sans-serif;
+      /*background: MidnightBlue;*/
+
+    }
+
+    h3 {
+      font-size: 20px;
+      font-weight: lighter;
+    }
+
+    h1 {
+      font-weight: bold;
+    }
+
+    .title {
+      font-family: 'Roboto', sans-serif;
+      letter-spacing: 1px;
+      margin-left: 75px;
+      /*color: whitesmoke;*/
+    }
+
+  .dimple-axis {
+      /*stroke: whitesmoke;*/
+      font-weight: lighter;
+    }
+
+  .dimple-bar {
+      height: 40%;
+  }
+
+
+  </style>
+
+  <script type="text/javascript">
+      function draw(data) {
+
+      /*
+        D3.js setup code
+      */
+
+          "use strict";
+          var margin = 75,
+              h = 400,
+              w = 400 * 1.6,
+              width = w - margin,
+              height = h - margin;
+
+        var title = d3.select("body")
+            .append("div")
+              .attr("class", "title")
+                .append("h2")
+                  .text("Mobile Market Share");
+
+        var subtitle = d3.select("body")
+            .append("div")
+              .attr("class", "title")
+                .append("h3")
+                  .text("This is really old.")
+
+
+          var svg = d3.select("body")
+            .append("svg")
+              .attr("width", width + margin)
+              .attr("height", height + margin)
+            .append('g')
+              .attr('class','chart');
+
+          /*svg.append("rect")
+            .attr("x", "8px")
+            .attr("y", "8px")
+            .attr("width", "100%")
+            .attr("height", "100%")
+            .style("fill", "midnightblue");*/
+
+      /*
+        Dimple.js Chart construction code
+      */
+          var myChart = new dimple.chart(svg, data);
+          var y = myChart.addCategoryAxis("y", "type");
+          var x = myChart.addPctAxis("x", "mkt_share");
+          var s = myChart.addSeries("company", dimple.plot.bar);
+          var l = myChart .addLegend(100, 20, 600, 200, "left");
+          x.ticks = 3;
+          y.hidden = true;
+
+          myChart.draw();
+          
+
+        };
+
+      </script>
+  </head>
+<body>
+  <script type="text/javascript">
+  /*
+    Use D3 (not dimple.js) to load the TSV file
+    and pass the contents of it to the draw function
+  */
+
+  d3.tsv("new_mobile_data.tsv", draw);
+  </script>
+</body>
+</html>

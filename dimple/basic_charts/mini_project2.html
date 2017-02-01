@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link href='https://fonts.googleapis.com/css?family=Roboto:100,300,500' rel='stylesheet' type='text/css'>
+  <script src="http://d3js.org/d3.v3.min.js"></script>
+  <script src="http://dimplejs.org/dist/dimple.v2.0.0.min.js"></script>
+
+  <style type="text/css">
+
+    body {
+      font-family: sans-serif;
+      /*background: MidnightBlue;*/
+
+    }
+
+    h3 {
+      font-size: 20px;
+      font-weight: normal;
+    }
+
+    h1 {
+      font-weight: bolder;
+    }
+
+    .title {
+      font-family: 'Roboto', sans-serif;
+      letter-spacing: 1px;
+      margin-left: 75px;
+      /*color: whitesmoke;*/
+    }
+
+  .dimple-axis {
+      /*stroke: whitesmoke;*/
+      font-weight: lighter;
+    }
+  .dimple-series-1 {
+    stroke-width: 8px;
+    opacity: .7;
+  }
+
+
+
+  </style>
+
+  <script type="text/javascript">
+
+    var myData =
+    [
+      {
+      "year" : "2004",
+      "country" : "US",
+      "investment": 5.6
+      },
+      {
+      "year" : "2005",
+      "country" : "US",
+      "investment": 11.9
+      },
+      {
+      "year" : "2006",
+      "country" : "US",
+      "investment": 29.1
+      },
+      {
+      "year" : "2007",
+      "country" : "US",
+      "investment": 33.2
+      },
+      {
+      "year" : "2008",
+      "country" : "US",
+      "investment": 35.5
+      },
+      {
+      "year" : "2009",
+      "country" : "US",
+      "investment": 23
+      },
+      {
+      "year" : "2010",
+      "country" : "US",
+      "investment": 34.7
+      },
+      {
+      "year" : "2011",
+      "country" : "US",
+      "investment": 49.1
+      },
+      {
+      "year" : "2012",
+      "country" : "US",
+      "investment": 40.6
+      },
+      {
+      "year" : "2013",
+      "country" : "US",
+      "investment": 35.3
+      },
+      {
+      "year" : "2014",
+      "country" : "US",
+      "investment": 37
+      },
+      {
+      "year" : "2015",
+      "country" : "US",
+      "investment": 44.1
+      },
+      {
+      "year" : "2004",
+      "country" : "China",
+      "investment": 3
+      },
+      {
+      "year" : "2005",
+      "country" : "China",
+      "investment": 8.3
+      },
+      {
+      "year" : "2006",
+      "country" : "China",
+      "investment": 11.2
+      },
+      {
+      "year" : "2007",
+      "country" : "China",
+      "investment": 16.7
+      },
+      {
+      "year" : "2008",
+      "country" : "China",
+      "investment": 25.6
+      },
+      {
+      "year" : "2009",
+      "country" : "China",
+      "investment": 38.8
+      },
+      {
+      "year" : "2010",
+      "country" : "China",
+      "investment": 39.6
+      },
+      {
+      "year" : "2011",
+      "country" : "China",
+      "investment": 47.4
+      },
+      {
+      "year" : "2012",
+      "country" : "China",
+      "investment": 61.7
+      },
+      {
+      "year" : "2013",
+      "country" : "China",
+      "investment": 62
+      },
+      {
+      "year" : "2014",
+      "country" : "China",
+      "investment": 87.8
+      },
+      {
+      "year" : "2015",
+      "country" : "China",
+      "investment": 102.9
+      }
+    ];
+
+      function draw(data) {
+
+      /*
+        D3.js setup code
+      */
+
+          "use strict";
+          var margin = 75,
+              width = 809 - margin,
+              height = 500 - margin;
+
+        var title = d3.select("body")
+            .append("div")
+              .attr("class", "title")
+                .append("h2")
+                  .text("CHINA RAPIDLY OUTPACING THE US");
+
+        var subtitle = d3.select("body")
+            .append("div")
+              .attr("class", "title")
+                .append("h3")
+                  .text("US investment in renewable energy peaked in 2011, then \
+                        stagnated compared to China's.")
+
+
+          var svg = d3.select("body")
+            .append("svg")
+              .attr("width", width + margin)
+              .attr("height", height + margin)
+            .append('g')
+              .attr('class','chart');
+
+          /*svg.append("rect")
+            .attr("x", "8px")
+            .attr("y", "8px")
+            .attr("width", "100%")
+            .attr("height", "100%")
+            .style("fill", "midnightblue");*/
+
+      /*
+        Dimple.js Chart construction code
+      */
+
+          var myChart = new dimple.chart(svg, data);
+          var x = myChart.addTimeAxis("x", "year");
+          var y = myChart.addMeasureAxis("y", "investment");
+          x.dateParseFormat = "%Y";
+          x.tickFormat = "%Y";
+          x.title = null;
+          y.title = "Investment in US$ billions";
+          myChart.addSeries("country", dimple.plot.scatter);
+          myChart.addSeries("country", dimple.plot.line);
+          myChart.assignColor("China", "red");
+          myChart.assignColor("US", "mediumblue");
+          y.ticks = 5;
+          var legend = myChart.addLegend(100, 20, 550, 200, "right");
+
+          myChart.draw();
+          legend.shapes.selectAll("text").style("font-size", "16");
+          legend.shapes.selectAll("rect").style("opacity", ".7");
+          /*legend.shapes.selectAll("text").style("fill", "whitesmoke")*/;
+          /* change axis colour */
+          x.shapes.selectAll("line").style("stroke", "white");
+          x.shapes.selectAll("text").style("font-size", 14);
+          x.shapes.selectAll("text").attr("transform", "rotate(45)");
+          x.shapes.selectAll("text").attr("x", 20);
+          x.shapes.selectAll("path.domain").attr("opacity", 0);
+          y.shapes.selectAll("line").style("stroke", "white");
+          y.shapes.selectAll("text").style("font-size", 14);
+          y.shapes.selectAll("path.domain").attr("opacity", 0);
+          /*y.gridlineShapes.selectAll("line").style("stroke", "whitesmoke");*/
+          y.gridlineShapes.selectAll("line").style("stroke-width", .5);
+          y.titleShape.style("font-size", 16);
+        };
+
+
+      </script>
+  </head>
+<body>
+  <script type="text/javascript">
+  /*
+    Use D3 (not dimple.js) to load the TSV file
+    and pass the contents of it to the draw function
+  */
+
+   draw(myData);
+  </script>
+</body>
+</html>
