@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="http://d3js.org/d3.v3.min.js"></script>
+  <script src="http://dimplejs.org/dist/dimple.v2.0.0.min.js"></script>
+
+  <!-- Props to Kimerly Geswein for her font Shadows Into Light */ -->
+  <link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
+  <style>
+
+  </style>
+
+    <script type="text/javascript">
+      function draw(data) {
+
+      /*
+        D3.js setup code
+      */
+
+        "use strict";
+        var margin = 75,
+            width = 800 - margin,
+            height = 600 - margin;
+
+        var title = d3.select("body")
+            .append("h2")
+              .text("Baseball players: HR vs Avg");
+
+
+          var svg = d3.select("body")
+            .append("svg")
+              .attr("width", width + margin)
+              .attr("height", height + margin)
+            .append('g')
+                .attr('class','chart');
+
+      /*
+        Dimple.js Chart construction code
+      */
+
+          var myChart = new dimple.chart(svg, data);
+
+          var x = myChart.addMeasureAxis("x", "avg");
+          x.showGridlines = false;
+          x.ticks = 3;
+          x.tickFormat = "";
+          x.overrideMin = -.2;
+          x.overrideMax = .2;
+
+          x.title = "Batting average"
+          var y = myChart.addMeasureAxis("y", "HR");
+          y.showGridlines = false;
+          y.tickFormat = "";
+          y.overrideMin = -.18;
+          y.overrideMax = .18;
+          y.title = 'Home runs'
+          
+
+          var bubble = myChart.addSeries('handedness', dimple.plot.bubble);
+          bubble.aggregate = dimple.aggregateMethod.avg;
+          var myLegend = myChart.addLegend(730, 65, 60, 300, "Right");
+
+          // Animate for each month in the data
+          var myStoryboard = myChart.setStoryboard("handedness");
+          myStoryboard.addOrderRule(["B", "R", "L"]);
+
+
+
+
+          myChart.draw();
+        };
+
+      </script>
+  </head>
+<body>
+  <script type="text/javascript">
+  /*
+    Use D3 (not dimple.js) to load the TSV file
+    and pass the contents of it to the draw function
+    */
+  d3.csv("data/baseball_data_norm.csv", draw);
+  </script>
+</body>
+</html>
