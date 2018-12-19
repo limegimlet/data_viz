@@ -25,11 +25,11 @@
         D3.js setup code
       */
 
-          "use strict";
-          var margin = 75,
-              width = 1400 - margin,
-              height = 600 - margin;
-
+        "use strict";
+        var margin = 75,
+            width = 1400 - margin,
+            height = 600 - margin;
+        debugger;
         var title = d3.select("body")
             .append("h2")
               .text("World Cup Attendance through the Years");
@@ -53,7 +53,7 @@
           myChart.addMeasureAxis("y", "attendance");
           x.dateParseFormat = "%Y";
           x.tickFormat = "%Y";
-          x.timeInterval = 4;
+          x.timeInterval = 2;
           myChart.addSeries(null, dimple.plot.line);
           myChart.addSeries(null, dimple.plot.scatter);
           myChart.draw();

@@ -1,1158 +1,1158 @@
-name,handedness,height,weight,avg,HR
-Tom Brown,R, 73, 170, 0.0, 0
-Denny Lemaster,R, 73, 182, 0.130, 4
-Joe Nolan,L, 71, 175, 0.263, 27
-Denny Doyle,L, 69, 175, 0.250, 16
-Jose Cardenal,R, 70, 150, 0.275, 138
-Mike Ryan,R, 74, 205, 0.193, 28
-Fritz Peterson,B, 72, 185, 0.159, 2
-Dick Bertell,R, 72, 200, 0.250, 10
-Rod Kanehl,R, 73, 180, 0.241, 6
-Ozzie Osborn,R, 74, 195, 0.0, 0
-John LaRose,L, 73, 185, 0.0, 0
-Jeff Byrd,R, 75, 195, 0.0, 0
-Juan Bonilla,R, 69, 170, 0.256, 7
-Frank Tepedino,L, 71, 185, 0.241, 6
-Jerry Kutzler,L, 73, 175, 0.0, 0
-Rick Wise,R, 73, 180, 0.195, 15
-Darrell Evans,L, 74, 200, 0.248, 414
-Buck Martinez,R, 70, 190, 0.225, 58
-John Wockenfuss,R, 72, 190, 0.262, 86
-Tommy McCraw,L, 72, 183, 0.246, 75
-Jeff Barkley,B, 75, 185, 0.0, 0
-Eric Wilkins,R, 73, 190, 0.0, 0
-Britt Burns,L, 77, 215, 0.0, 0
-Lee Lacy,R, 73, 175, 0.286, 91
-Pete Rose,B, 71, 192, 0.303, 160
-Danny Walton,R, 72, 195, 0.223, 28
-Bobby Cox,R, 71, 180, 0.225, 9
-Brad Wellman,R, 72, 170, 0.231, 6
-Jeff Newman,R, 74, 215, 0.224, 63
-Pedro Gonzalez,R, 72, 176, 0.244, 8
-Nardi Contreras,B, 74, 193, 0.0, 0
-Tommie Reynolds,R, 74, 190, 0.226, 12
-Gene Clines,R, 69, 170, 0.277, 5
-Jim Hickman,R, 75, 192, 0.252, 159
-Jack Billingham,R, 76, 195, 0.111, 0
-Jerry Buchek,R, 71, 185, 0.220, 22
-Ivan DeJesus,R, 71, 175, 0.254, 21
-Gary Nolan,R, 74, 197, 0.138, 1
-Gil Patterson,R, 73, 185, 0.0, 0
-Fred Whitfield,L, 73, 190, 0.253, 108
-Larry Dierker,R, 76, 215, 0.136, 4
-Dave Skaggs,R, 74, 200, 0.241, 3
-Dick Ruthven,R, 75, 190, 0.183, 1
-Jerry Garvin,L, 75, 195, 0.0, 0
-Steve Eddy,R, 74, 185, 0.0, 0
-Dave Kingman,R, 78, 210, 0.236, 442
-Eric Soderholm,R, 71, 187, 0.264, 102
-Kevin Mmahat,L, 77, 220, 0.0, 0
-Ed Brinkman,R, 72, 170, 0.224, 60
-Wayne Garrett,L, 71, 175, 0.239, 61
-Tony Muser,L, 74, 180, 0.259, 7
-Jim Siwy,R, 76, 200, 0.0, 0
-Bud Anderson,R, 75, 210, 0.0, 0
-Ted Ford,R, 70, 180, 0.219, 17
-Kevin Stanfield,L, 72, 190, 0.0, 0
-Jim Lyttle,L, 72, 180, 0.248, 9
-John Butcher,R, 76, 185, 0.0, 0
-Jerry Ujdur,R, 73, 195, 0.0, 0
-Scot Thompson,L, 75, 195, 0.262, 5
-Gene Locklear,L, 70, 165, 0.274, 9
-Bo Diaz,R, 71, 185, 0.255, 87
-Bump Wills,B, 69, 172, 0.266, 36
-Brian Denman,R, 76, 205, 0.0, 0
-Pat Putnam,L, 72, 205, 0.255, 63
-Kurt Bevacqua,R, 72, 180, 0.236, 27
-Bob Fallon,L, 75, 200, 0.0, 0
-Syd O'Brien,R, 73, 185, 0.230, 24
-Chris Chambliss,L, 73, 195, 0.279, 185
-Tom Satriano,L, 73, 185, 0.225, 21
-Jeffrey Leonard,R, 74, 200, 0.266, 144
-Dal Maxvill,R, 71, 157, 0.217, 6
-Steve Curry,R, 78, 217, 0.0, 0
-Cesar Tovar,R, 69, 155, 0.278, 46
-Mickey Lolich,B, 73, 170, 0.110, 0
-Ray Chadwick,B, 74, 180, 0.0, 0
-Jack Heidemann,R, 72, 175, 0.211, 9
-Rich Rollins,R, 70, 185, 0.269, 77
-Walt Bond,L, 79, 228, 0.256, 41
-Merv Rettenmund,R, 70, 190, 0.271, 66
-Bryan Clutterbuck,R, 76, 223, 0.0, 0
-Byron Browne,R, 74, 190, 0.236, 30
-Hector Torres,R, 72, 175, 0.216, 18
-Walt Williams,R, 66, 165, 0.270, 33
-Jerry Koosman,R, 74, 205, 0.119, 2
-Steve Lombardozzi,R, 72, 175, 0.233, 20
-Joe Azcue,R, 72, 190, 0.252, 50
-Elliott Maddox,R, 71, 180, 0.261, 18
-Omar Moreno,L, 74, 180, 0.252, 37
-Julian Javier,R, 73, 175, 0.257, 78
-Tony Ferreira,L, 73, 160, 0.0, 0
-Elio Chacon,R, 69, 160, 0.232, 4
-Rusty Torres,B, 70, 175, 0.212, 35
-John Stearns,R, 72, 185, 0.260, 46
-Larry Brown,R, 70, 160, 0.233, 47
-Tommy Dean,R, 72, 165, 0.180, 4
-Bryan Oelkers,L, 75, 192, 0.0, 0
-Kevin Bearse,L, 74, 195, 0.0, 0
-Marty Martinez,B, 72, 170, 0.243, 0
-Bruce Boisclair,L, 74, 185, 0.263, 10
-Ken Singleton,B, 76, 210, 0.282, 246
-Frank White,R, 71, 165, 0.255, 160
-Jim Fairey,L, 70, 190, 0.235, 7
-Jose Roman,R, 72, 175, 0.0, 0
-Tom Brookens,R, 70, 165, 0.246, 71
-Gary Thomasson,L, 73, 180, 0.249, 61
-Mike Trujillo,R, 73, 180, 0.0, 0
-Albert Williams,R, 76, 190, 0.0, 0
-Oswaldo Peraza,R, 76, 172, 0.0, 0
-Otto Velez,R, 72, 170, 0.251, 78
-Tony Scott,B, 72, 164, 0.249, 17
-Ray Oyler,R, 71, 165, 0.175, 15
-Barry Cort,R, 77, 210, 0.0, 0
-Floyd Robinson,L, 69, 175, 0.283, 67
-Steve Jeltz,B, 71, 180, 0.210, 5
-Lou Brock,L, 71, 170, 0.293, 149
-Bill Wilkinson,R, 70, 160, 0.0, 0
-Joe Lovitto,B, 72, 185, 0.216, 4
-Mike Loynd,R, 76, 210, 0.0, 0
-Wayne Comer,R, 70, 175, 0.229, 16
-Dave Collins,B, 71, 175, 0.272, 32
-Ed Spiezio,R, 71, 180, 0.238, 39
-Rico Petrocelli,R, 72, 175, 0.251, 210
-Johnny Lewis,L, 73, 189, 0.227, 22
-Dick Simpson,R, 76, 176, 0.207, 15
-Ken Boswell,L, 72, 170, 0.248, 31
-Ken McMullen,R, 75, 190, 0.248, 156
-Randy Scarbery,B, 73, 185, 0.0, 0
-Steve Swisher,R, 74, 205, 0.216, 20
-Ben Callahan,R, 79, 230, 0.0, 0
-Dick Howser,R, 68, 155, 0.248, 16
-Manny Castillo,B, 69, 160, 0.242, 3
-Mike Ramsey,B, 73, 170, 0.240, 2
-Willie Crawford,L, 73, 197, 0.268, 86
-Bobby Cuellar,R, 71, 188, 0.0, 0
-Willie Norwood,R, 72, 185, 0.242, 18
-Mike Jones,L, 78, 215, 0.0, 0
-Jeff Stone,L, 72, 175, 0.277, 11
-Ramon Manon,R, 72, 150, 0.0, 0
-Joe Lahoud,L, 73, 198, 0.223, 65
-Tim Flannery,L, 71, 175, 0.255, 9
-Dave McKay,B, 73, 195, 0.229, 21
-John Trautwein,R, 75, 205, 0.0, 0
-Andy Replogle,R, 77, 205, 0.0, 0
-Zach Crouch,L, 75, 180, 0.0, 0
-Benny Ayala,R, 73, 185, 0.251, 38
-Ron Romanick,R, 76, 195, 0.0, 0
-Greg Gross,L, 70, 160, 0.287, 7
-Bruce Tanner,L, 75, 220, 0.0, 0
-Sal Butera,R, 72, 190, 0.227, 8
-Jack Brohamer,L, 70, 165, 0.245, 30
-Von Joshua,L, 70, 170, 0.273, 30
-Eddie Milner,L, 71, 173, 0.253, 42
-Johnny Jeter,R, 73, 180, 0.244, 18
-Angel Salazar,R, 72, 180, 0.212, 2
-Tony Oliva,L, 73, 175, 0.304, 220
-Cito Gaston,R, 75, 190, 0.256, 91
-Cookie Rojas,R, 70, 160, 0.263, 54
-Rich Morales,R, 71, 170, 0.195, 6
-Dave Ford,R, 76, 190, 0.0, 0
-Dan Ford,R, 73, 185, 0.270, 121
-Barry Raziano,B, 70, 175, 0.0, 0
-Darryl Motley,R, 69, 196, 0.243, 44
-Ozzie Virgil,R, 73, 180, 0.243, 98
-Johnny Oates,L, 71, 188, 0.250, 14
-Pat Underwood,L, 72, 175, 0.0, 0
-Mike Phillips,L, 72, 170, 0.240, 11
-Ron Santo,R, 72, 190, 0.277, 342
-Jay Johnstone,L, 73, 175, 0.267, 102
-Jim Ray Hart,R, 71, 185, 0.278, 170
-Marc Hill,R, 75, 205, 0.223, 34
-Joel McKeon,L, 72, 185, 0.0, 0
-Danny Fife,R, 75, 175, 0.0, 0
-Chico Salmon,R, 70, 160, 0.249, 31
-Joe Niekro,R, 73, 185, 0.156, 1
-Andy Etchebarren,R, 73, 190, 0.235, 49
-Ken Berry,R, 72, 175, 0.255, 58
-Dave Concepcion,R, 74, 155, 0.267, 101
-Junior Moore,R, 71, 185, 0.264, 7
-Mike Richardt,R, 72, 170, 0.226, 4
-Chris Brown,R, 72, 185, 0.269, 38
-Al Bumbry,L, 68, 170, 0.281, 54
-Al Downing,R, 71, 175, 0.127, 2
-Bob Didier,B, 72, 190, 0.229, 0
-Jake Gibbs,L, 72, 180, 0.233, 25
-Garry Hancock,L, 72, 175, 0.247, 12
-Ed Kranepool,L, 75, 205, 0.261, 118
-Rick Rhoden,R, 75, 195, 0.238, 9
-Denny McLain,R, 73, 185, 0.133, 1
-Chuck Hiller,L, 71, 170, 0.243, 20
-Jorge Orta,L, 70, 170, 0.278, 130
-Dave Cash,R, 71, 170, 0.283, 21
-Bucky Dent,R, 69, 170, 0.247, 40
-Andy Beene,R, 75, 205, 0.0, 0
-Bruce Robbins,L, 73, 190, 0.0, 0
-Tony Gonzalez,L, 69, 170, 0.286, 103
-Leon Hooten,R, 71, 180, 0.0, 0
-Larry Haney,R, 74, 195, 0.215, 12
-Billy Conigliaro,R, 72, 180, 0.256, 40
-Gary Roenicke,R, 75, 205, 0.247, 121
-Don Lock,R, 74, 195, 0.238, 122
-Billy Cowan,R, 72, 170, 0.236, 40
-Billy Smith,B, 74, 185, 0.230, 17
-Allan Ramirez,R, 70, 180, 0.0, 0
-Tony Perez,R, 74, 175, 0.279, 379
-Chuck Schilling,R, 70, 160, 0.239, 23
-Hal McRae,R, 71, 180, 0.290, 191
-Dave Roberts,R, 75, 215, 0.239, 49
-Brian Allard,R, 73, 175, 0.0, 0
-Jim Lefebvre,B, 72, 180, 0.251, 74
-Fernando Arroyo,R, 74, 180, 0.0, 0
-Gary Beare,R, 76, 205, 0.0, 0
-Charlie Spikes,R, 75, 215, 0.246, 65
-Brian Dubois,L, 70, 165, 0.0, 0
-Steve Whitaker,L, 72, 180, 0.230, 24
-Manny Jimenez,L, 73, 185, 0.272, 26
-Chris Batton,R, 76, 195, 0.0, 0
-Duffy Dyer,R, 72, 187, 0.221, 30
-Ken Henderson,B, 74, 180, 0.257, 122
-Vance Lovelace,L, 77, 205, 0.0, 0
-Greg Thayer,R, 71, 182, 0.0, 0
-Vern Fuller,R, 73, 170, 0.232, 14
-Paul Hartzell,R, 77, 200, 0.0, 0
-Wayne Gross,L, 74, 210, 0.233, 121
-Mike Champion,R, 72, 185, 0.229, 2
-Ralph Botting,L, 72, 195, 0.0, 0
-Paul Casanova,R, 76, 180, 0.225, 50
-Steve Rogers,R, 74, 175, 0.138, 0
-Keith Creel,R, 74, 180, 0.0, 0
-Terry Crowley,L, 72, 180, 0.250, 42
-Horace Clarke,B, 69, 170, 0.256, 27
-Lou Clinton,R, 73, 185, 0.247, 65
-Larry Cox,R, 70, 178, 0.221, 12
-Nate Colbert,R, 74, 190, 0.243, 173
-Phil Roof,R, 74, 190, 0.215, 43
-Chuck Hinton,R, 73, 180, 0.264, 113
-Tim Cullen,R, 73, 185, 0.220, 9
-Tim Harkness,L, 74, 182, 0.235, 14
-Rick Bosetti,R, 71, 185, 0.250, 17
-Ron Pruitt,R, 72, 185, 0.269, 12
-George Foster,R, 73, 180, 0.274, 348
-Jerry White,B, 70, 164, 0.253, 21
-Angel Mangual,R, 70, 178, 0.245, 22
-Ken Gerhart,R, 72, 190, 0.221, 24
-Mike Hershberger,R, 70, 175, 0.252, 26
-Jim French,L, 68, 180, 0.196, 5
-Dave Roberts,L, 75, 195, 0.194, 7
-Jim Mason,L, 74, 185, 0.203, 12
-Mike Smith,R, 75, 180, 0.0, 0
-Willie Smith,L, 72, 182, 0.248, 46
-T.R. Bryden,R, 76, 190, 0.0, 0
-Jose Arcia,R, 75, 170, 0.215, 1
-Leon Durham,L, 73, 185, 0.277, 147
-Tom Makowski,R, 71, 185, 0.0, 0
-Paul Householder,B, 72, 180, 0.236, 29
-Aurelio Rodriguez,R, 70, 180, 0.237, 124
-Jimmy Stewart,B, 72, 165, 0.237, 8
-Dick Phillips,L, 72, 180, 0.229, 12
-Andres Thomas,R, 73, 170, 0.234, 42
-Ed Crosby,L, 74, 175, 0.220, 0
-Mike de la Hoz,R, 71, 175, 0.251, 25
-Frank Taveras,R, 72, 155, 0.255, 2
-Joe Nossek,R, 72, 178, 0.228, 3
-Larry Stahl,L, 72, 175, 0.232, 36
-Jose Cruz,L, 72, 170, 0.284, 165
-Don Mason,L, 71, 160, 0.205, 3
-Bill Robinson,R, 74, 189, 0.258, 166
-Jim Umbarger,L, 78, 200, 0.0, 0
-Sal Bando,R, 72, 195, 0.254, 242
-George Mitterwald,R, 74, 195, 0.236, 76
-Mike Darr,R, 76, 190, 0.0, 0
-Craig Robinson,R, 70, 165, 0.219, 0
-Bob Tillman,R, 76, 205, 0.232, 79
-Curt Wardle,L, 77, 220, 0.0, 0
-Pat Corrales,R, 72, 180, 0.216, 4
-Mike Tyson,R, 69, 170, 0.241, 27
-Rafael Landestoy,B, 70, 165, 0.237, 4
-Duane Josephson,R, 72, 190, 0.258, 23
-Duane Walker,L, 72, 185, 0.229, 24
-Glenn Hubbard,R, 69, 150, 0.244, 70
-Roger Freed,R, 72, 190, 0.245, 22
-George Hendrick,R, 75, 195, 0.278, 267
-Rod Carew,L, 72, 170, 0.328, 92
-Bob Davis,R, 72, 180, 0.197, 6
-Toby Harrah,R, 72, 175, 0.264, 195
-Rick Manning,L, 73, 180, 0.257, 56
-Israel Sanchez,L, 69, 170, 0.0, 0
-Steve Burke,B, 74, 200, 0.0, 0
-Gary Matthews,R, 74, 185, 0.281, 234
-Cesar Geronimo,L, 72, 165, 0.258, 51
-Billy Bryan,L, 76, 200, 0.216, 41
-Terry Taylor,R, 73, 180, 0.0, 0
-Terry Whitfield,L, 73, 197, 0.281, 33
-Mario Mendoza,R, 71, 170, 0.215, 4
-Fred Lynn,L, 73, 185, 0.283, 306
-Larry Hisle,R, 74, 193, 0.273, 166
-Graig Nettles,L, 72, 180, 0.248, 390
-Randy Nosek,R, 76, 215, 0.0, 0
-Dave Engle,R, 75, 210, 0.262, 31
-Narciso Elvira,L, 70, 160, 0.0, 0
-Mike Easler,L, 72, 190, 0.293, 118
-Mark Smith,R, 74, 215, 0.0, 0
-Paul Mitchell,R, 73, 195, 0.0, 0
-Rick Sweet,B, 73, 200, 0.234, 6
-Thurman Munson,R, 71, 190, 0.292, 113
-Rick Monday,L, 75, 193, 0.264, 241
-Mike Sadek,R, 69, 165, 0.226, 5
-Mark Belanger,R, 73, 170, 0.228, 20
-Ron Hunt,R, 72, 186, 0.273, 39
-Joe Keough,L, 72, 185, 0.246, 9
-Butch Edge,R, 75, 203, 0.0, 0
-Vic Correll,R, 70, 185, 0.229, 29
-Jackie Hernandez,R, 71, 165, 0.208, 12
-Tony Solaita,L, 72, 210, 0.255, 50
-U L Washington,B, 71, 175, 0.251, 27
-Gary Mielke,R, 75, 185, 0.0, 0
-Rick Henninger,R, 78, 225, 0.0, 0
-Joe Foy,R, 72, 215, 0.248, 58
-Ed Goodson,L, 75, 180, 0.260, 30
-Mark Brown,B, 74, 190, 0.0, 0
-Mickey Klutts,R, 71, 170, 0.241, 14
-Leroy Stanton,R, 73, 195, 0.244, 77
-Rafael Vasquez,R, 72, 160, 0.0, 0
-Len Whitehouse,L, 71, 175, 0.0, 0
-Danny Ainge,R, 76, 175, 0.220, 2
-Adolfo Phillips,R, 73, 175, 0.247, 59
-Marv Breeding,R, 72, 175, 0.250, 7
-Steve Adkins,R, 78, 210, 0.0, 0
-Dick McAuliffe,L, 71, 176, 0.247, 197
-Joe Horlen,R, 72, 170, 0.134, 0
-Glenn Burke,R, 72, 195, 0.237, 2
-Tony Mack,R, 70, 177, 0.0, 0
-Terry Humphrey,R, 75, 185, 0.211, 6
-Bill Moran,R, 76, 210, 0.0, 0
-Enzo Hernandez,R, 68, 155, 0.224, 2
-Cesar Gutierrez,R, 69, 155, 0.235, 0
-Coco Laboy,R, 70, 165, 0.233, 28
-Ted Kubiak,B, 72, 175, 0.231, 13
-Jim Morrison,R, 71, 175, 0.260, 112
-Tom Gilles,R, 73, 185, 0.0, 0
-Bobby Knoop,R, 73, 170, 0.236, 56
-Bobby Brown,B, 74, 190, 0.245, 26
-Tom Hutton,L, 71, 180, 0.248, 22
-Ron Hodges,L, 73, 185, 0.240, 19
-Rich Chiles,L, 71, 170, 0.254, 6
-Tom Paciorek,R, 76, 215, 0.282, 86
-Gary Woods,R, 74, 185, 0.243, 13
-Bob Montgomery,R, 73, 195, 0.258, 23
-Jeff Burroughs,R, 73, 200, 0.261, 240
-Rusty Staub,L, 74, 190, 0.279, 292
-Jim Norris,L, 70, 175, 0.264, 7
-Oscar Gamble,L, 71, 160, 0.265, 200
-Bob Kammeyer,R, 76, 210, 0.0, 0
-George Vukovich,L, 72, 198, 0.268, 27
-Joe Pactwa,L, 71, 185, 0.0, 0
-Craig Reynolds,L, 73, 175, 0.256, 42
-Paul Blair,R, 72, 168, 0.250, 134
-Al Cowens,R, 73, 197, 0.270, 108
-Al Oliver,L, 72, 195, 0.303, 219
-Dave Hilton,R, 71, 191, 0.213, 6
-Luis Alvarado,R, 69, 162, 0.214, 5
-Larry Parrish,R, 75, 190, 0.263, 256
-Woodie Fryman,R, 75, 197, 0.138, 2
-Bob Randall,R, 74, 175, 0.257, 1
-Jim Pankovits,R, 70, 170, 0.250, 9
-Sherman Corbett,L, 76, 205, 0.0, 0
-Carmen Fanzone,R, 72, 200, 0.224, 20
-Gary Allenson,R, 71, 185, 0.221, 19
-Milt May,L, 72, 190, 0.263, 77
-Mike Vail,R, 73, 180, 0.279, 34
-Nick Esasky,R, 75, 200, 0.250, 122
-Jim Nettles,L, 72, 186, 0.220, 16
-Lafayette Currence,B, 71, 175, 0.0, 0
-Chris Cannizzaro,R, 72, 190, 0.235, 18
-Larry Biittner,L, 74, 205, 0.273, 29
-John Pawlowski,R, 74, 175, 0.0, 0
-Mel Stottlemyre,R, 73, 178, 0.160, 7
-Jack Hardy,R, 74, 175, 0.0, 0
-Ron Musselman,R, 74, 185, 0.0, 0
-Roy Smalley,B, 73, 185, 0.257, 163
-Tony Chevez,R, 71, 177, 0.0, 0
-Andy Messersmith,R, 73, 200, 0.170, 5
-Richie Zisk,R, 73, 200, 0.287, 207
-Dave Chalk,R, 70, 175, 0.252, 15
-Don Baylor,R, 73, 190, 0.260, 338
-John Vukovich,R, 73, 187, 0.161, 6
-Danny Thompson,R, 72, 183, 0.248, 15
-Joe Simpson,L, 75, 175, 0.242, 9
-Bill Fahey,L, 72, 200, 0.241, 7
-Doug Camilli,R, 71, 195, 0.199, 18
-Bernie Allen,L, 72, 175, 0.239, 73
-Bruce Bochy,R, 75, 205, 0.239, 26
-Gary Ignasiak,R, 71, 185, 0.0, 0
-Claudell Washington,L, 72, 190, 0.278, 164
-John Donaldson,L, 71, 160, 0.238, 4
-Mike Smithson,L, 80, 215, 0.0, 0
-John Mayberry,L, 75, 215, 0.253, 255
-Ken Reitz,R, 72, 180, 0.260, 68
-Amos Otis,R, 71, 165, 0.277, 193
-Gene Alley,R, 70, 160, 0.254, 55
-Ted Sizemore,R, 70, 165, 0.262, 23
-Dan Briggs,L, 72, 180, 0.195, 12
-Joe Skalski,R, 75, 190, 0.0, 0
-Doug Flynn,R, 71, 165, 0.238, 7
-Bert Bradley,B, 73, 190, 0.0, 0
-Ken Holtzman,R, 74, 175, 0.163, 2
-Pete Ward,L, 73, 185, 0.254, 98
-Kevin Bell,R, 72, 195, 0.222, 13
-Tom Nieto,R, 73, 193, 0.205, 5
-Duke Sims,L, 74, 197, 0.239, 100
-Larvell Blanks,R, 68, 167, 0.253, 20
-Francisco Barrios,R, 71, 155, 0.0, 0
-Mike Davis,L, 74, 175, 0.259, 91
-Jerry Reuss,L, 77, 200, 0.167, 1
-Steve Yeager,R, 72, 190, 0.228, 102
-Danny Goodwin,L, 73, 195, 0.236, 13
-Bud Harrelson,B, 71, 160, 0.236, 7
-Bob Knepper,L, 75, 195, 0.137, 6
-Mickey Rivers,L, 70, 165, 0.295, 61
-Jim Northrup,L, 75, 190, 0.267, 153
-John Hale,L, 74, 195, 0.201, 14
-Reggie Ritter,L, 74, 195, 0.0, 0
-Pedro Garcia,R, 70, 175, 0.220, 37
-Carl Yastrzemski,L, 71, 175, 0.285, 452
-Bob Babcock,R, 77, 210, 0.0, 0
-Craig Eaton,R, 71, 175, 0.0, 0
-Derrel Thomas,B, 72, 160, 0.249, 43
-Art Howe,R, 74, 190, 0.260, 43
-Ike Brown,R, 72, 190, 0.256, 20
-Howie Goss,R, 76, 204, 0.216, 11
-Glenn Borgmann,R, 76, 210, 0.229, 16
-Lamar Johnson,R, 74, 215, 0.287, 64
-Julio Gonzalez,R, 71, 162, 0.235, 4
-Bobby Klaus,R, 70, 170, 0.208, 6
-Manny Sanguillen,R, 72, 193, 0.296, 65
-Gates Brown,L, 71, 220, 0.257, 84
-Johnny Ray,B, 71, 170, 0.290, 53
-Jesus Alou,R, 74, 190, 0.280, 32
-Ken Landreaux,L, 70, 165, 0.268, 91
-Enos Cabell,R, 76, 170, 0.277, 60
-Roy Branch,R, 72, 175, 0.0, 0
-Billy North,B, 71, 185, 0.261, 20
-Juan Beniquez,R, 71, 150, 0.274, 79
-Frank Fernandez,R, 72, 185, 0.199, 39
-Bombo Rivera,R, 70, 187, 0.265, 10
-Steve Brye,R, 72, 190, 0.258, 30
-Ron Jackson,R, 72, 200, 0.259, 56
-Roger Metzger,B, 72, 165, 0.231, 5
-Rufino Linares,R, 72, 170, 0.270, 11
-Ray Webster,L, 72, 185, 0.244, 17
-Bob Kearney,R, 72, 190, 0.233, 27
-Fergie Jenkins,R, 77, 205, 0.165, 13
-Dick Dietz,R, 73, 195, 0.261, 66
-Ted Cox,R, 75, 195, 0.245, 10
-Bobby Mitchell,L, 70, 170, 0.243, 3
-Bobby Mitchell,R, 75, 185, 0.235, 21
-Barry Evans,R, 73, 180, 0.251, 2
-Mickey Brantley,R, 70, 180, 0.259, 32
-Al Gallagher,R, 72, 180, 0.263, 11
-Rob Woodward,R, 75, 185, 0.0, 0
-Hector Cruz,R, 71, 170, 0.225, 39
-Fred Norman,B, 68, 155, 0.125, 0
-Woody Woodward,R, 74, 180, 0.236, 1
-Ted Martinez,R, 72, 165, 0.240, 7
-Jim Anderson,R, 72, 170, 0.218, 13
-Lenn Sakata,R, 69, 160, 0.230, 25
-Dave Duncan,R, 74, 190, 0.214, 109
-Randy Jones,R, 72, 178, 0.132, 0
-Dick Billings,R, 73, 195, 0.227, 16
-Bob Veselic,R, 72, 175, 0.0, 0
-Bruce Bochte,L, 75, 195, 0.282, 100
-Bernie Carbo,L, 71, 173, 0.264, 96
-Vic Davalillo,L, 67, 150, 0.279, 36
-Burt Hooton,R, 73, 210, 0.123, 4
-Chuck Hockenbery,B, 73, 195, 0.0, 0
-Bob Ferris,R, 78, 225, 0.0, 0
-Fernando Gonzalez,R, 70, 165, 0.235, 17
-Jim Sundberg,R, 72, 190, 0.248, 95
-Andy Kosco,R, 75, 205, 0.236, 73
-Steve Huntz,B, 73, 204, 0.206, 16
-Gary Wheelock,R, 75, 205, 0.0, 0
-Lenny Faedo,R, 72, 170, 0.251, 5
-John Lowenstein,L, 72, 175, 0.253, 116
-Don Kessinger,B, 73, 170, 0.252, 14
-Joe Hague,L, 72, 195, 0.239, 40
-Bake McBride,L, 74, 190, 0.299, 63
-Dick Davis,R, 75, 190, 0.265, 27
-Richie Scheinblum,B, 73, 180, 0.263, 13
-Ed Herrmann,L, 73, 195, 0.240, 80
-Mike Rochford,L, 76, 205, 0.0, 0
-Jeff Schneider,B, 75, 195, 0.0, 0
-Bob Molinaro,L, 72, 190, 0.264, 14
-Mike Hegan,L, 73, 188, 0.242, 53
-Mike Diaz,R, 74, 195, 0.247, 31
-Tim Foli,R, 72, 179, 0.251, 25
-Alan Knicely,R, 72, 190, 0.213, 12
-Tim Laudner,R, 75, 212, 0.225, 77
-Jose Morales,R, 71, 187, 0.287, 26
-Luis Encarnacion,R, 70, 178, 0.0, 0
-Rick Kreuger,R, 74, 185, 0.0, 0
-Juan Marichal,R, 72, 185, 0.165, 4
-Vida Blue,B, 72, 189, 0.104, 4
-Angel Moreno,L, 69, 165, 0.0, 0
-Roger Weaver,R, 75, 190, 0.0, 0
-Stan Papi,R, 72, 170, 0.218, 7
-Rob Wilfong,L, 73, 180, 0.248, 39
-Chris Knapp,R, 77, 195, 0.0, 0
-Steve Henderson,R, 74, 190, 0.280, 68
-Rob Picciolo,R, 74, 185, 0.234, 17
-Don Welchel,R, 76, 205, 0.0, 0
-Randy Wiles,L, 73, 185, 0.0, 0
-Roberto Pena,R, 68, 170, 0.245, 13
-Bob Dernier,R, 72, 160, 0.255, 23
-Bill Melton,R, 74, 200, 0.253, 160
-Albert Hall,B, 71, 155, 0.251, 5
-Barbaro Garbey,R, 70, 170, 0.267, 11
-John Milner,L, 72, 185, 0.249, 131
-Rich Reese,L, 75, 185, 0.253, 52
-Chris Bando,B, 72, 195, 0.227, 27
-Bill Buckner,L, 72, 185, 0.289, 174
-Jack Hiatt,R, 74, 190, 0.251, 22
-Nelson Mathews,R, 76, 195, 0.223, 22
-Larry Lintz,B, 69, 150, 0.227, 0
-Ron Theobald,R, 68, 165, 0.248, 2
-Dewey Robinson,R, 72, 180, 0.0, 0
-Rafael Santana,R, 73, 165, 0.246, 13
-Jerry Hairston,B, 70, 170, 0.258, 30
-Tony Arnold,R, 71, 170, 0.0, 0
-Jeff Schattinger,L, 77, 200, 0.0, 0
-Ike Brookens,R, 77, 170, 0.0, 0
-Tommie Aaron,R, 75, 190, 0.229, 13
-Steve Dillard,R, 73, 180, 0.243, 13
-Win Remmerswaal,R, 74, 160, 0.0, 0
-Jeff Peterek,R, 74, 195, 0.0, 0
-George Scott,R, 74, 200, 0.268, 271
-Jeff Shaver,R, 75, 195, 0.0, 0
-Ken Walters,R, 73, 180, 0.231, 11
-Gorman Thomas,R, 74, 210, 0.225, 268
-Paul Dade,R, 73, 185, 0.270, 10
-Darrell Porter,L, 72, 193, 0.247, 188
-Tim Johnson,L, 73, 170, 0.223, 0
-Fred Stanley,R, 70, 165, 0.216, 10
-Larry Bowa,B, 70, 155, 0.260, 15
-Tim Corcoran,L, 71, 175, 0.270, 12
-Jim Spencer,L, 74, 195, 0.250, 146
-Pete LaCock,L, 74, 200, 0.257, 27
-Carl Morton,R, 72, 200, 0.156, 7
-Gary Gray,R, 72, 187, 0.240, 24
-Matty Alou,L, 69, 160, 0.307, 31
-Pete Filson,B, 74, 195, 0.0, 0
-Jim Dwyer,L, 70, 165, 0.260, 77
-Dalton Jones,L, 73, 180, 0.235, 41
-Rennie Stennett,R, 71, 160, 0.274, 41
-Jim Gideon,R, 75, 190, 0.0, 0
-Jerry May,R, 74, 190, 0.234, 15
-Rich McKinney,R, 71, 185, 0.225, 20
-Clint Hurdle,L, 75, 195, 0.259, 32
-Mike Andrews,R, 75, 195, 0.258, 66
-Bobby Clark,R, 72, 190, 0.239, 19
-Jeff Twitty,L, 74, 185, 0.0, 0
-Cliff Johnson,R, 76, 215, 0.258, 196
-Steve Cummings,B, 74, 200, 0.0, 0
-Donn Clendenon,R, 76, 209, 0.274, 159
-Charlie James,R, 73, 195, 0.255, 29
-Bob Horner,R, 73, 195, 0.277, 218
-Tom Veryzer,R, 73, 175, 0.241, 14
-Jose Cecena,R, 71, 180, 0.0, 0
-George Smith,R, 70, 170, 0.205, 9
-Jim Essian,R, 74, 195, 0.244, 33
-Onix Concepcion,R, 66, 160, 0.239, 3
-Boots Day,L, 69, 160, 0.256, 8
-Brian Giles,R, 73, 165, 0.228, 10
-Garry Maddox,R, 75, 175, 0.285, 117
-Alex Trevino,R, 70, 165, 0.249, 23
-Jim Price,R, 72, 192, 0.214, 18
-Felix Millan,R, 71, 172, 0.279, 22
-Steve Garvey,R, 70, 192, 0.294, 272
-Don Mincher,L, 75, 205, 0.249, 200
-Greg Erardi,R, 73, 190, 0.0, 0
-Jim Farr,R, 73, 195, 0.0, 0
-Tony Cloninger,R, 72, 210, 0.192, 11
-Jim Gosger,L, 71, 185, 0.226, 30
-Chuck Harrison,R, 70, 185, 0.238, 17
-Mike Ivie,R, 75, 205, 0.269, 81
-Frank Dimichele,R, 75, 205, 0.0, 0
-Bob Veale,B, 78, 212, 0.114, 0
-Marvell Wynne,L, 71, 175, 0.247, 40
-Dusty Baker,R, 74, 183, 0.278, 242
-Tucker Ashford,R, 73, 195, 0.218, 6
-Ned Yost,R, 73, 190, 0.212, 16
-Bob Stinson,B, 71, 180, 0.250, 33
-Mike Warren,R, 73, 175, 0.0, 0
-Gaylord Perry,R, 76, 205, 0.131, 6
-Dave Marshall,L, 73, 182, 0.246, 16
-Mickey Hatcher,R, 74, 200, 0.280, 38
-Roger Repoz,L, 75, 190, 0.224, 82
-Bill Fulton,R, 75, 195, 0.0, 0
-John Orsino,R, 75, 215, 0.249, 40
-Larry Anderson,R, 75, 190, 0.0, 0
-Johnny Briggs,L, 73, 190, 0.253, 139
-Craig Mitchell,R, 75, 180, 0.0, 0
-Dave Hostetler,R, 76, 215, 0.229, 37
-Bob Jones,L, 74, 195, 0.221, 20
-Keith Hernandez,L, 72, 180, 0.296, 162
-Alfredo Martinez,R, 75, 185, 0.0, 0
-Dean Chance,R, 75, 200, 0.066, 0
-Willie Upshaw,L, 72, 185, 0.262, 123
-Dick Green,R, 70, 180, 0.240, 80
-Dane Iorg,L, 72, 180, 0.276, 14
-Richie Hebner,L, 73, 195, 0.276, 203
-Fran Healy,R, 77, 220, 0.250, 20
-Doc Edwards,R, 74, 215, 0.238, 15
-Sandy Alomar,B, 69, 140, 0.245, 13
-Joe Strain,R, 70, 169, 0.250, 1
-Gene Richards,L, 72, 175, 0.290, 26
-Buddy Bell,R, 73, 180, 0.279, 201
-Al Woods,L, 75, 190, 0.271, 35
-Rudy Law,L, 73, 165, 0.271, 18
-Joel Davis,L, 77, 205, 0.0, 0
-Jody Davis,R, 76, 192, 0.245, 127
-Mike Edwards,R, 70, 154, 0.250, 2
-Bill Mooneyham,R, 72, 175, 0.0, 0
-John Hobbs,R, 75, 190, 0.0, 0
-Deron Johnson,R, 74, 200, 0.244, 245
-John Denny,R, 75, 185, 0.170, 0
-Don Wert,R, 70, 162, 0.242, 77
-Mike Fiore,L, 72, 175, 0.227, 13
-Miguel Dilone,B, 72, 160, 0.265, 6
-Greg Luzinski,R, 73, 220, 0.276, 307
-Bobby Tolan,L, 71, 170, 0.265, 86
-Karl Best,R, 76, 190, 0.0, 0
-Steve Barr,L, 76, 200, 0.0, 0
-Ron Woods,R, 70, 168, 0.233, 26
-Tony Horton,R, 75, 210, 0.268, 76
-Randy Hundley,R, 71, 170, 0.236, 82
-Jose Tartabull,L, 71, 165, 0.261, 2
-Ben Oglivie,L, 74, 160, 0.273, 235
-Luis Sanchez,R, 74, 170, 0.0, 0
-Bob Johnson,R, 70, 175, 0.272, 44
-Don Buford,B, 67, 160, 0.264, 93
-Duane Kuiper,L, 72, 175, 0.271, 1
-Brant Alyea,R, 75, 215, 0.247, 38
-Jerry Narron,L, 75, 205, 0.211, 21
-Lou Johnson,R, 71, 170, 0.258, 48
-Ken Retzer,L, 72, 185, 0.264, 14
-Mike Brown,R, 74, 195, 0.265, 23
-Mike Brown,R, 74, 195, 0.0, 0
-Greg Walker,L, 75, 205, 0.260, 113
-Terry Harper,R, 76, 195, 0.253, 36
-Jerry Royster,R, 72, 165, 0.249, 40
-Steve Davis,L, 73, 195, 0.0, 0
-Jeff Rineer,L, 76, 205, 0.0, 0
-Barry Bonnell,R, 75, 190, 0.272, 56
-Tom Seaver,R, 73, 195, 0.154, 12
-Jerry Martin,R, 73, 195, 0.251, 85
-Bill Stein,R, 70, 170, 0.267, 44
-Joel Youngblood,R, 72, 180, 0.265, 80
-Reggie Jackson,L, 72, 195, 0.262, 563
-Sonny Jackson,L, 69, 150, 0.251, 7
-Mark Mercer,L, 77, 220, 0.0, 0
-Rodney Scott,B, 72, 160, 0.236, 3
-Rich Coggins,L, 68, 170, 0.265, 12
-Phil Gagliano,R, 73, 180, 0.238, 14
-Jerry McNertney,R, 72, 180, 0.237, 27
-Mitchell Page,L, 74, 205, 0.266, 72
-Kiko Garcia,R, 71, 180, 0.239, 12
-Larry Milbourne,B, 72, 161, 0.254, 11
-Bill Sudakis,B, 73, 190, 0.234, 59
-John Caneira,R, 75, 180, 0.0, 0
-Domingo Ramos,R, 70, 154, 0.240, 8
-Ron Oester,B, 74, 185, 0.265, 42
-Glenn Adams,L, 73, 180, 0.280, 34
-Clint Zavaras,R, 73, 175, 0.0, 0
-Joe Morgan,L, 67, 160, 0.271, 268
-R.J. Reynolds,B, 72, 190, 0.267, 35
-Mike Parrott,R, 76, 210, 0.0, 0
-Lee Thomas,L, 74, 195, 0.255, 106
-Ray Fosse,R, 74, 215, 0.256, 61
-Paul Popovich,B, 72, 175, 0.233, 14
-John Stephenson,L, 71, 180, 0.216, 12
-Doug Clemens,L, 72, 180, 0.229, 12
-Luis Aponte,R, 72, 185, 0.0, 0
-Orlando Mercado,R, 72, 180, 0.199, 7
-Charley Smith,R, 73, 170, 0.239, 69
-Paul Boris,R, 74, 200, 0.0, 0
-Buddy Biancalana,B, 71, 160, 0.205, 6
-De Wayne Buice,R, 72, 170, 0.0, 0
-Bob Uecker,R, 73, 190, 0.200, 14
-Felix Torres,R, 71, 165, 0.254, 27
-Steve Braun,L, 70, 180, 0.271, 52
-Ray Knight,R, 73, 185, 0.271, 84
-Ty Cline,L, 72, 170, 0.238, 6
-Thad Bosley,L, 75, 175, 0.272, 20
-Bobby Grich,R, 74, 180, 0.266, 224
-Jimmie Hall,L, 72, 175, 0.254, 121
-John Boccabella,R, 73, 195, 0.219, 26
-Brock Davis,L, 70, 160, 0.260, 1
-Mark Esser,R, 73, 190, 0.0, 0
-Curt Blefary,L, 74, 195, 0.237, 112
-Daryl Smith,R, 76, 185, 0.0, 0
-Dave Smith,R, 73, 190, 0.0, 0
-Mack Jones,L, 73, 180, 0.252, 133
-Buddy Bradford,R, 71, 170, 0.226, 52
-Hosken Powell,L, 73, 175, 0.259, 17
-Dave Stapleton,L, 73, 185, 0.0, 0
-Dave Stapleton,R, 73, 178, 0.271, 41
-Gary Ward,R, 74, 195, 0.276, 130
-Jim Lonborg,R, 77, 200, 0.136, 3
-Joe Lis,R, 72, 175, 0.233, 32
-Dan Meyer,L, 71, 180, 0.253, 86
-Jim Holt,L, 72, 180, 0.265, 19
-Tom Klawitter,R, 74, 190, 0.0, 0
-Larry Herndon,R, 75, 190, 0.274, 107
-Gary Christenson,L, 77, 200, 0.0, 0
-Jim Wright,R, 77, 205, 0.0, 0
-Jim Wright,R, 73, 165, 0.0, 0
-Wallace Johnson,B, 72, 173, 0.255, 5
-Mike Kinnunen,L, 73, 185, 0.0, 0
-Eddie Leon,R, 72, 170, 0.236, 24
-Dave Rajsich,L, 77, 175, 0.0, 0
-Jim Wohlford,R, 71, 175, 0.260, 21
-J.R. Richard,R, 80, 222, 0.168, 10
-Bill Voss,L, 74, 160, 0.227, 19
-Keith Moreland,R, 72, 190, 0.279, 121
-Ramon Pena,R, 70, 155, 0.0, 0
-Alex Johnson,R, 72, 205, 0.288, 78
-Wayne Krenchicki,L, 73, 180, 0.266, 15
-Chico Escarrega,R, 71, 185, 0.0, 0
-Dave Rosello,R, 71, 160, 0.236, 10
-Cardell Camper,R, 75, 208, 0.0, 0
-Paul Schaal,R, 71, 165, 0.244, 57
-Tito Landrum,R, 71, 175, 0.249, 13
-Dave Edwards,R, 72, 170, 0.237, 14
-Mario Guerrero,R, 70, 155, 0.257, 7
-Tom Tresh,B, 73, 180, 0.245, 153
-Mike Overy,R, 74, 190, 0.0, 0
-Ron Roenicke,B, 72, 180, 0.238, 17
-Doug Griffin,R, 72, 160, 0.245, 7
-Steve Blass,R, 72, 165, 0.172, 1
-Johnnie LeMaster,R, 74, 165, 0.222, 22
-Craig Chamberlain,R, 73, 190, 0.0, 0
-Nate Oliver,R, 70, 160, 0.226, 2
-Ray Sadecki,L, 71, 180, 0.191, 5
-Ken Rudolph,R, 73, 180, 0.213, 6
-Wayne Nordhagen,R, 74, 205, 0.282, 39
-Biff Pocoroba,B, 70, 175, 0.257, 21
-Len Matuszek,L, 74, 190, 0.234, 30
-Frank Eufemia,R, 71, 185, 0.0, 0
-Joe Lefebvre,L, 70, 170, 0.258, 31
-Jim Maloney,L, 74, 190, 0.201, 7
-Andre Robertson,R, 70, 155, 0.251, 5
-Jerry Zimmerman,R, 74, 185, 0.204, 3
-Jack Lazorko,R, 71, 200, 0.0, 0
-Mike Paxton,R, 71, 190, 0.0, 0
-Chet Lemon,R, 72, 190, 0.273, 215
-Rickey Keeton,R, 74, 190, 0.0, 0
-Phil Mankowski,L, 72, 180, 0.264, 8
-Cleon Jones,R, 72, 185, 0.281, 93
-Joaquin Andujar,B, 72, 170, 0.127, 5
-Mike Lum,L, 72, 180, 0.247, 90
-Johnny Grubb,L, 75, 175, 0.278, 99
-Curt Motton,R, 68, 164, 0.213, 25
-Johnny Bench,R, 73, 197, 0.267, 389
-Dale Berra,R, 72, 180, 0.236, 49
-Terry Felton,R, 73, 180, 0.0, 0
-Bob Meacham,B, 73, 175, 0.236, 8
-Mark Clear,R, 76, 200, 0.0, 0
-Carl Warwick,R, 70, 170, 0.248, 31
-Sam Bowens,R, 73, 188, 0.223, 45
-George Wright,B, 71, 180, 0.245, 42
-Luis Aguayo,R, 69, 173, 0.236, 37
-Hal Lanier,R, 74, 180, 0.228, 8
-Mike Pazik,L, 74, 195, 0.0, 0
-Len Randle,B, 70, 169, 0.257, 27
-Greg Pryor,R, 72, 180, 0.250, 14
-Jim Traber,L, 72, 194, 0.227, 27
-Dave Nelson,R, 70, 160, 0.244, 20
-Lynn Jones,R, 69, 175, 0.252, 7
-Bryan Little,B, 70, 160, 0.245, 3
-Ken Suarez,R, 69, 175, 0.227, 5
-Rick Peters,B, 69, 170, 0.277, 2
-Ron Stone,L, 74, 185, 0.241, 6
-Rich Barnes,R, 76, 186, 0.0, 0
-Tommie Agee,R, 71, 195, 0.255, 130
-Bob Bailey,R, 73, 180, 0.257, 189
-Cap Peterson,R, 74, 195, 0.230, 19
-Ted Uhlaender,L, 74, 190, 0.263, 36
-Ted Simmons,B, 71, 193, 0.285, 248
-Bobby Murcer,L, 71, 160, 0.277, 252
-Dick Tracewski,R, 71, 160, 0.213, 8
-Dave Frost,R, 78, 235, 0.0, 0
-Mark Souza,L, 72, 180, 0.0, 0
-Bill Nahorodny,R, 74, 200, 0.241, 25
-Bill Madlock,R, 71, 180, 0.305, 163
-Bob Boone,R, 74, 195, 0.254, 105
-Rick Jones,L, 77, 190, 0.0, 0
-Steve Kemp,L, 72, 195, 0.278, 130
-Rick Burleson,R, 70, 165, 0.273, 50
-Jim Dorsey,R, 79, 190, 0.0, 0
-Mark Ciardi,R, 72, 180, 0.0, 0
-Dennis Burtt,R, 72, 180, 0.0, 0
-Carl Taylor,R, 74, 200, 0.266, 10
-Terry Harmon,R, 74, 180, 0.233, 4
-Mike Hargrove,L, 72, 195, 0.290, 80
-Rich Yett,R, 74, 187, 0.0, 0
-Steve Hovley,L, 70, 188, 0.258, 8
-Don Leppert,R, 74, 220, 0.229, 15
-Matt Williams,R, 73, 200, 0.0, 0
-Jim Burton,R, 75, 195, 0.0, 0
-Rick Anderson,R, 74, 210, 0.0, 0
-Charlie Mitchell,R, 75, 170, 0.0, 0
-Bill Paschall,R, 72, 175, 0.0, 0
-John Bohnet,B, 72, 175, 0.0, 0
-Byron McLaughlin,R, 73, 175, 0.0, 0
-Lee May,R, 75, 195, 0.267, 354
-Luis Quintana,L, 74, 175, 0.0, 0
-Sam McDowell,L, 77, 190, 0.154, 2
-Rick Renick,R, 72, 188, 0.221, 20
-Jeff Torborg,R, 72, 195, 0.214, 8
-Dave Campbell,R, 73, 180, 0.213, 20
-Pat Kelly,L, 73, 185, 0.264, 76
-Al Weis,B, 72, 160, 0.219, 7
-Jerry Turner,L, 69, 180, 0.257, 45
-Rick Auerbach,R, 72, 165, 0.220, 9
-Keith Macwhorter,R, 76, 190, 0.0, 0
-Don Wilson,R, 74, 195, 0.146, 1
-Jaime Cocanower,R, 76, 200, 0.0, 0
-Jeff Sellers,R, 73, 175, 0.0, 0
-Sandy Valdespino,L, 68, 170, 0.230, 7
-Steve Senteney,R, 74, 205, 0.0, 0
-Howard Bailey,R, 72, 195, 0.0, 0
-Jeff Bettendorf,R, 75, 180, 0.0, 0
-Ken Phelps,L, 73, 209, 0.239, 123
-Cesar Cedeno,R, 74, 175, 0.285, 199
-Bob Davidson,R, 72, 185, 0.0, 0
-Phil Linz,R, 73, 180, 0.235, 11
-Manny Mota,R, 70, 160, 0.304, 31
-Brian Snyder,L, 75, 185, 0.0, 0
-Steve Renko,R, 77, 230, 0.215, 6
-Rick Sofield,L, 73, 195, 0.243, 9
-Carlos Velazquez,R, 71, 180, 0.0, 0
-Roger Miller,R, 75, 200, 0.0, 0
-Doug DeCinces,R, 74, 190, 0.259, 237
-John Castino,R, 71, 175, 0.278, 41
-Dave May,L, 70, 186, 0.251, 96
-Ron Washington,R, 71, 155, 0.261, 20
-Billy Grabarkewitz,R, 70, 165, 0.236, 28
-Willie Aikens,L, 75, 220, 0.271, 110
-Earl Williams,R, 75, 215, 0.247, 138
-Willie Mueller,R, 76, 220, 0.0, 0
-John Flinn,R, 72, 175, 0.0, 0
-Don Hahn,R, 73, 180, 0.236, 7
-Todd Cruz,R, 72, 175, 0.220, 34
-Tom Egan,R, 76, 218, 0.200, 22
-Bob Heise,R, 72, 175, 0.247, 1
-Tommy Harper,R, 69, 165, 0.257, 146
-Joe Wallis,B, 71, 180, 0.244, 16
-Max Alvis,R, 71, 185, 0.247, 111
-Rico Carty,R, 75, 200, 0.299, 204
-Mike Cubbage,L, 72, 180, 0.258, 34
-Les Straker,R, 73, 193, 0.0, 0
-Merritt Ranew,L, 71, 170, 0.247, 8
-Lyman Bostock,L, 73, 180, 0.311, 23
-Damaso Garcia,R, 73, 165, 0.283, 36
-Don Kainer,R, 75, 205, 0.0, 0
-Don Gordon,R, 73, 175, 0.0, 0
-Roy Howell,L, 73, 190, 0.261, 80
-Boog Powell,L, 76, 230, 0.266, 339
-Sandy Wihtol,R, 73, 195, 0.0, 0
-Sonny Siebert,R, 75, 190, 0.173, 12
-Jeff Richardson,R, 75, 185, 0.0, 0
-Bobby Darwin,R, 74, 190, 0.251, 83
-Dennis DeBarr,L, 74, 190, 0.0, 0
-Dan Driessen,L, 71, 187, 0.267, 153
-Bruce Miller,R, 73, 185, 0.246, 1
-Bob Bailor,R, 71, 170, 0.264, 9
-Tommy Helms,R, 70, 165, 0.269, 34
-Tony Armas,R, 71, 182, 0.252, 251
-Willie Horton,R, 71, 209, 0.273, 325
-Lou Piniella,R, 72, 182, 0.291, 102
-Butch Hobson,R, 73, 193, 0.248, 98
-John Wathan,R, 74, 205, 0.262, 21
-Hal King,L, 73, 200, 0.214, 24
-Mike Krukow,R, 77, 205, 0.193, 5
-Andres Mora,R, 72, 180, 0.223, 27
-Barry Foote,R, 75, 205, 0.230, 57
-Ed Ott,L, 70, 190, 0.259, 33
-Alan Wiggins,B, 74, 160, 0.259, 5
-Ron Clark,R, 70, 175, 0.189, 5
-Jay Pettibone,R, 76, 182, 0.0, 0
-Glen Cook,R, 71, 180, 0.0, 0
-Julio Gotay,R, 72, 180, 0.260, 6
-Gary Alexander,R, 74, 195, 0.230, 55
-Andre Thornton,R, 75, 200, 0.254, 253
-Bob Oliver,R, 75, 205, 0.256, 94
-Bill Castro,R, 71, 170, 0.0, 0
-Ed Hodge,L, 74, 192, 0.0, 0
-Tom Buskey,R, 75, 200, 0.0, 0
-Bruce Taylor,R, 72, 178, 0.0, 0
-Stan Thomas,R, 74, 185, 0.0, 0
-Bob Robertson,R, 73, 195, 0.242, 115
-Larry Monroe,R, 76, 200, 0.0, 0
-Roger Slagle,R, 75, 190, 0.0, 0
-Ollie Brown,R, 74, 178, 0.265, 102
-Jim Campbell,L, 71, 175, 0.0, 0
-Frank Quilici,R, 73, 170, 0.214, 5
-Curt Kaufman,R, 74, 175, 0.0, 0
-Joe Pepitone,L, 74, 185, 0.258, 219
-Steve Barber,L, 72, 195, 0.115, 5
-De Wayne Vaughn,R, 71, 180, 0.0, 0
-Norm Miller,L, 70, 185, 0.238, 24
-Bob Galasso,L, 73, 205, 0.0, 0
-Rich Wortham,R, 72, 185, 0.0, 0
-Bob Chance,L, 74, 196, 0.261, 24
-Julio Cruz,B, 69, 165, 0.237, 23
-Bill Sample,R, 69, 175, 0.272, 46
-Juan Nieves,L, 75, 175, 0.0, 0
-Mike Bacsik,R, 74, 180, 0.0, 0
-Craig Kusick,R, 75, 210, 0.235, 46
-Rudy Meoli,L, 69, 165, 0.212, 2
-Ruppert Jones,L, 70, 170, 0.250, 147
-Glenn Hoffman,R, 73, 175, 0.242, 23
-Russ Gibson,R, 73, 195, 0.228, 8
-Phil Huffman,R, 74, 180, 0.0, 0
-Terry Francona,L, 73, 190, 0.274, 16
-John Bateman,R, 75, 210, 0.230, 81
-Luis Pujols,R, 74, 175, 0.193, 6
-Joe Gaines,R, 73, 190, 0.241, 21
-Doug Rader,R, 74, 208, 0.251, 155
-Mickey Stanley,R, 73, 185, 0.248, 117
-Steve Brown,R, 77, 200, 0.0, 0
-Rick Lysander,R, 74, 190, 0.0, 0
-Phil Bradley,R, 72, 185, 0.286, 78
-Winston Llenas,R, 70, 165, 0.230, 3
-Charlie Moore,R, 71, 180, 0.261, 36
-Ralph Garr,L, 71, 185, 0.306, 75
-Tommy John,R, 75, 180, 0.157, 5
-Bruce Benedict,R, 73, 175, 0.242, 18
-John Ellis,R, 74, 225, 0.262, 69
-Wes Parker,B, 73, 180, 0.267, 64
-Mel Stottlemyre,R, 72, 190, 0.0, 0
-David Green,R, 75, 170, 0.268, 31
-Reid Nichols,R, 71, 165, 0.266, 22
-Rick Reichardt,R, 75, 210, 0.261, 116
-Luis Tiant,R, 72, 180, 0.164, 5
-Alex Sanchez,R, 74, 185, 0.0, 0
-Broderick Perkins,L, 70, 180, 0.271, 8
-Leon Roberts,R, 75, 200, 0.267, 78
-Ray Burris,R, 77, 200, 0.151, 1
-Len Gabrielson,L, 76, 210, 0.253, 37
-Johnny Edwards,L, 76, 220, 0.242, 81
-Paul Wilmet,R, 71, 170, 0.0, 0
-Tom Grieve,R, 74, 190, 0.249, 65
-Bruce Ellingsen,L, 72, 180, 0.0, 0
-Bob Forsch,R, 76, 200, 0.213, 12
-Gorman Heimueller,L, 76, 195, 0.0, 0
-Danny Cater,R, 72, 170, 0.276, 66
-Bill Schroeder,R, 74, 200, 0.240, 61
-Clay Dalrymple,L, 72, 190, 0.233, 55
-Carlos May,L, 71, 200, 0.274, 90
-Reggie Smith,B, 72, 180, 0.287, 314
-Ron Reed,R, 78, 215, 0.158, 0
-Fred Howard,R, 75, 190, 0.0, 0
-Davey Johnson,R, 73, 170, 0.261, 136
-Ellis Valentine,R, 76, 205, 0.278, 123
-Roy White,B, 70, 160, 0.271, 160
-Mike Brumley,L, 70, 195, 0.229, 5
-Al Luplow,L, 70, 175, 0.235, 33
-John Hoover,R, 74, 190, 0.0, 0
-Dick Allen,R, 71, 187, 0.292, 351
-Doug Ault,R, 75, 200, 0.236, 17
-Mark Wagner,R, 72, 165, 0.243, 3
-Mike Walters,R, 77, 203, 0.0, 0
-Willie Stargell,L, 74, 188, 0.282, 475
-Steve Carlton,L, 76, 210, 0.201, 13
-Jake Wood,R, 73, 163, 0.250, 35
-Del Unser,L, 73, 180, 0.258, 87
-Bob Brower,R, 71, 185, 0.242, 17
-Ray Culp,R, 72, 200, 0.123, 1
-Ivan Murrell,R, 74, 195, 0.236, 33
-Lee Mazzilli,B, 73, 180, 0.259, 93
-Garth Iorg,R, 71, 170, 0.258, 20
-Alan Ashby,B, 74, 185, 0.245, 90
-Bob Brenly,R, 74, 210, 0.247, 91
-Ron Blomberg,L, 73, 195, 0.293, 52
-Jim Rooker,R, 72, 195, 0.201, 7
-Tim Blackwell,B, 71, 170, 0.228, 6
-Colby Ward,R, 74, 185, 0.0, 0
-Jerry Morales,R, 70, 155, 0.259, 95
-Davey Lopes,R, 69, 170, 0.263, 155
-Catfish Hunter,R, 72, 190, 0.226, 6
-Mario Soto,R, 72, 174, 0.132, 1
-Jimmy Wynn,R, 70, 160, 0.250, 291
-Hank Allen,R, 72, 190, 0.241, 6
-Jim Fregosi,R, 73, 190, 0.265, 151
-Pepe Frias,R, 70, 159, 0.240, 1
-Mike Schmidt,R, 74, 195, 0.267, 548
-Willie Montanez,L, 72, 170, 0.275, 139
-Rey Quinones,R, 71, 160, 0.243, 29
-Mike Squires,L, 71, 185, 0.260, 6
-Champ Summers,L, 74, 205, 0.255, 54
-Chuck Porter,R, 75, 187, 0.0, 0
-Bert Campaneris,R, 70, 160, 0.259, 79
-Bobby Valentine,R, 70, 189, 0.260, 12
-Rob Andrews,R, 72, 185, 0.251, 3
-Tom Haller,L, 76, 195, 0.257, 134
-Tom Dozier,R, 74, 190, 0.0, 0
-Ed Stroud,L, 71, 180, 0.237, 14
-Ron Swoboda,R, 74, 195, 0.242, 73
-Harry Spilman,L, 73, 180, 0.237, 18
-Bob Barton,R, 72, 175, 0.226, 9
-Daryl Sconiers,L, 74, 185, 0.265, 15
-Joe Torre,R, 74, 212, 0.297, 252
-Al Ferrara,R, 73, 200, 0.259, 51
-Rick Steirer,R, 76, 200, 0.0, 0
-Sixto Lezcano,R, 70, 165, 0.271, 148
-Al Lachowicz,R, 75, 198, 0.0, 0
-Dave Nicholson,R, 74, 215, 0.212, 61
-Freddie Patek,R, 65, 148, 0.242, 41
-Ken Hubbs,R, 74, 175, 0.247, 14
-Pepe Mangual,R, 70, 157, 0.242, 16
-Leron Lee,L, 72, 196, 0.250, 31
-Tom McCarthy,R, 72, 180, 0.0, 0
-Steve Ontiveros,B, 72, 185, 0.274, 24
-Willie Davis,L, 74, 180, 0.279, 182
-Tom Lawless,R, 71, 170, 0.207, 2
-Jerry Moses,R, 75, 210, 0.251, 25
-Bobby Bonds,R, 73, 190, 0.268, 332
-Dave McNally,R, 71, 185, 0.133, 9
-Darrell Brown,B, 72, 184, 0.274, 1
-Roy Foster,R, 72, 185, 0.253, 45
-Denis Menke,R, 72, 185, 0.250, 101
-Hal Breeden,R, 74, 200, 0.243, 21
-Manny Trillo,R, 73, 150, 0.263, 61
-Jackie Gutierrez,R, 71, 175, 0.237, 4
-Jerry Kenney,L, 73, 170, 0.237, 7
-Fred Kendall,R, 73, 185, 0.234, 31
-Mike Anderson,R, 74, 200, 0.246, 28
-Jim Lewis,R, 75, 190, 0.0, 0
-Joe Charboneau,R, 74, 205, 0.266, 29
-Jimmie Schaffer,R, 69, 170, 0.223, 11
-Junior Kennedy,R, 71, 175, 0.248, 4
-Wilbur Howard,B, 74, 170, 0.250, 6
-Rod Gilbreath,R, 74, 180, 0.248, 14
-Mark Brouhard,R, 73, 210, 0.259, 25
-Dan Morogiello,L, 73, 200, 0.0, 0
-Mike Young,B, 74, 195, 0.247, 72
-Chris Speier,R, 73, 175, 0.246, 112
-Gene Michael,B, 74, 183, 0.229, 15
-Vic Harris,B, 71, 165, 0.217, 13
-Mike Fischlin,R, 73, 165, 0.220, 3
-Don Money,R, 73, 170, 0.261, 176
-Joe Rudi,R, 74, 200, 0.264, 179
-Jim Rice,R, 74, 200, 0.298, 382
-Shawn Holman,R, 74, 185, 0.0, 0
-Alan Wirth,R, 76, 190, 0.0, 0
-Gil Garrido,R, 69, 150, 0.237, 1
-Marty Perez,R, 71, 160, 0.246, 22
-Tom Matchick,L, 73, 173, 0.215, 4
-Jack Perconte,L, 70, 160, 0.270, 2
-Ed Kirkpatrick,L, 71, 195, 0.238, 85
-Jerry Grote,R, 70, 185, 0.252, 39
-Ellie Hendricks,L, 73, 175, 0.220, 62
-Jim Beauchamp,R, 74, 190, 0.231, 14
-Terry Wilshusen,R, 74, 210, 0.0, 0
-Tito Fuentes,B, 71, 175, 0.268, 45
-Ron Brand,R, 67, 167, 0.239, 3
-Leo Cardenas,R, 71, 150, 0.257, 118
-Art Shamsky,L, 73, 168, 0.253, 68
-Steve Ellsworth,R, 80, 220, 0.0, 0
-Ron Cey,R, 70, 185, 0.261, 316
-Skip Jutze,R, 71, 190, 0.215, 3
-Butch Wynegar,B, 73, 190, 0.255, 65
-Ron LeFlore,R, 72, 200, 0.288, 59
-Bill Russell,R, 72, 175, 0.263, 46
-Gene Tenace,R, 72, 190, 0.241, 201
-Bubba Morton,R, 70, 175, 0.267, 14
-Ellie Rodriguez,R, 71, 185, 0.245, 16
-Darrel Chaney,B, 74, 188, 0.217, 14
-Dick Nen,L, 74, 200, 0.224, 21
-Bryan Kelly,R, 74, 195, 0.0, 0
-Bill Freehan,R, 75, 203, 0.262, 200
-Steve Nicosia,R, 70, 185, 0.248, 11
-Ted Savage,R, 73, 185, 0.233, 34
-Pete Mackanin,R, 74, 190, 0.226, 30
-Rich Dauer,R, 72, 180, 0.257, 43
-Mick Kelleher,R, 69, 176, 0.213, 0
-Rowland Office,L, 72, 170, 0.259, 32
-Rick Leach,L, 73, 180, 0.268, 18
-Dwayne Murphy,L, 73, 185, 0.246, 166
-Larry Harlow,L, 74, 185, 0.248, 12
-Mike Epstein,L, 75, 230, 0.244, 130
-Jerry Mumphrey,B, 74, 185, 0.289, 70
-Don Sutton,R, 73, 185, 0.144, 0
-Glenn Beckert,R, 73, 190, 0.283, 22
-Ron Davis,R, 72, 175, 0.233, 10
-Mike Shannon,R, 75, 195, 0.255, 68
-Jason Thompson,L, 76, 200, 0.261, 208
-Wayne Tolleson,B, 69, 160, 0.241, 9
-John Leister,R, 74, 200, 0.0, 0
-Don Cooper,R, 73, 185, 0.0, 0
-Mike Jorgensen,L, 72, 195, 0.243, 95
-Ed Romero,R, 71, 160, 0.247, 8
-Rick Joseph,R, 73, 192, 0.243, 13
-Cecil Cooper,L, 74, 165, 0.298, 241
-Bill Almon,R, 75, 180, 0.254, 36
-Joe Ferguson,R, 74, 200, 0.240, 122
-Jeff Jones,R, 75, 210, 0.0, 0
-Jerry Terrell,R, 71, 165, 0.253, 4
-John Poloni,L, 77, 210, 0.0, 0
-Dave Revering,L, 76, 210, 0.265, 62
-Curt Ford,L, 70, 150, 0.245, 7
-Jerry Dybzinski,R, 74, 180, 0.234, 3
-Mike Willis,L, 74, 205, 0.0, 0
-Bob Burda,L, 71, 174, 0.224, 13
-Jesse Gonder,L, 70, 180, 0.251, 26
-Gary Sutherland,R, 72, 185, 0.243, 24
-Bob Coluccio,R, 71, 183, 0.220, 26
-Dave Rader,L, 71, 165, 0.257, 30
-Ron Gardenhire,R, 72, 175, 0.232, 4
-Bill Sharp,L, 70, 178, 0.255, 9
-Alan Bannister,R, 71, 170, 0.270, 19
-Bob Watson,R, 72, 201, 0.295, 184
-Ken Harrelson,R, 74, 190, 0.239, 131
-Bobby Wine,R, 73, 187, 0.215, 30
-Stefan Wever,R, 80, 245, 0.0, 0
-John Kennedy,R, 72, 185, 0.225, 32
-Chico Ruiz,B, 72, 169, 0.240, 2
-Dave Johnson,R, 73, 183, 0.0, 0
-Gail Hopkins,L, 70, 198, 0.266, 25
-Doug Frobel,L, 76, 196, 0.201, 20
-Luis Melendez,R, 72, 165, 0.248, 9
-Jerry Augustine,L, 72, 183, 0.0, 0
-Bill Plummer,R, 73, 190, 0.188, 14
-Buck Rodgers,B, 74, 190, 0.232, 31
-Phil Niekro,R, 73, 180, 0.169, 7
-Jeff Holly,L, 77, 210, 0.0, 0
-Tom Poquette,L, 70, 175, 0.268, 10
-Eric Hetzel,R, 75, 175, 0.0, 0
-Brian Asselstine,L, 73, 175, 0.254, 12
-Rick Miller,L, 72, 175, 0.269, 28
-Ed Charles,R, 70, 170, 0.263, 86
-Luis Gomez,R, 69, 150, 0.210, 0
-Dave Lemanczyk,R, 76, 235, 0.0, 0
-Al Jones,R, 76, 210, 0.0, 0
-Floyd Rayford,R, 70, 190, 0.244, 38
-Sam Hinds,R, 78, 215, 0.0, 0
-Tony Conigliaro,R, 75, 185, 0.264, 166
-Clay Christiansen,R, 77, 205, 0.0, 0
-Jim Barr,R, 75, 205, 0.162, 1
-Jerry Remy,L, 69, 165, 0.275, 7
-Larry Rothschild,L, 74, 180, 0.0, 0
-Frank Duffy,R, 73, 180, 0.232, 26
-Gary Lance,B, 75, 195, 0.0, 0
-Tom O'Malley,L, 72, 180, 0.256, 13
-Phil Garner,R, 70, 175, 0.260, 109
-Larry Pashnick,R, 75, 205, 0.0, 0
-Todd Fischer,R, 70, 170, 0.0, 0
+name,handedness,height,weight,avg,HR,count
+Tom Brown,R,73,170,0.0,0,737
+Denny Lemaster,R,73,182,0.13,4,737
+Jose Cardenal,R,70,150,0.275,138,737
+Mike Ryan,R,74,205,0.193,28,737
+Dick Bertell,R,72,200,0.25,10,737
+Rod Kanehl,R,73,180,0.24100000000000002,6,737
+Ozzie Osborn,R,74,195,0.0,0,737
+Jeff Byrd,R,75,195,0.0,0,737
+Juan Bonilla,R,69,170,0.256,7,737
+Rick Wise,R,73,180,0.195,15,737
+Buck Martinez,R,70,190,0.225,58,737
+John Wockenfuss,R,72,190,0.262,86,737
+Eric Wilkins,R,73,190,0.0,0,737
+Lee Lacy,R,73,175,0.28600000000000003,91,737
+Danny Walton,R,72,195,0.223,28,737
+Bobby Cox,R,71,180,0.225,9,737
+Brad Wellman,R,72,170,0.231,6,737
+Jeff Newman,R,74,215,0.22399999999999998,63,737
+Pedro Gonzalez,R,72,176,0.244,8,737
+Tommie Reynolds,R,74,190,0.226,12,737
+Gene Clines,R,69,170,0.27699999999999997,5,737
+Jim Hickman,R,75,192,0.252,159,737
+Jack Billingham,R,76,195,0.111,0,737
+Jerry Buchek,R,71,185,0.22,22,737
+Ivan DeJesus,R,71,175,0.254,21,737
+Gary Nolan,R,74,197,0.138,1,737
+Gil Patterson,R,73,185,0.0,0,737
+Larry Dierker,R,76,215,0.136,4,737
+Dave Skaggs,R,74,200,0.24100000000000002,3,737
+Dick Ruthven,R,75,190,0.183,1,737
+Steve Eddy,R,74,185,0.0,0,737
+Dave Kingman,R,78,210,0.23600000000000002,442,737
+Eric Soderholm,R,71,187,0.264,102,737
+Ed Brinkman,R,72,170,0.22399999999999998,60,737
+Jim Siwy,R,76,200,0.0,0,737
+Bud Anderson,R,75,210,0.0,0,737
+Ted Ford,R,70,180,0.21899999999999997,17,737
+John Butcher,R,76,185,0.0,0,737
+Jerry Ujdur,R,73,195,0.0,0,737
+Bo Diaz,R,71,185,0.255,87,737
+Brian Denman,R,76,205,0.0,0,737
+Kurt Bevacqua,R,72,180,0.23600000000000002,27,737
+Syd O'Brien,R,73,185,0.23,24,737
+Jeffrey Leonard,R,74,200,0.266,144,737
+Dal Maxvill,R,71,157,0.217,6,737
+Steve Curry,R,78,217,0.0,0,737
+Cesar Tovar,R,69,155,0.278,46,737
+Jack Heidemann,R,72,175,0.21100000000000002,9,737
+Rich Rollins,R,70,185,0.26899999999999996,77,737
+Merv Rettenmund,R,70,190,0.271,66,737
+Bryan Clutterbuck,R,76,223,0.0,0,737
+Byron Browne,R,74,190,0.23600000000000002,30,737
+Hector Torres,R,72,175,0.21600000000000003,18,737
+Walt Williams,R,66,165,0.27,33,737
+Jerry Koosman,R,74,205,0.11900000000000001,2,737
+Steve Lombardozzi,R,72,175,0.233,20,737
+Joe Azcue,R,72,190,0.252,50,737
+Elliott Maddox,R,71,180,0.261,18,737
+Julian Javier,R,73,175,0.257,78,737
+Elio Chacon,R,69,160,0.23199999999999998,4,737
+John Stearns,R,72,185,0.26,46,737
+Larry Brown,R,70,160,0.233,47,737
+Tommy Dean,R,72,165,0.18,4,737
+Frank White,R,71,165,0.255,160,737
+Jose Roman,R,72,175,0.0,0,737
+Tom Brookens,R,70,165,0.24600000000000002,71,737
+Mike Trujillo,R,73,180,0.0,0,737
+Albert Williams,R,76,190,0.0,0,737
+Oswaldo Peraza,R,76,172,0.0,0,737
+Otto Velez,R,72,170,0.251,78,737
+Ray Oyler,R,71,165,0.175,15,737
+Barry Cort,R,77,210,0.0,0,737
+Bill Wilkinson,R,70,160,0.0,0,737
+Mike Loynd,R,76,210,0.0,0,737
+Wayne Comer,R,70,175,0.22899999999999998,16,737
+Ed Spiezio,R,71,180,0.23800000000000002,39,737
+Rico Petrocelli,R,72,175,0.251,210,737
+Dick Simpson,R,76,176,0.207,15,737
+Ken McMullen,R,75,190,0.248,156,737
+Steve Swisher,R,74,205,0.21600000000000003,20,737
+Ben Callahan,R,79,230,0.0,0,737
+Dick Howser,R,68,155,0.248,16,737
+Bobby Cuellar,R,71,188,0.0,0,737
+Willie Norwood,R,72,185,0.242,18,737
+Ramon Manon,R,72,150,0.0,0,737
+John Trautwein,R,75,205,0.0,0,737
+Andy Replogle,R,77,205,0.0,0,737
+Benny Ayala,R,73,185,0.251,38,737
+Ron Romanick,R,76,195,0.0,0,737
+Sal Butera,R,72,190,0.22699999999999998,8,737
+Johnny Jeter,R,73,180,0.244,18,737
+Angel Salazar,R,72,180,0.212,2,737
+Cito Gaston,R,75,190,0.256,91,737
+Cookie Rojas,R,70,160,0.263,54,737
+Rich Morales,R,71,170,0.195,6,737
+Dave Ford,R,76,190,0.0,0,737
+Dan Ford,R,73,185,0.27,121,737
+Darryl Motley,R,69,196,0.243,44,737
+Ozzie Virgil,R,73,180,0.243,98,737
+Ron Santo,R,72,190,0.27699999999999997,342,737
+Jim Ray Hart,R,71,185,0.278,170,737
+Marc Hill,R,75,205,0.223,34,737
+Danny Fife,R,75,175,0.0,0,737
+Chico Salmon,R,70,160,0.249,31,737
+Joe Niekro,R,73,185,0.156,1,737
+Andy Etchebarren,R,73,190,0.235,49,737
+Ken Berry,R,72,175,0.255,58,737
+Dave Concepcion,R,74,155,0.267,101,737
+Junior Moore,R,71,185,0.264,7,737
+Mike Richardt,R,72,170,0.226,4,737
+Chris Brown,R,72,185,0.26899999999999996,38,737
+Al Downing,R,71,175,0.127,2,737
+Rick Rhoden,R,75,195,0.23800000000000002,9,737
+Denny McLain,R,73,185,0.133,1,737
+Dave Cash,R,71,170,0.28300000000000003,21,737
+Bucky Dent,R,69,170,0.247,40,737
+Andy Beene,R,75,205,0.0,0,737
+Leon Hooten,R,71,180,0.0,0,737
+Larry Haney,R,74,195,0.215,12,737
+Billy Conigliaro,R,72,180,0.256,40,737
+Gary Roenicke,R,75,205,0.247,121,737
+Don Lock,R,74,195,0.23800000000000002,122,737
+Billy Cowan,R,72,170,0.23600000000000002,40,737
+Allan Ramirez,R,70,180,0.0,0,737
+Tony Perez,R,74,175,0.27899999999999997,379,737
+Chuck Schilling,R,70,160,0.239,23,737
+Hal McRae,R,71,180,0.29,191,737
+Dave Roberts,R,75,215,0.239,49,737
+Brian Allard,R,73,175,0.0,0,737
+Fernando Arroyo,R,74,180,0.0,0,737
+Gary Beare,R,76,205,0.0,0,737
+Charlie Spikes,R,75,215,0.24600000000000002,65,737
+Chris Batton,R,76,195,0.0,0,737
+Duffy Dyer,R,72,187,0.221,30,737
+Greg Thayer,R,71,182,0.0,0,737
+Vern Fuller,R,73,170,0.23199999999999998,14,737
+Paul Hartzell,R,77,200,0.0,0,737
+Mike Champion,R,72,185,0.22899999999999998,2,737
+Paul Casanova,R,76,180,0.225,50,737
+Steve Rogers,R,74,175,0.138,0,737
+Keith Creel,R,74,180,0.0,0,737
+Lou Clinton,R,73,185,0.247,65,737
+Larry Cox,R,70,178,0.221,12,737
+Nate Colbert,R,74,190,0.243,173,737
+Phil Roof,R,74,190,0.215,43,737
+Chuck Hinton,R,73,180,0.264,113,737
+Tim Cullen,R,73,185,0.22,9,737
+Rick Bosetti,R,71,185,0.25,17,737
+Ron Pruitt,R,72,185,0.26899999999999996,12,737
+George Foster,R,73,180,0.27399999999999997,348,737
+Angel Mangual,R,70,178,0.245,22,737
+Ken Gerhart,R,72,190,0.221,24,737
+Mike Hershberger,R,70,175,0.252,26,737
+Mike Smith,R,75,180,0.0,0,737
+T.R. Bryden,R,76,190,0.0,0,737
+Jose Arcia,R,75,170,0.215,1,737
+Tom Makowski,R,71,185,0.0,0,737
+Aurelio Rodriguez,R,70,180,0.237,124,737
+Andres Thomas,R,73,170,0.23399999999999999,42,737
+Mike de la Hoz,R,71,175,0.251,25,737
+Frank Taveras,R,72,155,0.255,2,737
+Joe Nossek,R,72,178,0.228,3,737
+Bill Robinson,R,74,189,0.258,166,737
+Sal Bando,R,72,195,0.254,242,737
+George Mitterwald,R,74,195,0.23600000000000002,76,737
+Mike Darr,R,76,190,0.0,0,737
+Craig Robinson,R,70,165,0.21899999999999997,0,737
+Bob Tillman,R,76,205,0.23199999999999998,79,737
+Pat Corrales,R,72,180,0.21600000000000003,4,737
+Mike Tyson,R,69,170,0.24100000000000002,27,737
+Duane Josephson,R,72,190,0.258,23,737
+Glenn Hubbard,R,69,150,0.244,70,737
+Roger Freed,R,72,190,0.245,22,737
+George Hendrick,R,75,195,0.278,267,737
+Bob Davis,R,72,180,0.19699999999999998,6,737
+Toby Harrah,R,72,175,0.264,195,737
+Gary Matthews,R,74,185,0.281,234,737
+Terry Taylor,R,73,180,0.0,0,737
+Mario Mendoza,R,71,170,0.215,4,737
+Larry Hisle,R,74,193,0.273,166,737
+Randy Nosek,R,76,215,0.0,0,737
+Dave Engle,R,75,210,0.262,31,737
+Mark Smith,R,74,215,0.0,0,737
+Paul Mitchell,R,73,195,0.0,0,737
+Thurman Munson,R,71,190,0.292,113,737
+Mike Sadek,R,69,165,0.226,5,737
+Mark Belanger,R,73,170,0.228,20,737
+Ron Hunt,R,72,186,0.273,39,737
+Butch Edge,R,75,203,0.0,0,737
+Vic Correll,R,70,185,0.22899999999999998,29,737
+Jackie Hernandez,R,71,165,0.20800000000000002,12,737
+Gary Mielke,R,75,185,0.0,0,737
+Rick Henninger,R,78,225,0.0,0,737
+Joe Foy,R,72,215,0.248,58,737
+Mickey Klutts,R,71,170,0.24100000000000002,14,737
+Leroy Stanton,R,73,195,0.244,77,737
+Rafael Vasquez,R,72,160,0.0,0,737
+Danny Ainge,R,76,175,0.22,2,737
+Adolfo Phillips,R,73,175,0.247,59,737
+Marv Breeding,R,72,175,0.25,7,737
+Steve Adkins,R,78,210,0.0,0,737
+Joe Horlen,R,72,170,0.134,0,737
+Glenn Burke,R,72,195,0.237,2,737
+Tony Mack,R,70,177,0.0,0,737
+Terry Humphrey,R,75,185,0.21100000000000002,6,737
+Bill Moran,R,76,210,0.0,0,737
+Enzo Hernandez,R,68,155,0.22399999999999998,2,737
+Cesar Gutierrez,R,69,155,0.235,0,737
+Coco Laboy,R,70,165,0.233,28,737
+Jim Morrison,R,71,175,0.26,112,737
+Tom Gilles,R,73,185,0.0,0,737
+Bobby Knoop,R,73,170,0.23600000000000002,56,737
+Tom Paciorek,R,76,215,0.282,86,737
+Gary Woods,R,74,185,0.243,13,737
+Bob Montgomery,R,73,195,0.258,23,737
+Jeff Burroughs,R,73,200,0.261,240,737
+Bob Kammeyer,R,76,210,0.0,0,737
+Paul Blair,R,72,168,0.25,134,737
+Al Cowens,R,73,197,0.27,108,737
+Dave Hilton,R,71,191,0.213,6,737
+Luis Alvarado,R,69,162,0.214,5,737
+Larry Parrish,R,75,190,0.263,256,737
+Woodie Fryman,R,75,197,0.138,2,737
+Bob Randall,R,74,175,0.257,1,737
+Jim Pankovits,R,70,170,0.25,9,737
+Carmen Fanzone,R,72,200,0.22399999999999998,20,737
+Gary Allenson,R,71,185,0.221,19,737
+Mike Vail,R,73,180,0.27899999999999997,34,737
+Nick Esasky,R,75,200,0.25,122,737
+Chris Cannizzaro,R,72,190,0.235,18,737
+John Pawlowski,R,74,175,0.0,0,737
+Mel Stottlemyre,R,73,178,0.16,7,737
+Jack Hardy,R,74,175,0.0,0,737
+Ron Musselman,R,74,185,0.0,0,737
+Tony Chevez,R,71,177,0.0,0,737
+Andy Messersmith,R,73,200,0.17,5,737
+Richie Zisk,R,73,200,0.287,207,737
+Dave Chalk,R,70,175,0.252,15,737
+Don Baylor,R,73,190,0.26,338,737
+John Vukovich,R,73,187,0.161,6,737
+Danny Thompson,R,72,183,0.248,15,737
+Doug Camilli,R,71,195,0.19899999999999998,18,737
+Bruce Bochy,R,75,205,0.239,26,737
+Gary Ignasiak,R,71,185,0.0,0,737
+Ken Reitz,R,72,180,0.26,68,737
+Amos Otis,R,71,165,0.27699999999999997,193,737
+Gene Alley,R,70,160,0.254,55,737
+Ted Sizemore,R,70,165,0.262,23,737
+Joe Skalski,R,75,190,0.0,0,737
+Doug Flynn,R,71,165,0.23800000000000002,7,737
+Ken Holtzman,R,74,175,0.163,2,737
+Kevin Bell,R,72,195,0.222,13,737
+Tom Nieto,R,73,193,0.205,5,737
+Larvell Blanks,R,68,167,0.253,20,737
+Francisco Barrios,R,71,155,0.0,0,737
+Steve Yeager,R,72,190,0.228,102,737
+Pedro Garcia,R,70,175,0.22,37,737
+Bob Babcock,R,77,210,0.0,0,737
+Craig Eaton,R,71,175,0.0,0,737
+Art Howe,R,74,190,0.26,43,737
+Ike Brown,R,72,190,0.256,20,737
+Howie Goss,R,76,204,0.21600000000000003,11,737
+Glenn Borgmann,R,76,210,0.22899999999999998,16,737
+Lamar Johnson,R,74,215,0.287,64,737
+Julio Gonzalez,R,71,162,0.235,4,737
+Bobby Klaus,R,70,170,0.20800000000000002,6,737
+Manny Sanguillen,R,72,193,0.29600000000000004,65,737
+Jesus Alou,R,74,190,0.28,32,737
+Enos Cabell,R,76,170,0.27699999999999997,60,737
+Roy Branch,R,72,175,0.0,0,737
+Juan Beniquez,R,71,150,0.27399999999999997,79,737
+Frank Fernandez,R,72,185,0.19899999999999998,39,737
+Bombo Rivera,R,70,187,0.265,10,737
+Steve Brye,R,72,190,0.258,30,737
+Ron Jackson,R,72,200,0.259,56,737
+Rufino Linares,R,72,170,0.27,11,737
+Bob Kearney,R,72,190,0.233,27,737
+Fergie Jenkins,R,77,205,0.165,13,737
+Dick Dietz,R,73,195,0.261,66,737
+Ted Cox,R,75,195,0.245,10,737
+Bobby Mitchell,R,75,185,0.235,21,737
+Barry Evans,R,73,180,0.251,2,737
+Mickey Brantley,R,70,180,0.259,32,737
+Al Gallagher,R,72,180,0.263,11,737
+Rob Woodward,R,75,185,0.0,0,737
+Hector Cruz,R,71,170,0.225,39,737
+Woody Woodward,R,74,180,0.23600000000000002,1,737
+Ted Martinez,R,72,165,0.24,7,737
+Jim Anderson,R,72,170,0.218,13,737
+Lenn Sakata,R,69,160,0.23,25,737
+Dave Duncan,R,74,190,0.214,109,737
+Randy Jones,R,72,178,0.132,0,737
+Dick Billings,R,73,195,0.22699999999999998,16,737
+Bob Veselic,R,72,175,0.0,0,737
+Burt Hooton,R,73,210,0.12300000000000001,4,737
+Bob Ferris,R,78,225,0.0,0,737
+Fernando Gonzalez,R,70,165,0.235,17,737
+Jim Sundberg,R,72,190,0.248,95,737
+Andy Kosco,R,75,205,0.23600000000000002,73,737
+Gary Wheelock,R,75,205,0.0,0,737
+Lenny Faedo,R,72,170,0.251,5,737
+Dick Davis,R,75,190,0.265,27,737
+Mike Diaz,R,74,195,0.247,31,737
+Tim Foli,R,72,179,0.251,25,737
+Alan Knicely,R,72,190,0.213,12,737
+Tim Laudner,R,75,212,0.225,77,737
+Jose Morales,R,71,187,0.287,26,737
+Luis Encarnacion,R,70,178,0.0,0,737
+Rick Kreuger,R,74,185,0.0,0,737
+Juan Marichal,R,72,185,0.165,4,737
+Roger Weaver,R,75,190,0.0,0,737
+Stan Papi,R,72,170,0.218,7,737
+Chris Knapp,R,77,195,0.0,0,737
+Steve Henderson,R,74,190,0.28,68,737
+Rob Picciolo,R,74,185,0.23399999999999999,17,737
+Don Welchel,R,76,205,0.0,0,737
+Roberto Pena,R,68,170,0.245,13,737
+Bob Dernier,R,72,160,0.255,23,737
+Bill Melton,R,74,200,0.253,160,737
+Barbaro Garbey,R,70,170,0.267,11,737
+Jack Hiatt,R,74,190,0.251,22,737
+Nelson Mathews,R,76,195,0.223,22,737
+Ron Theobald,R,68,165,0.248,2,737
+Dewey Robinson,R,72,180,0.0,0,737
+Rafael Santana,R,73,165,0.24600000000000002,13,737
+Tony Arnold,R,71,170,0.0,0,737
+Ike Brookens,R,77,170,0.0,0,737
+Tommie Aaron,R,75,190,0.22899999999999998,13,737
+Steve Dillard,R,73,180,0.243,13,737
+Win Remmerswaal,R,74,160,0.0,0,737
+Jeff Peterek,R,74,195,0.0,0,737
+George Scott,R,74,200,0.268,271,737
+Jeff Shaver,R,75,195,0.0,0,737
+Ken Walters,R,73,180,0.231,11,737
+Gorman Thomas,R,74,210,0.225,268,737
+Paul Dade,R,73,185,0.27,10,737
+Fred Stanley,R,70,165,0.21600000000000003,10,737
+Carl Morton,R,72,200,0.156,7,737
+Gary Gray,R,72,187,0.24,24,737
+Rennie Stennett,R,71,160,0.27399999999999997,41,737
+Jim Gideon,R,75,190,0.0,0,737
+Jerry May,R,74,190,0.23399999999999999,15,737
+Rich McKinney,R,71,185,0.225,20,737
+Mike Andrews,R,75,195,0.258,66,737
+Bobby Clark,R,72,190,0.239,19,737
+Cliff Johnson,R,76,215,0.258,196,737
+Donn Clendenon,R,76,209,0.27399999999999997,159,737
+Charlie James,R,73,195,0.255,29,737
+Bob Horner,R,73,195,0.27699999999999997,218,737
+Tom Veryzer,R,73,175,0.24100000000000002,14,737
+Jose Cecena,R,71,180,0.0,0,737
+George Smith,R,70,170,0.205,9,737
+Jim Essian,R,74,195,0.244,33,737
+Onix Concepcion,R,66,160,0.239,3,737
+Brian Giles,R,73,165,0.228,10,737
+Garry Maddox,R,75,175,0.285,117,737
+Alex Trevino,R,70,165,0.249,23,737
+Jim Price,R,72,192,0.214,18,737
+Felix Millan,R,71,172,0.27899999999999997,22,737
+Steve Garvey,R,70,192,0.294,272,737
+Greg Erardi,R,73,190,0.0,0,737
+Jim Farr,R,73,195,0.0,0,737
+Tony Cloninger,R,72,210,0.192,11,737
+Chuck Harrison,R,70,185,0.23800000000000002,17,737
+Mike Ivie,R,75,205,0.26899999999999996,81,737
+Frank Dimichele,R,75,205,0.0,0,737
+Dusty Baker,R,74,183,0.278,242,737
+Tucker Ashford,R,73,195,0.218,6,737
+Ned Yost,R,73,190,0.212,16,737
+Mike Warren,R,73,175,0.0,0,737
+Gaylord Perry,R,76,205,0.131,6,737
+Mickey Hatcher,R,74,200,0.28,38,737
+Bill Fulton,R,75,195,0.0,0,737
+John Orsino,R,75,215,0.249,40,737
+Larry Anderson,R,75,190,0.0,0,737
+Craig Mitchell,R,75,180,0.0,0,737
+Dave Hostetler,R,76,215,0.22899999999999998,37,737
+Alfredo Martinez,R,75,185,0.0,0,737
+Dean Chance,R,75,200,0.066,0,737
+Dick Green,R,70,180,0.24,80,737
+Fran Healy,R,77,220,0.25,20,737
+Doc Edwards,R,74,215,0.23800000000000002,15,737
+Joe Strain,R,70,169,0.25,1,737
+Buddy Bell,R,73,180,0.27899999999999997,201,737
+Jody Davis,R,76,192,0.245,127,737
+Mike Edwards,R,70,154,0.25,2,737
+Bill Mooneyham,R,72,175,0.0,0,737
+John Hobbs,R,75,190,0.0,0,737
+Deron Johnson,R,74,200,0.244,245,737
+John Denny,R,75,185,0.17,0,737
+Don Wert,R,70,162,0.242,77,737
+Greg Luzinski,R,73,220,0.276,307,737
+Karl Best,R,76,190,0.0,0,737
+Ron Woods,R,70,168,0.233,26,737
+Tony Horton,R,75,210,0.268,76,737
+Randy Hundley,R,71,170,0.23600000000000002,82,737
+Luis Sanchez,R,74,170,0.0,0,737
+Bob Johnson,R,70,175,0.272,44,737
+Brant Alyea,R,75,215,0.247,38,737
+Lou Johnson,R,71,170,0.258,48,737
+Mike Brown,R,74,195,0.265,23,737
+Mike Brown,R,74,195,0.0,0,737
+Terry Harper,R,76,195,0.253,36,737
+Jerry Royster,R,72,165,0.249,40,737
+Barry Bonnell,R,75,190,0.272,56,737
+Tom Seaver,R,73,195,0.154,12,737
+Jerry Martin,R,73,195,0.251,85,737
+Bill Stein,R,70,170,0.267,44,737
+Joel Youngblood,R,72,180,0.265,80,737
+Phil Gagliano,R,73,180,0.23800000000000002,14,737
+Jerry McNertney,R,72,180,0.237,27,737
+Kiko Garcia,R,71,180,0.239,12,737
+John Caneira,R,75,180,0.0,0,737
+Domingo Ramos,R,70,154,0.24,8,737
+Clint Zavaras,R,73,175,0.0,0,737
+Mike Parrott,R,76,210,0.0,0,737
+Ray Fosse,R,74,215,0.256,61,737
+Luis Aponte,R,72,185,0.0,0,737
+Orlando Mercado,R,72,180,0.19899999999999998,7,737
+Charley Smith,R,73,170,0.239,69,737
+Paul Boris,R,74,200,0.0,0,737
+De Wayne Buice,R,72,170,0.0,0,737
+Bob Uecker,R,73,190,0.2,14,737
+Felix Torres,R,71,165,0.254,27,737
+Ray Knight,R,73,185,0.271,84,737
+Bobby Grich,R,74,180,0.266,224,737
+John Boccabella,R,73,195,0.21899999999999997,26,737
+Mark Esser,R,73,190,0.0,0,737
+Daryl Smith,R,76,185,0.0,0,737
+Dave Smith,R,73,190,0.0,0,737
+Buddy Bradford,R,71,170,0.226,52,737
+Dave Stapleton,R,73,178,0.271,41,737
+Gary Ward,R,74,195,0.276,130,737
+Jim Lonborg,R,77,200,0.136,3,737
+Joe Lis,R,72,175,0.233,32,737
+Tom Klawitter,R,74,190,0.0,0,737
+Larry Herndon,R,75,190,0.27399999999999997,107,737
+Jim Wright,R,77,205,0.0,0,737
+Jim Wright,R,73,165,0.0,0,737
+Eddie Leon,R,72,170,0.23600000000000002,24,737
+Jim Wohlford,R,71,175,0.26,21,737
+J.R. Richard,R,80,222,0.168,10,737
+Keith Moreland,R,72,190,0.27899999999999997,121,737
+Ramon Pena,R,70,155,0.0,0,737
+Alex Johnson,R,72,205,0.28800000000000003,78,737
+Chico Escarrega,R,71,185,0.0,0,737
+Dave Rosello,R,71,160,0.23600000000000002,10,737
+Cardell Camper,R,75,208,0.0,0,737
+Paul Schaal,R,71,165,0.244,57,737
+Tito Landrum,R,71,175,0.249,13,737
+Dave Edwards,R,72,170,0.237,14,737
+Mario Guerrero,R,70,155,0.257,7,737
+Mike Overy,R,74,190,0.0,0,737
+Doug Griffin,R,72,160,0.245,7,737
+Steve Blass,R,72,165,0.172,1,737
+Johnnie LeMaster,R,74,165,0.222,22,737
+Craig Chamberlain,R,73,190,0.0,0,737
+Nate Oliver,R,70,160,0.226,2,737
+Ken Rudolph,R,73,180,0.213,6,737
+Wayne Nordhagen,R,74,205,0.282,39,737
+Frank Eufemia,R,71,185,0.0,0,737
+Andre Robertson,R,70,155,0.251,5,737
+Jerry Zimmerman,R,74,185,0.204,3,737
+Jack Lazorko,R,71,200,0.0,0,737
+Mike Paxton,R,71,190,0.0,0,737
+Chet Lemon,R,72,190,0.273,215,737
+Rickey Keeton,R,74,190,0.0,0,737
+Cleon Jones,R,72,185,0.281,93,737
+Curt Motton,R,68,164,0.213,25,737
+Johnny Bench,R,73,197,0.267,389,737
+Dale Berra,R,72,180,0.23600000000000002,49,737
+Terry Felton,R,73,180,0.0,0,737
+Mark Clear,R,76,200,0.0,0,737
+Carl Warwick,R,70,170,0.248,31,737
+Sam Bowens,R,73,188,0.223,45,737
+Luis Aguayo,R,69,173,0.23600000000000002,37,737
+Hal Lanier,R,74,180,0.228,8,737
+Greg Pryor,R,72,180,0.25,14,737
+Dave Nelson,R,70,160,0.244,20,737
+Lynn Jones,R,69,175,0.252,7,737
+Ken Suarez,R,69,175,0.22699999999999998,5,737
+Rich Barnes,R,76,186,0.0,0,737
+Tommie Agee,R,71,195,0.255,130,737
+Bob Bailey,R,73,180,0.257,189,737
+Cap Peterson,R,74,195,0.23,19,737
+Dick Tracewski,R,71,160,0.213,8,737
+Dave Frost,R,78,235,0.0,0,737
+Bill Nahorodny,R,74,200,0.24100000000000002,25,737
+Bill Madlock,R,71,180,0.305,163,737
+Bob Boone,R,74,195,0.254,105,737
+Rick Burleson,R,70,165,0.273,50,737
+Jim Dorsey,R,79,190,0.0,0,737
+Mark Ciardi,R,72,180,0.0,0,737
+Dennis Burtt,R,72,180,0.0,0,737
+Carl Taylor,R,74,200,0.266,10,737
+Terry Harmon,R,74,180,0.233,4,737
+Rich Yett,R,74,187,0.0,0,737
+Don Leppert,R,74,220,0.22899999999999998,15,737
+Matt Williams,R,73,200,0.0,0,737
+Jim Burton,R,75,195,0.0,0,737
+Rick Anderson,R,74,210,0.0,0,737
+Charlie Mitchell,R,75,170,0.0,0,737
+Bill Paschall,R,72,175,0.0,0,737
+Byron McLaughlin,R,73,175,0.0,0,737
+Lee May,R,75,195,0.267,354,737
+Rick Renick,R,72,188,0.221,20,737
+Jeff Torborg,R,72,195,0.214,8,737
+Dave Campbell,R,73,180,0.213,20,737
+Rick Auerbach,R,72,165,0.22,9,737
+Keith Macwhorter,R,76,190,0.0,0,737
+Don Wilson,R,74,195,0.146,1,737
+Jaime Cocanower,R,76,200,0.0,0,737
+Jeff Sellers,R,73,175,0.0,0,737
+Steve Senteney,R,74,205,0.0,0,737
+Howard Bailey,R,72,195,0.0,0,737
+Jeff Bettendorf,R,75,180,0.0,0,737
+Cesar Cedeno,R,74,175,0.285,199,737
+Bob Davidson,R,72,185,0.0,0,737
+Phil Linz,R,73,180,0.235,11,737
+Manny Mota,R,70,160,0.304,31,737
+Steve Renko,R,77,230,0.215,6,737
+Carlos Velazquez,R,71,180,0.0,0,737
+Roger Miller,R,75,200,0.0,0,737
+Doug DeCinces,R,74,190,0.259,237,737
+John Castino,R,71,175,0.278,41,737
+Ron Washington,R,71,155,0.261,20,737
+Billy Grabarkewitz,R,70,165,0.23600000000000002,28,737
+Earl Williams,R,75,215,0.247,138,737
+Willie Mueller,R,76,220,0.0,0,737
+John Flinn,R,72,175,0.0,0,737
+Don Hahn,R,73,180,0.23600000000000002,7,737
+Todd Cruz,R,72,175,0.22,34,737
+Tom Egan,R,76,218,0.2,22,737
+Bob Heise,R,72,175,0.247,1,737
+Tommy Harper,R,69,165,0.257,146,737
+Max Alvis,R,71,185,0.247,111,737
+Rico Carty,R,75,200,0.299,204,737
+Les Straker,R,73,193,0.0,0,737
+Damaso Garcia,R,73,165,0.28300000000000003,36,737
+Don Kainer,R,75,205,0.0,0,737
+Don Gordon,R,73,175,0.0,0,737
+Sandy Wihtol,R,73,195,0.0,0,737
+Sonny Siebert,R,75,190,0.17300000000000001,12,737
+Jeff Richardson,R,75,185,0.0,0,737
+Bobby Darwin,R,74,190,0.251,83,737
+Bruce Miller,R,73,185,0.24600000000000002,1,737
+Bob Bailor,R,71,170,0.264,9,737
+Tommy Helms,R,70,165,0.26899999999999996,34,737
+Tony Armas,R,71,182,0.252,251,737
+Willie Horton,R,71,209,0.273,325,737
+Lou Piniella,R,72,182,0.29100000000000004,102,737
+Butch Hobson,R,73,193,0.248,98,737
+John Wathan,R,74,205,0.262,21,737
+Mike Krukow,R,77,205,0.193,5,737
+Andres Mora,R,72,180,0.223,27,737
+Barry Foote,R,75,205,0.23,57,737
+Ron Clark,R,70,175,0.18899999999999997,5,737
+Jay Pettibone,R,76,182,0.0,0,737
+Glen Cook,R,71,180,0.0,0,737
+Julio Gotay,R,72,180,0.26,6,737
+Gary Alexander,R,74,195,0.23,55,737
+Andre Thornton,R,75,200,0.254,253,737
+Bob Oliver,R,75,205,0.256,94,737
+Bill Castro,R,71,170,0.0,0,737
+Tom Buskey,R,75,200,0.0,0,737
+Bruce Taylor,R,72,178,0.0,0,737
+Stan Thomas,R,74,185,0.0,0,737
+Bob Robertson,R,73,195,0.242,115,737
+Larry Monroe,R,76,200,0.0,0,737
+Roger Slagle,R,75,190,0.0,0,737
+Ollie Brown,R,74,178,0.265,102,737
+Frank Quilici,R,73,170,0.214,5,737
+Curt Kaufman,R,74,175,0.0,0,737
+De Wayne Vaughn,R,71,180,0.0,0,737
+Rich Wortham,R,72,185,0.0,0,737
+Bill Sample,R,69,175,0.272,46,737
+Mike Bacsik,R,74,180,0.0,0,737
+Craig Kusick,R,75,210,0.235,46,737
+Glenn Hoffman,R,73,175,0.242,23,737
+Russ Gibson,R,73,195,0.228,8,737
+Phil Huffman,R,74,180,0.0,0,737
+John Bateman,R,75,210,0.23,81,737
+Luis Pujols,R,74,175,0.193,6,737
+Joe Gaines,R,73,190,0.24100000000000002,21,737
+Doug Rader,R,74,208,0.251,155,737
+Mickey Stanley,R,73,185,0.248,117,737
+Steve Brown,R,77,200,0.0,0,737
+Rick Lysander,R,74,190,0.0,0,737
+Phil Bradley,R,72,185,0.28600000000000003,78,737
+Winston Llenas,R,70,165,0.23,3,737
+Charlie Moore,R,71,180,0.261,36,737
+Tommy John,R,75,180,0.157,5,737
+Bruce Benedict,R,73,175,0.242,18,737
+John Ellis,R,74,225,0.262,69,737
+Mel Stottlemyre,R,72,190,0.0,0,737
+David Green,R,75,170,0.268,31,737
+Reid Nichols,R,71,165,0.266,22,737
+Rick Reichardt,R,75,210,0.261,116,737
+Luis Tiant,R,72,180,0.16399999999999998,5,737
+Alex Sanchez,R,74,185,0.0,0,737
+Leon Roberts,R,75,200,0.267,78,737
+Ray Burris,R,77,200,0.151,1,737
+Paul Wilmet,R,71,170,0.0,0,737
+Tom Grieve,R,74,190,0.249,65,737
+Bob Forsch,R,76,200,0.213,12,737
+Danny Cater,R,72,170,0.276,66,737
+Bill Schroeder,R,74,200,0.24,61,737
+Ron Reed,R,78,215,0.158,0,737
+Fred Howard,R,75,190,0.0,0,737
+Davey Johnson,R,73,170,0.261,136,737
+Ellis Valentine,R,76,205,0.278,123,737
+John Hoover,R,74,190,0.0,0,737
+Dick Allen,R,71,187,0.292,351,737
+Doug Ault,R,75,200,0.23600000000000002,17,737
+Mark Wagner,R,72,165,0.243,3,737
+Mike Walters,R,77,203,0.0,0,737
+Jake Wood,R,73,163,0.25,35,737
+Bob Brower,R,71,185,0.242,17,737
+Ray Culp,R,72,200,0.12300000000000001,1,737
+Ivan Murrell,R,74,195,0.23600000000000002,33,737
+Garth Iorg,R,71,170,0.258,20,737
+Bob Brenly,R,74,210,0.247,91,737
+Jim Rooker,R,72,195,0.201,7,737
+Colby Ward,R,74,185,0.0,0,737
+Jerry Morales,R,70,155,0.259,95,737
+Davey Lopes,R,69,170,0.263,155,737
+Catfish Hunter,R,72,190,0.226,6,737
+Mario Soto,R,72,174,0.132,1,737
+Jimmy Wynn,R,70,160,0.25,291,737
+Hank Allen,R,72,190,0.24100000000000002,6,737
+Jim Fregosi,R,73,190,0.265,151,737
+Pepe Frias,R,70,159,0.24,1,737
+Mike Schmidt,R,74,195,0.267,548,737
+Rey Quinones,R,71,160,0.243,29,737
+Chuck Porter,R,75,187,0.0,0,737
+Bert Campaneris,R,70,160,0.259,79,737
+Bobby Valentine,R,70,189,0.26,12,737
+Rob Andrews,R,72,185,0.251,3,737
+Tom Dozier,R,74,190,0.0,0,737
+Ron Swoboda,R,74,195,0.242,73,737
+Bob Barton,R,72,175,0.226,9,737
+Joe Torre,R,74,212,0.297,252,737
+Al Ferrara,R,73,200,0.259,51,737
+Rick Steirer,R,76,200,0.0,0,737
+Sixto Lezcano,R,70,165,0.271,148,737
+Al Lachowicz,R,75,198,0.0,0,737
+Dave Nicholson,R,74,215,0.212,61,737
+Freddie Patek,R,65,148,0.242,41,737
+Ken Hubbs,R,74,175,0.247,14,737
+Pepe Mangual,R,70,157,0.242,16,737
+Tom McCarthy,R,72,180,0.0,0,737
+Tom Lawless,R,71,170,0.207,2,737
+Jerry Moses,R,75,210,0.251,25,737
+Bobby Bonds,R,73,190,0.268,332,737
+Dave McNally,R,71,185,0.133,9,737
+Roy Foster,R,72,185,0.253,45,737
+Denis Menke,R,72,185,0.25,101,737
+Hal Breeden,R,74,200,0.243,21,737
+Manny Trillo,R,73,150,0.263,61,737
+Jackie Gutierrez,R,71,175,0.237,4,737
+Fred Kendall,R,73,185,0.23399999999999999,31,737
+Mike Anderson,R,74,200,0.24600000000000002,28,737
+Jim Lewis,R,75,190,0.0,0,737
+Joe Charboneau,R,74,205,0.266,29,737
+Jimmie Schaffer,R,69,170,0.223,11,737
+Junior Kennedy,R,71,175,0.248,4,737
+Rod Gilbreath,R,74,180,0.248,14,737
+Mark Brouhard,R,73,210,0.259,25,737
+Chris Speier,R,73,175,0.24600000000000002,112,737
+Mike Fischlin,R,73,165,0.22,3,737
+Don Money,R,73,170,0.261,176,737
+Joe Rudi,R,74,200,0.264,179,737
+Jim Rice,R,74,200,0.298,382,737
+Shawn Holman,R,74,185,0.0,0,737
+Alan Wirth,R,76,190,0.0,0,737
+Gil Garrido,R,69,150,0.237,1,737
+Marty Perez,R,71,160,0.24600000000000002,22,737
+Jerry Grote,R,70,185,0.252,39,737
+Jim Beauchamp,R,74,190,0.231,14,737
+Terry Wilshusen,R,74,210,0.0,0,737
+Ron Brand,R,67,167,0.239,3,737
+Leo Cardenas,R,71,150,0.257,118,737
+Steve Ellsworth,R,80,220,0.0,0,737
+Ron Cey,R,70,185,0.261,316,737
+Skip Jutze,R,71,190,0.215,3,737
+Ron LeFlore,R,72,200,0.28800000000000003,59,737
+Bill Russell,R,72,175,0.263,46,737
+Gene Tenace,R,72,190,0.24100000000000002,201,737
+Bubba Morton,R,70,175,0.267,14,737
+Ellie Rodriguez,R,71,185,0.245,16,737
+Bryan Kelly,R,74,195,0.0,0,737
+Bill Freehan,R,75,203,0.262,200,737
+Steve Nicosia,R,70,185,0.248,11,737
+Ted Savage,R,73,185,0.233,34,737
+Pete Mackanin,R,74,190,0.226,30,737
+Rich Dauer,R,72,180,0.257,43,737
+Mick Kelleher,R,69,176,0.213,0,737
+Don Sutton,R,73,185,0.14400000000000002,0,737
+Glenn Beckert,R,73,190,0.28300000000000003,22,737
+Ron Davis,R,72,175,0.233,10,737
+Mike Shannon,R,75,195,0.255,68,737
+John Leister,R,74,200,0.0,0,737
+Don Cooper,R,73,185,0.0,0,737
+Ed Romero,R,71,160,0.247,8,737
+Rick Joseph,R,73,192,0.243,13,737
+Bill Almon,R,75,180,0.254,36,737
+Joe Ferguson,R,74,200,0.24,122,737
+Jeff Jones,R,75,210,0.0,0,737
+Jerry Terrell,R,71,165,0.253,4,737
+Jerry Dybzinski,R,74,180,0.23399999999999999,3,737
+Gary Sutherland,R,72,185,0.243,24,737
+Bob Coluccio,R,71,183,0.22,26,737
+Ron Gardenhire,R,72,175,0.23199999999999998,4,737
+Alan Bannister,R,71,170,0.27,19,737
+Bob Watson,R,72,201,0.295,184,737
+Ken Harrelson,R,74,190,0.239,131,737
+Bobby Wine,R,73,187,0.215,30,737
+Stefan Wever,R,80,245,0.0,0,737
+John Kennedy,R,72,185,0.225,32,737
+Dave Johnson,R,73,183,0.0,0,737
+Luis Melendez,R,72,165,0.248,9,737
+Bill Plummer,R,73,190,0.188,14,737
+Phil Niekro,R,73,180,0.16899999999999998,7,737
+Eric Hetzel,R,75,175,0.0,0,737
+Ed Charles,R,70,170,0.263,86,737
+Luis Gomez,R,69,150,0.21,0,737
+Dave Lemanczyk,R,76,235,0.0,0,737
+Al Jones,R,76,210,0.0,0,737
+Floyd Rayford,R,70,190,0.244,38,737
+Sam Hinds,R,78,215,0.0,0,737
+Tony Conigliaro,R,75,185,0.264,166,737
+Clay Christiansen,R,77,205,0.0,0,737
+Jim Barr,R,75,205,0.162,1,737
+Frank Duffy,R,73,180,0.23199999999999998,26,737
+Phil Garner,R,70,175,0.26,109,737
+Larry Pashnick,R,75,205,0.0,0,737
+Todd Fischer,R,70,170,0.0,0,737
+Joe Nolan,L,71,175,0.263,27,316
+Denny Doyle,L,69,175,0.25,16,316
+John LaRose,L,73,185,0.0,0,316
+Frank Tepedino,L,71,185,0.24100000000000002,6,316
+Jerry Kutzler,L,73,175,0.0,0,316
+Darrell Evans,L,74,200,0.248,414,316
+Tommy McCraw,L,72,183,0.24600000000000002,75,316
+Britt Burns,L,77,215,0.0,0,316
+Fred Whitfield,L,73,190,0.253,108,316
+Jerry Garvin,L,75,195,0.0,0,316
+Kevin Mmahat,L,77,220,0.0,0,316
+Wayne Garrett,L,71,175,0.239,61,316
+Tony Muser,L,74,180,0.259,7,316
+Kevin Stanfield,L,72,190,0.0,0,316
+Jim Lyttle,L,72,180,0.248,9,316
+Scot Thompson,L,75,195,0.262,5,316
+Gene Locklear,L,70,165,0.27399999999999997,9,316
+Pat Putnam,L,72,205,0.255,63,316
+Bob Fallon,L,75,200,0.0,0,316
+Chris Chambliss,L,73,195,0.27899999999999997,185,316
+Tom Satriano,L,73,185,0.225,21,316
+Walt Bond,L,79,228,0.256,41,316
+Omar Moreno,L,74,180,0.252,37,316
+Tony Ferreira,L,73,160,0.0,0,316
+Bryan Oelkers,L,75,192,0.0,0,316
+Kevin Bearse,L,74,195,0.0,0,316
+Bruce Boisclair,L,74,185,0.263,10,316
+Jim Fairey,L,70,190,0.235,7,316
+Gary Thomasson,L,73,180,0.249,61,316
+Floyd Robinson,L,69,175,0.28300000000000003,67,316
+Lou Brock,L,71,170,0.293,149,316
+Johnny Lewis,L,73,189,0.22699999999999998,22,316
+Ken Boswell,L,72,170,0.248,31,316
+Willie Crawford,L,73,197,0.268,86,316
+Mike Jones,L,78,215,0.0,0,316
+Jeff Stone,L,72,175,0.27699999999999997,11,316
+Joe Lahoud,L,73,198,0.223,65,316
+Tim Flannery,L,71,175,0.255,9,316
+Zach Crouch,L,75,180,0.0,0,316
+Greg Gross,L,70,160,0.287,7,316
+Bruce Tanner,L,75,220,0.0,0,316
+Jack Brohamer,L,70,165,0.245,30,316
+Von Joshua,L,70,170,0.273,30,316
+Eddie Milner,L,71,173,0.253,42,316
+Tony Oliva,L,73,175,0.304,220,316
+Johnny Oates,L,71,188,0.25,14,316
+Pat Underwood,L,72,175,0.0,0,316
+Mike Phillips,L,72,170,0.24,11,316
+Jay Johnstone,L,73,175,0.267,102,316
+Joel McKeon,L,72,185,0.0,0,316
+Al Bumbry,L,68,170,0.281,54,316
+Jake Gibbs,L,72,180,0.233,25,316
+Garry Hancock,L,72,175,0.247,12,316
+Ed Kranepool,L,75,205,0.261,118,316
+Chuck Hiller,L,71,170,0.243,20,316
+Jorge Orta,L,70,170,0.278,130,316
+Bruce Robbins,L,73,190,0.0,0,316
+Tony Gonzalez,L,69,170,0.28600000000000003,103,316
+Brian Dubois,L,70,165,0.0,0,316
+Steve Whitaker,L,72,180,0.23,24,316
+Manny Jimenez,L,73,185,0.272,26,316
+Vance Lovelace,L,77,205,0.0,0,316
+Wayne Gross,L,74,210,0.233,121,316
+Ralph Botting,L,72,195,0.0,0,316
+Terry Crowley,L,72,180,0.25,42,316
+Tim Harkness,L,74,182,0.235,14,316
+Jim French,L,68,180,0.196,5,316
+Dave Roberts,L,75,195,0.19399999999999998,7,316
+Jim Mason,L,74,185,0.203,12,316
+Willie Smith,L,72,182,0.248,46,316
+Leon Durham,L,73,185,0.27699999999999997,147,316
+Dick Phillips,L,72,180,0.22899999999999998,12,316
+Ed Crosby,L,74,175,0.22,0,316
+Larry Stahl,L,72,175,0.23199999999999998,36,316
+Jose Cruz,L,72,170,0.284,165,316
+Don Mason,L,71,160,0.205,3,316
+Jim Umbarger,L,78,200,0.0,0,316
+Curt Wardle,L,77,220,0.0,0,316
+Duane Walker,L,72,185,0.22899999999999998,24,316
+Rod Carew,L,72,170,0.32799999999999996,92,316
+Rick Manning,L,73,180,0.257,56,316
+Israel Sanchez,L,69,170,0.0,0,316
+Cesar Geronimo,L,72,165,0.258,51,316
+Billy Bryan,L,76,200,0.21600000000000003,41,316
+Terry Whitfield,L,73,197,0.281,33,316
+Fred Lynn,L,73,185,0.28300000000000003,306,316
+Graig Nettles,L,72,180,0.248,390,316
+Narciso Elvira,L,70,160,0.0,0,316
+Mike Easler,L,72,190,0.293,118,316
+Rick Monday,L,75,193,0.264,241,316
+Joe Keough,L,72,185,0.24600000000000002,9,316
+Tony Solaita,L,72,210,0.255,50,316
+Ed Goodson,L,75,180,0.26,30,316
+Len Whitehouse,L,71,175,0.0,0,316
+Dick McAuliffe,L,71,176,0.247,197,316
+Tom Hutton,L,71,180,0.248,22,316
+Ron Hodges,L,73,185,0.24,19,316
+Rich Chiles,L,71,170,0.254,6,316
+Rusty Staub,L,74,190,0.27899999999999997,292,316
+Jim Norris,L,70,175,0.264,7,316
+Oscar Gamble,L,71,160,0.265,200,316
+George Vukovich,L,72,198,0.268,27,316
+Joe Pactwa,L,71,185,0.0,0,316
+Craig Reynolds,L,73,175,0.256,42,316
+Al Oliver,L,72,195,0.303,219,316
+Sherman Corbett,L,76,205,0.0,0,316
+Milt May,L,72,190,0.263,77,316
+Jim Nettles,L,72,186,0.22,16,316
+Larry Biittner,L,74,205,0.273,29,316
+Joe Simpson,L,75,175,0.242,9,316
+Bill Fahey,L,72,200,0.24100000000000002,7,316
+Bernie Allen,L,72,175,0.239,73,316
+Claudell Washington,L,72,190,0.278,164,316
+John Donaldson,L,71,160,0.23800000000000002,4,316
+Mike Smithson,L,80,215,0.0,0,316
+John Mayberry,L,75,215,0.253,255,316
+Dan Briggs,L,72,180,0.195,12,316
+Pete Ward,L,73,185,0.254,98,316
+Duke Sims,L,74,197,0.239,100,316
+Mike Davis,L,74,175,0.259,91,316
+Jerry Reuss,L,77,200,0.16699999999999998,1,316
+Danny Goodwin,L,73,195,0.23600000000000002,13,316
+Bob Knepper,L,75,195,0.13699999999999998,6,316
+Mickey Rivers,L,70,165,0.295,61,316
+Jim Northrup,L,75,190,0.267,153,316
+John Hale,L,74,195,0.201,14,316
+Reggie Ritter,L,74,195,0.0,0,316
+Carl Yastrzemski,L,71,175,0.285,452,316
+Gates Brown,L,71,220,0.257,84,316
+Ken Landreaux,L,70,165,0.268,91,316
+Ray Webster,L,72,185,0.244,17,316
+Bobby Mitchell,L,70,170,0.243,3,316
+Bruce Bochte,L,75,195,0.282,100,316
+Bernie Carbo,L,71,173,0.264,96,316
+Vic Davalillo,L,67,150,0.27899999999999997,36,316
+John Lowenstein,L,72,175,0.253,116,316
+Joe Hague,L,72,195,0.239,40,316
+Bake McBride,L,74,190,0.299,63,316
+Ed Herrmann,L,73,195,0.24,80,316
+Mike Rochford,L,76,205,0.0,0,316
+Bob Molinaro,L,72,190,0.264,14,316
+Mike Hegan,L,73,188,0.242,53,316
+Angel Moreno,L,69,165,0.0,0,316
+Rob Wilfong,L,73,180,0.248,39,316
+Randy Wiles,L,73,185,0.0,0,316
+John Milner,L,72,185,0.249,131,316
+Rich Reese,L,75,185,0.253,52,316
+Bill Buckner,L,72,185,0.289,174,316
+Jeff Schattinger,L,77,200,0.0,0,316
+Darrell Porter,L,72,193,0.247,188,316
+Tim Johnson,L,73,170,0.223,0,316
+Tim Corcoran,L,71,175,0.27,12,316
+Jim Spencer,L,74,195,0.25,146,316
+Pete LaCock,L,74,200,0.257,27,316
+Matty Alou,L,69,160,0.307,31,316
+Jim Dwyer,L,70,165,0.26,77,316
+Dalton Jones,L,73,180,0.235,41,316
+Clint Hurdle,L,75,195,0.259,32,316
+Jeff Twitty,L,74,185,0.0,0,316
+Boots Day,L,69,160,0.256,8,316
+Don Mincher,L,75,205,0.249,200,316
+Jim Gosger,L,71,185,0.226,30,316
+Marvell Wynne,L,71,175,0.247,40,316
+Dave Marshall,L,73,182,0.24600000000000002,16,316
+Roger Repoz,L,75,190,0.22399999999999998,82,316
+Johnny Briggs,L,73,190,0.253,139,316
+Bob Jones,L,74,195,0.221,20,316
+Keith Hernandez,L,72,180,0.29600000000000004,162,316
+Willie Upshaw,L,72,185,0.262,123,316
+Dane Iorg,L,72,180,0.276,14,316
+Richie Hebner,L,73,195,0.276,203,316
+Gene Richards,L,72,175,0.29,26,316
+Al Woods,L,75,190,0.271,35,316
+Rudy Law,L,73,165,0.271,18,316
+Joel Davis,L,77,205,0.0,0,316
+Mike Fiore,L,72,175,0.22699999999999998,13,316
+Bobby Tolan,L,71,170,0.265,86,316
+Steve Barr,L,76,200,0.0,0,316
+Jose Tartabull,L,71,165,0.261,2,316
+Ben Oglivie,L,74,160,0.273,235,316
+Duane Kuiper,L,72,175,0.271,1,316
+Jerry Narron,L,75,205,0.21100000000000002,21,316
+Ken Retzer,L,72,185,0.264,14,316
+Greg Walker,L,75,205,0.26,113,316
+Steve Davis,L,73,195,0.0,0,316
+Jeff Rineer,L,76,205,0.0,0,316
+Reggie Jackson,L,72,195,0.262,563,316
+Sonny Jackson,L,69,150,0.251,7,316
+Mark Mercer,L,77,220,0.0,0,316
+Rich Coggins,L,68,170,0.265,12,316
+Mitchell Page,L,74,205,0.266,72,316
+Glenn Adams,L,73,180,0.28,34,316
+Joe Morgan,L,67,160,0.271,268,316
+Lee Thomas,L,74,195,0.255,106,316
+John Stephenson,L,71,180,0.21600000000000003,12,316
+Doug Clemens,L,72,180,0.22899999999999998,12,316
+Steve Braun,L,70,180,0.271,52,316
+Ty Cline,L,72,170,0.23800000000000002,6,316
+Thad Bosley,L,75,175,0.272,20,316
+Jimmie Hall,L,72,175,0.254,121,316
+Brock Davis,L,70,160,0.26,1,316
+Curt Blefary,L,74,195,0.237,112,316
+Mack Jones,L,73,180,0.252,133,316
+Hosken Powell,L,73,175,0.259,17,316
+Dave Stapleton,L,73,185,0.0,0,316
+Dan Meyer,L,71,180,0.253,86,316
+Jim Holt,L,72,180,0.265,19,316
+Gary Christenson,L,77,200,0.0,0,316
+Mike Kinnunen,L,73,185,0.0,0,316
+Dave Rajsich,L,77,175,0.0,0,316
+Bill Voss,L,74,160,0.22699999999999998,19,316
+Wayne Krenchicki,L,73,180,0.266,15,316
+Ray Sadecki,L,71,180,0.191,5,316
+Len Matuszek,L,74,190,0.23399999999999999,30,316
+Joe Lefebvre,L,70,170,0.258,31,316
+Jim Maloney,L,74,190,0.201,7,316
+Phil Mankowski,L,72,180,0.264,8,316
+Mike Lum,L,72,180,0.247,90,316
+Johnny Grubb,L,75,175,0.278,99,316
+Mike Pazik,L,74,195,0.0,0,316
+Jim Traber,L,72,194,0.22699999999999998,27,316
+Ron Stone,L,74,185,0.24100000000000002,6,316
+Ted Uhlaender,L,74,190,0.263,36,316
+Bobby Murcer,L,71,160,0.27699999999999997,252,316
+Mark Souza,L,72,180,0.0,0,316
+Rick Jones,L,77,190,0.0,0,316
+Steve Kemp,L,72,195,0.278,130,316
+Mike Hargrove,L,72,195,0.29,80,316
+Steve Hovley,L,70,188,0.258,8,316
+Luis Quintana,L,74,175,0.0,0,316
+Sam McDowell,L,77,190,0.154,2,316
+Pat Kelly,L,73,185,0.264,76,316
+Jerry Turner,L,69,180,0.257,45,316
+Sandy Valdespino,L,68,170,0.23,7,316
+Ken Phelps,L,73,209,0.239,123,316
+Brian Snyder,L,75,185,0.0,0,316
+Rick Sofield,L,73,195,0.243,9,316
+Dave May,L,70,186,0.251,96,316
+Willie Aikens,L,75,220,0.271,110,316
+Mike Cubbage,L,72,180,0.258,34,316
+Merritt Ranew,L,71,170,0.247,8,316
+Lyman Bostock,L,73,180,0.311,23,316
+Roy Howell,L,73,190,0.261,80,316
+Boog Powell,L,76,230,0.266,339,316
+Dennis DeBarr,L,74,190,0.0,0,316
+Dan Driessen,L,71,187,0.267,153,316
+Hal King,L,73,200,0.214,24,316
+Ed Ott,L,70,190,0.259,33,316
+Ed Hodge,L,74,192,0.0,0,316
+Jim Campbell,L,71,175,0.0,0,316
+Joe Pepitone,L,74,185,0.258,219,316
+Steve Barber,L,72,195,0.115,5,316
+Norm Miller,L,70,185,0.23800000000000002,24,316
+Bob Galasso,L,73,205,0.0,0,316
+Bob Chance,L,74,196,0.261,24,316
+Juan Nieves,L,75,175,0.0,0,316
+Rudy Meoli,L,69,165,0.212,2,316
+Ruppert Jones,L,70,170,0.25,147,316
+Terry Francona,L,73,190,0.27399999999999997,16,316
+Ralph Garr,L,71,185,0.306,75,316
+Broderick Perkins,L,70,180,0.271,8,316
+Len Gabrielson,L,76,210,0.253,37,316
+Johnny Edwards,L,76,220,0.242,81,316
+Bruce Ellingsen,L,72,180,0.0,0,316
+Gorman Heimueller,L,76,195,0.0,0,316
+Clay Dalrymple,L,72,190,0.233,55,316
+Carlos May,L,71,200,0.27399999999999997,90,316
+Mike Brumley,L,70,195,0.22899999999999998,5,316
+Al Luplow,L,70,175,0.235,33,316
+Willie Stargell,L,74,188,0.282,475,316
+Steve Carlton,L,76,210,0.201,13,316
+Del Unser,L,73,180,0.258,87,316
+Ron Blomberg,L,73,195,0.293,52,316
+Willie Montanez,L,72,170,0.275,139,316
+Mike Squires,L,71,185,0.26,6,316
+Champ Summers,L,74,205,0.255,54,316
+Tom Haller,L,76,195,0.257,134,316
+Ed Stroud,L,71,180,0.237,14,316
+Harry Spilman,L,73,180,0.237,18,316
+Daryl Sconiers,L,74,185,0.265,15,316
+Leron Lee,L,72,196,0.25,31,316
+Willie Davis,L,74,180,0.27899999999999997,182,316
+Jerry Kenney,L,73,170,0.237,7,316
+Dan Morogiello,L,73,200,0.0,0,316
+Tom Matchick,L,73,173,0.215,4,316
+Jack Perconte,L,70,160,0.27,2,316
+Ed Kirkpatrick,L,71,195,0.23800000000000002,85,316
+Ellie Hendricks,L,73,175,0.22,62,316
+Art Shamsky,L,73,168,0.253,68,316
+Dick Nen,L,74,200,0.22399999999999998,21,316
+Rowland Office,L,72,170,0.259,32,316
+Rick Leach,L,73,180,0.268,18,316
+Dwayne Murphy,L,73,185,0.24600000000000002,166,316
+Larry Harlow,L,74,185,0.248,12,316
+Mike Epstein,L,75,230,0.244,130,316
+Jason Thompson,L,76,200,0.261,208,316
+Mike Jorgensen,L,72,195,0.243,95,316
+Cecil Cooper,L,74,165,0.298,241,316
+John Poloni,L,77,210,0.0,0,316
+Dave Revering,L,76,210,0.265,62,316
+Curt Ford,L,70,150,0.245,7,316
+Mike Willis,L,74,205,0.0,0,316
+Bob Burda,L,71,174,0.22399999999999998,13,316
+Jesse Gonder,L,70,180,0.251,26,316
+Dave Rader,L,71,165,0.257,30,316
+Bill Sharp,L,70,178,0.255,9,316
+Gail Hopkins,L,70,198,0.266,25,316
+Doug Frobel,L,76,196,0.201,20,316
+Jerry Augustine,L,72,183,0.0,0,316
+Jeff Holly,L,77,210,0.0,0,316
+Tom Poquette,L,70,175,0.268,10,316
+Brian Asselstine,L,73,175,0.254,12,316
+Rick Miller,L,72,175,0.26899999999999996,28,316
+Jerry Remy,L,69,165,0.275,7,316
+Larry Rothschild,L,74,180,0.0,0,316
+Tom O'Malley,L,72,180,0.256,13,316
+Fritz Peterson,B,72,185,0.159,2,104
+Jeff Barkley,B,75,185,0.0,0,104
+Pete Rose,B,71,192,0.303,160,104
+Nardi Contreras,B,74,193,0.0,0,104
+Bump Wills,B,69,172,0.266,36,104
+Mickey Lolich,B,73,170,0.11,0,104
+Ray Chadwick,B,74,180,0.0,0,104
+Rusty Torres,B,70,175,0.212,35,104
+Marty Martinez,B,72,170,0.243,0,104
+Ken Singleton,B,76,210,0.282,246,104
+Tony Scott,B,72,164,0.249,17,104
+Steve Jeltz,B,71,180,0.21,5,104
+Joe Lovitto,B,72,185,0.21600000000000003,4,104
+Dave Collins,B,71,175,0.272,32,104
+Randy Scarbery,B,73,185,0.0,0,104
+Manny Castillo,B,69,160,0.242,3,104
+Mike Ramsey,B,73,170,0.24,2,104
+Dave McKay,B,73,195,0.22899999999999998,21,104
+Barry Raziano,B,70,175,0.0,0,104
+Bob Didier,B,72,190,0.22899999999999998,0,104
+Billy Smith,B,74,185,0.23,17,104
+Jim Lefebvre,B,72,180,0.251,74,104
+Ken Henderson,B,74,180,0.257,122,104
+Horace Clarke,B,69,170,0.256,27,104
+Jerry White,B,70,164,0.253,21,104
+Paul Householder,B,72,180,0.23600000000000002,29,104
+Jimmy Stewart,B,72,165,0.237,8,104
+Rafael Landestoy,B,70,165,0.237,4,104
+Steve Burke,B,74,200,0.0,0,104
+Rick Sweet,B,73,200,0.23399999999999999,6,104
+U L Washington,B,71,175,0.251,27,104
+Mark Brown,B,74,190,0.0,0,104
+Ted Kubiak,B,72,175,0.231,13,104
+Bobby Brown,B,74,190,0.245,26,104
+Lafayette Currence,B,71,175,0.0,0,104
+Roy Smalley,B,73,185,0.257,163,104
+Bert Bradley,B,73,190,0.0,0,104
+Bud Harrelson,B,71,160,0.23600000000000002,7,104
+Derrel Thomas,B,72,160,0.249,43,104
+Johnny Ray,B,71,170,0.29,53,104
+Billy North,B,71,185,0.261,20,104
+Roger Metzger,B,72,165,0.231,5,104
+Fred Norman,B,68,155,0.125,0,104
+Chuck Hockenbery,B,73,195,0.0,0,104
+Steve Huntz,B,73,204,0.20600000000000002,16,104
+Don Kessinger,B,73,170,0.252,14,104
+Richie Scheinblum,B,73,180,0.263,13,104
+Jeff Schneider,B,75,195,0.0,0,104
+Vida Blue,B,72,189,0.10400000000000001,4,104
+Albert Hall,B,71,155,0.251,5,104
+Chris Bando,B,72,195,0.22699999999999998,27,104
+Larry Lintz,B,69,150,0.22699999999999998,0,104
+Jerry Hairston,B,70,170,0.258,30,104
+Larry Bowa,B,70,155,0.26,15,104
+Pete Filson,B,74,195,0.0,0,104
+Steve Cummings,B,74,200,0.0,0,104
+Bob Veale,B,78,212,0.114,0,104
+Bob Stinson,B,71,180,0.25,33,104
+Sandy Alomar,B,69,140,0.245,13,104
+Miguel Dilone,B,72,160,0.265,6,104
+Don Buford,B,67,160,0.264,93,104
+Rodney Scott,B,72,160,0.23600000000000002,3,104
+Larry Milbourne,B,72,161,0.254,11,104
+Bill Sudakis,B,73,190,0.23399999999999999,59,104
+Ron Oester,B,74,185,0.265,42,104
+R.J. Reynolds,B,72,190,0.267,35,104
+Paul Popovich,B,72,175,0.233,14,104
+Buddy Biancalana,B,71,160,0.205,6,104
+Wallace Johnson,B,72,173,0.255,5,104
+Tom Tresh,B,73,180,0.245,153,104
+Ron Roenicke,B,72,180,0.23800000000000002,17,104
+Biff Pocoroba,B,70,175,0.257,21,104
+Joaquin Andujar,B,72,170,0.127,5,104
+Bob Meacham,B,73,175,0.23600000000000002,8,104
+George Wright,B,71,180,0.245,42,104
+Len Randle,B,70,169,0.257,27,104
+Bryan Little,B,70,160,0.245,3,104
+Rick Peters,B,69,170,0.27699999999999997,2,104
+Ted Simmons,B,71,193,0.285,248,104
+John Bohnet,B,72,175,0.0,0,104
+Al Weis,B,72,160,0.21899999999999997,7,104
+Joe Wallis,B,71,180,0.244,16,104
+Alan Wiggins,B,74,160,0.259,5,104
+Julio Cruz,B,69,165,0.237,23,104
+Wes Parker,B,73,180,0.267,64,104
+Reggie Smith,B,72,180,0.287,314,104
+Roy White,B,70,160,0.271,160,104
+Lee Mazzilli,B,73,180,0.259,93,104
+Alan Ashby,B,74,185,0.245,90,104
+Tim Blackwell,B,71,170,0.228,6,104
+Steve Ontiveros,B,72,185,0.27399999999999997,24,104
+Darrell Brown,B,72,184,0.27399999999999997,1,104
+Wilbur Howard,B,74,170,0.25,6,104
+Mike Young,B,74,195,0.247,72,104
+Gene Michael,B,74,183,0.22899999999999998,15,104
+Vic Harris,B,71,165,0.217,13,104
+Tito Fuentes,B,71,175,0.268,45,104
+Butch Wynegar,B,73,190,0.255,65,104
+Darrel Chaney,B,74,188,0.217,14,104
+Jerry Mumphrey,B,74,185,0.289,70,104
+Wayne Tolleson,B,69,160,0.24100000000000002,9,104
+Chico Ruiz,B,72,169,0.24,2,104
+Buck Rodgers,B,74,190,0.23199999999999998,31,104
+Gary Lance,B,75,195,0.0,0,104

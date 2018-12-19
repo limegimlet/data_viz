@@ -2,84 +2,335 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <script src="http://d3js.org/d3.v3.min.js"></script>
-  <script src="http://dimplejs.org/dist/dimple.v2.0.0.min.js"></script>
+  <script src="http://d3js.org/d3.v4.min.js"></script>
+  <script src="http://dimplejs.org/dist/dimple.v2.3.0.min.js"></script>
 
   <!-- Props to Kimerly Geswein for her font Shadows Into Light */ -->
   <link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
   <style>
 
+  #play-button {
+      position: absolute;
+      top: 210px;
+      left: 660px;
+      background: #f08080;
+      font-family: 'Shadows Into Light', cursive;
+      font-size: 16px;
+      font-weight: 700;
+      letter-spacing: .5px;
+
+      padding-right: 26px;
+      border : 1px solid black;
+      color: black;
+
+      margin: 0;
+      padding: 0 12px;
+      width: 40px;
+      cursor: pointer;
+      height: 30px;
+    }
+
+    #play-button:hover {
+      background-color: #696969;
+    }
+
+    .line {
+      fill: none;
+    }
+    .box,.line {
+      stroke: black;
+      stroke-width: 2px;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+    .writing {
+      font-family: 'Shadows Into Light', cursive;
+      font-size: 20px;
+      font-weight: 700;
+    }
+    .hatch_1 {
+      fill: url(#down-hatch);
+    }
+    .hatch_2 {
+      fill: url(#cross-hatch);
+    }
+    .hatch_3 {
+      fill: url(#up-hatch);
+    }
+    .title {
+      font-family: 'Shadows Into Light' !important;
+      font-size: 18pt !important;
+      letter-spacing: .8px;
+      font-weight: 900;
+
+    }
+
+    text {
+        font-family: 'Shadows Into Light' !important;
+        font-size: 14pt !important;
+    }
+
+
+
   </style>
 
-    <script type="text/javascript">
-      function draw(data) {
+  <script type="text/javascript">
+
+  <!-- Helper functions -->
+
+  function addStory(chart, category) {
+      var story = chart.setStoryboard(category);
+      story.autoplay = false;
+      return story;
+
+  };
+
+
+  function addClickEvent(playButton, story) {
+      return playButton
+               .on("click", function() {
+               var button = d3.select(this);
+               if (button.text() == "Pause") {
+                 story.pauseAnimation();
+                 button.text("Play");
+               } else {
+                     story.startAnimation();
+                     button.text("Pause");
+                     //s.shapes
+                             //.transition()
+                             //.duration();
+               }
+       })
+
+  };
+
+  function addPlayButton(buttonText = "Play", story) {
+      var playButton = d3.select("body")
+                            .append('div')
+                            .attr('id', 'play-button')
+                            .text(buttonText);
+      addClickEvent(playButton, story);
+      return playButton;
+  };
+
+  function addStoryWithButton(chart, category) {
+      var story = addStory(chart, category);
+      var playButton = addPlayButton("Play", story);
+      addClickEvent(playButton, story);
+
+      return {
+          "story": story,
+          "button": playButton
+      };
+  }
+
+  function draw(data) {
+
+    /*
+      D3.js setup code
+    */
+
+      "use strict";
+      var margin = 100,
+          width = 800 - margin,
+          height = 600 - margin;
+
+    /*
+      Dimple.js Chart construction code
+    */
+        var title = "In baseball, 'handedness' tends to matter more than size";
+        //var xcol = "attribute";
+        //var ycol = "values";
+        //var zcol = "count";
+        var chartdiv = "#chartContainer"
+
+        var svg = dimple.newSvg(chartdiv, 690, 500);
+        var myChart = new dimple.chart(svg, data);
+        myChart.setMargins(90, 110, 60, 100);
+        //myChart.noFormats = true;
+
+        var x = myChart.addCategoryAxis("x", ["attribute", "handedness"]);
+        x.addOrderRule(["HR", "avg", "height", "weight"]);
+        x.addGroupOrderRule(["L", "B", "R"]);
+        x.title = null;
+
+        var y = myChart.addMeasureAxis("y", "value");
+        y.showGridlines = false;
+        y.tickFormat = ',.2f';
+        y.title = null;
+
+
+        var s = myChart.addSeries(["handedness"], dimple.plot.bar);
+        //s.addCategoryFields = ["handedness"];
+        s.aggregate = dimple.aggregateMethod.avg;
+
+        //story.frameDuration = 4000;
+        var story_btn = addStoryWithButton(myChart, "attribute");
+        var story = story_btn.story;
+
+        var playButton = story_btn.button;
+
+        s.barGap = 0.3;
+        var myLegend = myChart.addLegend(650, 100, 50, 300, "Right");
+
+        // Add plot title
+        svg.append("text")
+            .attr("class", "title")
+            .attr("x", (width / 2))
+            .attr("y", (50))
+            .attr("text-anchor", "middle")
+            .text(title);
+
+        myChart.draw();
+
+        //remove text appearing on upper left
+        story.storyLabel.remove();
+
+       };
+
+
+
+  function draw2(data) {
 
       /*
         D3.js setup code
       */
 
         "use strict";
-        var margin = 75,
+        var margin = 200,
             width = 800 - margin,
             height = 600 - margin;
-
-        var title = d3.select("body")
-            .append("h2")
-              .text("Baseball players: HR vs Avg");
-
-
-          var svg = d3.select("body")
-            .append("svg")
-              .attr("width", width + margin)
-              .attr("height", height + margin)
-            .append('g')
-                .attr('class','chart');
 
       /*
         Dimple.js Chart construction code
       */
+      var title = "Compare the difference in performance...";
+      var xcol = "avg";
+      var ycol = "HR";
+      var zcol = "count";
+      var chartdiv = "#chartContainer2"
 
-          var myChart = new dimple.chart(svg, data);
+      var svg = dimple.newSvg(chartdiv, 590, 500);
+      var seriesArray = ['handedness'];
 
-          var x = myChart.addMeasureAxis("x", "avg");
-          x.showGridlines = false;
-          x.ticks = 3;
-          x.tickFormat = "";
-          x.overrideMin = -.2;
-          x.overrideMax = .2;
+      var myChart = new dimple.chart(svg, data);
+      myChart.setMargins(90, 110, 60, 100);
+      var x = myChart.addMeasureAxis("x", xcol);
+      x.tickFormat = ',.3f';
+      x.showGridlines = false;
+      x.title = "Mean batting average"
+      //x.overrideMax = .22;
 
-          x.title = "Batting average"
-          var y = myChart.addMeasureAxis("y", "HR");
-          y.showGridlines = false;
-          y.tickFormat = "";
-          y.overrideMin = -.18;
-          y.overrideMax = .18;
-          y.title = 'Home runs'
-          
+      var y = myChart.addMeasureAxis("y", ycol);
+      y.showGridlines = false;
+      y.title = "Mean homeruns"
+      //y.overrideMax = 600;
 
-          var bubble = myChart.addSeries('handedness', dimple.plot.bubble);
-          bubble.aggregate = dimple.aggregateMethod.avg;
-          var myLegend = myChart.addLegend(730, 65, 60, 300, "Right");
+      var z = myChart.addMeasureAxis("z", zcol);
 
-          // Animate for each month in the data
-          var myStoryboard = myChart.setStoryboard("handedness");
-          myStoryboard.addOrderRule(["B", "R", "L"]);
+      var s = myChart.addSeries(seriesArray, dimple.plot.bubble);
+      s.aggregate = dimple.aggregateMethod.avg;
+
+      //myChart.addLegend(200, 10, 360, 20, "right");
+
+      // Add plot title
+      svg.append("text")
+          .attr("class", "title")
+          .attr("x", (width / 2))
+          .attr("y", (50))
+          .attr("text-anchor", "middle")
+          .text(title);
+
+
+      myChart.draw();
+    };
+
+    function draw3(data) {
+
+        /*
+          D3.js setup code
+        */
+
+          "use strict";
+          var margin = 200,
+              width = 800 - margin,
+              height = 600 - margin;
+
+        /*
+          Dimple.js Chart construction code
+        */
+        var title = "...with that of height & weight.";
+        var xcol = "weight";
+        var ycol = "height";
+        var zcol = "count";
+        var chartdiv = "#chartContainer3"
+
+        var svg = dimple.newSvg(chartdiv, 590, 500);
+        var seriesArray = ['handedness'];
+
+        var myChart = new dimple.chart(svg, data);
+        myChart.setMargins(90, 110, 60, 100);
+        var x = myChart.addMeasureAxis("x", xcol);
+        //x.tickFormat = ',.2f';
+        x.showGridlines = false;
+        x.title = "Mean weight"
+        //x.overrideMax = .22;
+
+        var y = myChart.addMeasureAxis("y", ycol);
+        y.showGridlines = false;
+        y.title = "Mean height"
+        //y.overrideMax = 600;
+
+        var z = myChart.addMeasureAxis("z", zcol);
+
+        var s = myChart.addSeries(seriesArray, dimple.plot.bubble);
+        s.aggregate = dimple.aggregateMethod.avg;
+
+        //myChart.addLegend(200, 10, 360, 20, "right");
+
+        // Add plot title
+        svg.append("text")
+            .attr("class", "title")
+            .attr("x", (width / 2))
+            .attr("y", (50))
+            .attr("text-anchor", "start")
+            .text(title);
+
+
+        myChart.draw();
+      };
 
 
 
 
-          myChart.draw();
-        };
-
-      </script>
-  </head>
-<body>
-  <script type="text/javascript">
-  /*
-    Use D3 (not dimple.js) to load the TSV file
-    and pass the contents of it to the draw function
-    */
-  d3.csv("data/baseball_data_norm.csv", draw);
   </script>
+
+ </head>
+ <body>
+<div id='section-top'>
+
+<div id="chartContainer">
+        <script type="text/javascript">
+           var scatterplot = d3.csv("data/baseball_data_long.csv", draw)
+
+     </script>
+</div>
+</div>
+<div id='section-mid'>
+  <div id="chartContainer2">
+     <script type="text/javascript">
+        var scatterplot = d3.csv("data/baseball_data.csv", draw2)
+
+  </script>
+</div>
+</div>
+<div id='section-bottom'>
+<div id="chartContainer3">
+   <script type="text/javascript">
+      var scatterplot = d3.csv("data/baseball_data.csv", draw3)
+
+</script>
+</div>
+</div>
 </body>
 </html>
