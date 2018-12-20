@@ -69,11 +69,7 @@
         font-family: 'Shadows Into Light' !important;
         font-size: 14pt !important;
     }
-
-
-
   </style>
-
   <script type="text/javascript">
 
   <!-- Helper functions -->
@@ -85,6 +81,14 @@
 
   };
 
+  function addPlayButton(buttonText = "Play", story) {
+      var playButton = d3.select("body")
+                            .append('div')
+                            .attr('id', 'play-button')
+                            .text(buttonText);
+      //addClickEvent(playButton, story);
+      return playButton;
+  };
 
   function addClickEvent(playButton, story) {
       return playButton
@@ -101,16 +105,6 @@
                              //.duration();
                }
        })
-
-  };
-
-  function addPlayButton(buttonText = "Play", story) {
-      var playButton = d3.select("body")
-                            .append('div')
-                            .attr('id', 'play-button')
-                            .text(buttonText);
-      addClickEvent(playButton, story);
-      return playButton;
   };
 
   function addStoryWithButton(chart, category) {
@@ -122,7 +116,7 @@
           "story": story,
           "button": playButton
       };
-  }
+  };
 
   function draw(data) {
 
@@ -138,39 +132,39 @@
     /*
       Dimple.js Chart construction code
     */
+        // populate vars used in function
         var title = "In baseball, 'handedness' tends to matter more than size";
-        //var xcol = "attribute";
-        //var ycol = "values";
-        //var zcol = "count";
         var chartdiv = "#chartContainer"
 
+        // create empty svg & chart
         var svg = dimple.newSvg(chartdiv, 690, 500);
         var myChart = new dimple.chart(svg, data);
         myChart.setMargins(90, 110, 60, 100);
-        //myChart.noFormats = true;
 
+        // x-axis def
         var x = myChart.addCategoryAxis("x", ["attribute", "handedness"]);
         x.addOrderRule(["HR", "avg", "height", "weight"]);
         x.addGroupOrderRule(["L", "B", "R"]);
         x.title = null;
 
+        // y-axis def
         var y = myChart.addMeasureAxis("y", "value");
         y.showGridlines = false;
         y.tickFormat = ',.2f';
         y.title = null;
 
 
+        // Map category values to bars in plot
         var s = myChart.addSeries(["handedness"], dimple.plot.bar);
-        //s.addCategoryFields = ["handedness"];
         s.aggregate = dimple.aggregateMethod.avg;
+        s.barGap = 0.3;
 
-        //story.frameDuration = 4000;
+        // Add play-pause button to control animation
         var story_btn = addStoryWithButton(myChart, "attribute");
         var story = story_btn.story;
-
         var playButton = story_btn.button;
 
-        s.barGap = 0.3;
+
         var myLegend = myChart.addLegend(650, 100, 50, 300, "Right");
 
         // Add plot title
@@ -204,34 +198,37 @@
       /*
         Dimple.js Chart construction code
       */
+
+      // populate vars used in function
       var title = "Compare the difference in performance...";
       var xcol = "avg";
       var ycol = "HR";
       var zcol = "count";
+      var series = "handedness"
       var chartdiv = "#chartContainer2"
 
+      // create empty svg & chart
       var svg = dimple.newSvg(chartdiv, 590, 500);
-      var seriesArray = ['handedness'];
-
       var myChart = new dimple.chart(svg, data);
       myChart.setMargins(90, 110, 60, 100);
+
+      // x-axis def
       var x = myChart.addMeasureAxis("x", xcol);
       x.tickFormat = ',.3f';
       x.showGridlines = false;
       x.title = "Mean batting average"
-      //x.overrideMax = .22;
 
+      // y-axis def
       var y = myChart.addMeasureAxis("y", ycol);
       y.showGridlines = false;
       y.title = "Mean homeruns"
-      //y.overrideMax = 600;
 
+      // Map bubble size to data column
       var z = myChart.addMeasureAxis("z", zcol);
 
-      var s = myChart.addSeries(seriesArray, dimple.plot.bubble);
+      // Map each bubble to values in categorical column
+      var s = myChart.addSeries(series, dimple.plot.bubble);
       s.aggregate = dimple.aggregateMethod.avg;
-
-      //myChart.addLegend(200, 10, 360, 20, "right");
 
       // Add plot title
       svg.append("text")
@@ -259,34 +256,37 @@
         /*
           Dimple.js Chart construction code
         */
+
+        // Populate vars used in function
         var title = "...with that of height & weight.";
         var xcol = "weight";
         var ycol = "height";
         var zcol = "count";
+        var series = "handedness"
         var chartdiv = "#chartContainer3"
 
+        // create empty svg & chart
         var svg = dimple.newSvg(chartdiv, 590, 500);
-        var seriesArray = ['handedness'];
-
         var myChart = new dimple.chart(svg, data);
         myChart.setMargins(90, 110, 60, 100);
+
+        // x-axis pattern_def
         var x = myChart.addMeasureAxis("x", xcol);
-        //x.tickFormat = ',.2f';
         x.showGridlines = false;
         x.title = "Mean weight"
-        //x.overrideMax = .22;
 
+        // y-axis pattern_def
         var y = myChart.addMeasureAxis("y", ycol);
         y.showGridlines = false;
         y.title = "Mean height"
-        //y.overrideMax = 600;
 
+        // Map bubble size to data column
         var z = myChart.addMeasureAxis("z", zcol);
 
-        var s = myChart.addSeries(seriesArray, dimple.plot.bubble);
-        s.aggregate = dimple.aggregateMethod.avg;
 
-        //myChart.addLegend(200, 10, 360, 20, "right");
+        // Map bubbles to category values
+        var s = myChart.addSeries(series, dimple.plot.bubble);
+        s.aggregate = dimple.aggregateMethod.avg;
 
         // Add plot title
         svg.append("text")
@@ -296,38 +296,34 @@
             .attr("text-anchor", "start")
             .text(title);
 
-
         myChart.draw();
       };
-
-
-
 
   </script>
 
  </head>
  <body>
-<div id='section-top'>
+<div class='section-overview'>
 
 <div id="chartContainer">
         <script type="text/javascript">
-           var scatterplot = d3.csv("data/baseball_data_long.csv", draw)
+           d3.csv("data/baseball_data_long.csv", draw)
 
      </script>
 </div>
 </div>
-<div id='section-mid'>
+<div class='section-HR-avg'>
   <div id="chartContainer2">
      <script type="text/javascript">
-        var scatterplot = d3.csv("data/baseball_data.csv", draw2)
+        d3.csv("data/baseball_data.csv", draw2)
 
   </script>
 </div>
 </div>
-<div id='section-bottom'>
+<div class='section-height-weight'>
 <div id="chartContainer3">
    <script type="text/javascript">
-      var scatterplot = d3.csv("data/baseball_data.csv", draw3)
+      d3.csv("data/baseball_data.csv", draw3)
 
 </script>
 </div>
