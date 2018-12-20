@@ -12,7 +12,7 @@
   #play-button {
       position: absolute;
       top: 210px;
-      left: 660px;
+      left: 640px;
       background: #f08080;
       font-family: 'Shadows Into Light', cursive;
       font-size: 16px;
@@ -62,7 +62,6 @@
       font-size: 18pt !important;
       letter-spacing: .8px;
       font-weight: 900;
-
     }
 
     text {
@@ -145,8 +144,8 @@
 
         // x-axis def
         var x = myChart.addCategoryAxis("x", ["attribute", "handedness"]);
-        x.addOrderRule(["HR", "avg", "height", "weight"]);
-        x.addGroupOrderRule(["L", "B", "R"]);
+        x.addOrderRule(['height', 'weight', 'batting avg', 'homeruns']);
+        x.addGroupOrderRule(["L", "Both", "R"]);
         x.title = null;
 
         // y-axis def
@@ -154,7 +153,6 @@
         y.showGridlines = false;
         y.tickFormat = ',.2f';
         y.title = null;
-
 
         // Map category values to bars in plot
         var s = myChart.addSeries(["handedness"], dimple.plot.bar);
@@ -165,9 +163,9 @@
         var story_btn = addStoryWithButton(myChart, "attribute");
         var story = story_btn.story;
         var playButton = story_btn.button;
+        story.addOrderRule(['height', 'weight', 'batting avg', 'homeruns']);
 
-
-        var myLegend = myChart.addLegend(650, 100, 50, 300, "Right");
+        var myLegend = myChart.addLegend(650, 70, 50, 300, "Right");
 
         // Add plot title
         svg.append("text")
@@ -203,8 +201,8 @@
 
       // populate vars used in function
       var title = "Compare the difference in performance...";
-      var xcol = "avg";
-      var ycol = "HR";
+      var xcol = "batting avg";
+      var ycol = "homeruns";
       var zcol = "count";
       var series = "handedness"
       var chartdiv = "#chartContainer2"
@@ -299,6 +297,7 @@
             .text(title);
 
         myChart.draw();
+
       };
 
   </script>
