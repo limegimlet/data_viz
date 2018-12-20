@@ -28,7 +28,9 @@ This plot highlights the difference in average homeruns and batting averages for
 
 ## Feedback
 
-_include all feedback you received from others on your visualization from the first sketch to the final visualization_
+Dec 20 2018:
+
+![](https://github.com/limegimlet/data_viz/blob/dev/final_project/feedback/feedback_karsten_dec20.png)
   
 ## Resources
 
