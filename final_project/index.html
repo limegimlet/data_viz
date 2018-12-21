@@ -136,6 +136,7 @@
         // populate vars used in function
         var title = "In baseball, 'handedness' tends to matter more than size";
         var chartdiv = "#chartContainer"
+        var orderlist = ['height (in)', 'weight (lbs)', 'batting avg', 'homeruns']
 
         // create empty svg & chart
         var svg = dimple.newSvg(chartdiv, 690, 500);
@@ -144,7 +145,7 @@
 
         // x-axis def
         var x = myChart.addCategoryAxis("x", ["attribute", "handedness"]);
-        x.addOrderRule(['height', 'weight', 'batting avg', 'homeruns']);
+        x.addOrderRule(orderlist);
         x.addGroupOrderRule(["L", "Both", "R"]);
         x.title = null;
 
@@ -163,7 +164,8 @@
         var story_btn = addStoryWithButton(myChart, "attribute");
         var story = story_btn.story;
         var playButton = story_btn.button;
-        story.addOrderRule(['height', 'weight', 'batting avg', 'homeruns']);
+        story.addOrderRule(orderlist);
+        story.onTick = onTick;
 
         var myLegend = myChart.addLegend(650, 70, 50, 300, "Right");
 
@@ -179,6 +181,32 @@
 
         //remove text appearing on upper left
         story.storyLabel.remove();
+
+        // add units to x-axis ticks "height" & "weight"
+        x.shapes.selectAll("text")
+            .text(function (d) {
+               var i;
+               for (i = 0; i < data.length; i += 1) {
+                   if (d === "height") {
+                       return d + " (inches)"
+                   } else {
+                       if (d === "weight") {
+                           return d + " (lbs)"
+                        } else {
+                            return d;
+                       }
+                   }
+                }
+            });
+
+            function onTick(e) {
+
+              if (e ===story.getFrameValue) {
+                  return "weight (lbs)"
+              } else {
+                  return e;
+              }
+          }
 
        };
 
@@ -215,12 +243,14 @@
       // x-axis def
       var x = myChart.addMeasureAxis("x", xcol);
       x.tickFormat = ',.3f';
+      x.ticks = 5;
       x.showGridlines = false;
       x.title = "Mean batting average"
 
       // y-axis def
       var y = myChart.addMeasureAxis("y", ycol);
       y.showGridlines = false;
+      y.ticks = 6;
       y.title = "Mean homeruns"
 
       // Map bubble size to data column
@@ -273,6 +303,7 @@
         // x-axis pattern_def
         var x = myChart.addMeasureAxis("x", xcol);
         x.showGridlines = false;
+        x.ticks = 5;
         x.title = "Mean weight"
 
         // y-axis pattern_def
