@@ -54,7 +54,10 @@ Changes:
 
 http://bl.ocks.org/limegimlet/2e635b97f6e405aa8e4968f0d878d46d
 
-Dec ??? 2018 - Feedback from Paula, Director, Learning & Knowledge Management at Vision Critical.
+Dec 21 2018 - Feedback from Paula, Director, Learning & Knowledge Management at Vision Critical.
+
+![](https://github.com/limegimlet/data_viz/blob/dev/final_project/feedback/feedback_paula_dec21.png)
+
 
 ### v3
 
@@ -64,7 +67,15 @@ Changes:
 
 http://bl.ocks.org/limegimlet/5159b4a9c7fe20814f19217a6dccedad
 
-Dec ??? 2018 - Feedback from Shoko, Visual Artist / Writer / Translator & Kinga
+Dec ??? 2018 - Feedback from 
+* Shoko, Visual Artist / Writer / Translator & 
+* Kinga
+
+#### Shoko
+![](https://github.com/limegimlet/data_viz/blob/dev/final_project/feedback/feedback_shoko_dec24.png)
+
+#### Kinga
+![](https://github.com/limegimlet/data_viz/blob/dev/final_project/feedback/feedback_kinga_dec24.png)
   
 ## Resources
 
