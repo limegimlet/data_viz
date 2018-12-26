@@ -26,12 +26,48 @@ This plot highlights the difference in average homeruns and batting averages for
 * the user can click to comparing the other two numeric variables, height and weight, where there is nearly no difference between right- and left-handed players. 
 * inspriration is this [plot](http://dimplejs.org/advanced_examples_viewer.html?id=advanced_storyboard_control). 
 
+## Evolution of prototypes
+
+
 ## Feedback
 
-Dec 20 2018:
+Summary:
+
+Evolution of feedback
+
+## v1
+
+http://bl.ocks.org/limegimlet/9a3ffd08e82fa35f878717b939a1cf08
+
+Dec 20 2018 - Feedback from Karsten, a director for analytics with SAP.
 
 ![](https://github.com/limegimlet/data_viz/blob/dev/final_project/feedback/feedback_karsten_dec20.png)
+
+### v2
+
+Changes:
+
+* Updated .csv file to make values more explicit.
+  * `hr` => `homeruns`
+  * `avg` => `batting avg`
+  * `B` => `Both`
+
+http://bl.ocks.org/limegimlet/2e635b97f6e405aa8e4968f0d878d46d
+
+Dec ??? 2018 - Feedback from Paula, Director, Learning & Knowledge Management at Vision Critical.
+
+### v3
+
+Changes:
+* Increased duration time for frames: `story.FrameDuration=4000;`
+* Hid the y-axis
+
+http://bl.ocks.org/limegimlet/5159b4a9c7fe20814f19217a6dccedad
+
+Dec ??? 2018 - Feedback from Shoko, Visual Artist / Writer / Translator & Kinga
   
 ## Resources
 
 _list any sources you consulted to create your visualization_
+
+
