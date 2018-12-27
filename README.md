@@ -4,7 +4,7 @@ Course files & final project for the Udacity Data Visualization, part of the Dat
 
 ## Summary
 
-This plot highlights the difference in average homeruns and batting averages for right-, left-, and ambidextrous major-league baseball players, without any clear correlation to height or weight. It uses the (dimple.js)[http://dimplejs.org/] charting library.
+This plot highlights the difference in average homeruns and batting averages for right-, left-, and ambidextrous major-league baseball players, without any clear correlation to height or weight. It uses the [dimple.js](http://dimplejs.org/) charting library.
 
 ## Design
 
@@ -29,20 +29,21 @@ The evolution is documented below.
 * the user can click to comparing the other two numeric variables, height and weight, where there is nearly no difference between right- and left-handed players. 
 * inspriration is this [plot](http://dimplejs.org/advanced_examples_viewer.html?id=advanced_storyboard_control). 
 
-### Prototype 1a
+### Prototype 1a: Bubble plot with standardized data (z-scores)
 
 ![](https://github.com/limegimlet/data_viz/blob/dev/final_project/images/proto1_sketch.jpg)
 
-#![](https://github.com/limegimlet/data_viz/blob/dev/final_project/images/proto1_a.png)
+![](https://github.com/limegimlet/data_viz/blob/dev/final_project/images/proto1_a.png)
 
 Issues: 
 
 * Standardized axes over-complicates message
-* More critically, since `HR` and `avg` are not normally distributed, assuming a mean of 0 (central limit theorem) does not apply!
+* The customized tooltip returns 0 for negative y-values and all x-values!
+* It's statistically incorrect. Since `HR` and `avg` are not normally distributed, it's misleading to assume a mean of 0 with standardized values (this is the Central Limit Theorem).
 
-Solution: revert to regular data
+Solution: use regular baseball data.
 
-### Prototype 1b
+### Prototype 1b: Bubble plot with original data
 
 ![](https://github.com/limegimlet/data_viz/blob/dev/final_project/images/proto1_b.png)
 
@@ -52,7 +53,7 @@ Issues:
 
 Solution: introduce a simpler bar plot
 
-### Prototype 1c
+### Prototype 1c: Animated bar plot
 
 ![](https://github.com/limegimlet/data_viz/blob/dev/final_project/images/proto1_c.png)
 
@@ -62,9 +63,24 @@ Issues:
 
 Solution: combine bar & bubble in one data story. And let go of the cross-hatching fill pattern.
 
-### Back to drawing board: Prototype 2
+### Back to drawing board: Prototype 2 - 'Overview' bar plot +  2 bubble/scatter plots
 
 ![](https://github.com/limegimlet/data_viz/blob/dev/final_project/images/proto2_sketch.jpg)
+
+Initially, I envisioned animating each of the 3 plots. 
+* The bar plot introduces to the data story. By displaying bars L, B, R for each statistic in turn, the viewer can more easily digest compare the handedness groups for each variable.
+* The bubble plots provide the main point of the story. They would toggle to show the non-aggregated data as a scatterplot OR the means as bubbles.
+
+[View static version on bl.ocks.org](http://bl.ocks.org/limegimlet/3d31190dfc1637c74e438e3c902a110e)
+
+Issue: 
+* In the end, the scatterplots didn't do anything to explain the differences between each `handedness` group, and would require extra dev time and clutter up the page with additional toggle buttons.
+
+Solution: Keep plot 1 (the bar plot) animated, but plots 2 & 3 would be static bubble plots.
+
+### V1.0 Design: 'Overview' bar plot + 2 bubble plots
+
+http://bl.ocks.org/limegimlet/9a3ffd08e82fa35f878717b939a1cf08
 
 
 ## Feedback overview
