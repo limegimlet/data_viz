@@ -148,7 +148,7 @@ Changes to address Paula's feedback:
 #### From Kinga - Mobile Application Developer, BAM software
 ![](https://github.com/limegimlet/data_viz/blob/dev/final_project/feedback/feedback_kinga_dec24.png)
 
-### [v2.0[(http://bl.ocks.org/limegimlet/255dbc945c697a77b49ef86b6be1899b) - Final version
+### [v2.0](http://bl.ocks.org/limegimlet/255dbc945c697a77b49ef86b6be1899b) - Final version
 
 Changes to address Shoko & Kinga's feedback:
 * In plot 1, to reduce the 'noise' inherent with animations, I removed redundant tooltip text.
