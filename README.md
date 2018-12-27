@@ -4,14 +4,18 @@ Course files & final project for the Udacity Data Visualization, part of the Dat
 
 ## Summary
 
-This plot highlights the difference in average homeruns and batting averages for right-, left-, and ambidextrous major-league baseball players, without any clear correlation to height or weight. It uses the dimple.js charting library.
+This plot highlights the difference in average homeruns and batting averages for right-, left-, and ambidextrous major-league baseball players, without any clear correlation to height or weight. It uses the (dimple.js)[http://dimplejs.org/] charting library.
 
 ## Design
 
+In retrospect, I focused too much initially on customizing look & feel instead of assessing the effectiveness of my design choices. On top of thought, I ran into some showstopper bugs with customizing tooltips. In the end, I had to go back to the drawing board before I had something working well enough to seek outside feedback.
+
+The evolution is documented below.
+
+### Initial design
+
 **Plot type: bubble chart** 
 * Since there were major differences for 2 different variables (homeruns and batting average), the plotting on an x-y axis most clearly shows each group's relative position. 
-* To further emphasize this difference, the size of each group's bubble will be increase in proportion to their homerun and batting average.
-* Lastly, a bubble surrounded by whitespace conveys the sport of baseball far more than, say, bars rising up from the x-axis.
 
 **Colour scheme: black and white**
 * conveys pen & ink which again conveys the feeling baseball more than the muted pastels ubiquitous to corporate KPI dashboards.
@@ -20,44 +24,41 @@ This plot highlights the difference in average homeruns and batting averages for
 
 **Axes: standardized around a mean of 0**
 * a standardized axes allows the same axes to compare different pairs of variables. Since I'd like to allow users to toggle between a plot of `homeruns` vs `batting average` and `height` vs `weight`, having common axes allows the user to focus only on the positional changes of bubbles.
-* Not everyone is familiar with what is a good homerun score and batting average. By showing instead standard deviations above & below the league means, viewers can better understand how each group fared compared to the league as a whole.
 
 **Animation**
 * the user can click to comparing the other two numeric variables, height and weight, where there is nearly no difference between right- and left-handed players. 
 * inspriration is this [plot](http://dimplejs.org/advanced_examples_viewer.html?id=advanced_storyboard_control). 
 
-## Evolution
-
-### Prototype 1
-
-Sketch:
+### Prototype 1a
 
 ![](https://github.com/limegimlet/data_viz/blob/dev/final_project/images/proto1_sketch.jpg)
 
-Dimple plot
-
 #![](https://github.com/limegimlet/data_viz/blob/dev/final_project/images/proto1_a.png)
 
-Problems: 
+Issues: 
 
 * Standardized axes over-complicates message
 * More critically, since `HR` and `avg` are not normally distributed, assuming a mean of 0 (central limit theorem) does not apply!
 
 Solution: revert to regular data
 
+### Prototype 1b
+
 ![](https://github.com/limegimlet/data_viz/blob/dev/final_project/images/proto1_b.png)
 
-Problems:
+Issues:
 * While bubbles are efficent in that they represent 3 variables at once, it also means there's more to absorb.
-* The cross-hatching is too noisy, especially when bubbles overlap (as they will for height & weight)
+* The fill patterns are too noisy, especially when bubbles overlap (as they will for height & weight)
 
 Solution: introduce a simpler bar plot
 
+### Prototype 1c
+
 ![](https://github.com/limegimlet/data_viz/blob/dev/final_project/images/proto1_c.png)
 
-Problems: 
-* Doesn't fix problem of cross-hatching.
-* Doesn't do as good a job as bubbles with contrasting handedness performance differences vs size differences.
+Issues: 
+* Unlike bubbles, the bars are side by side, so the fill pattern is hard on the eyes.
+* Bars don't do as good a job as bubbles for contrasting performance differences of the 3 groups vs size differences.
 
 Solution: combine bar & bubble in one data story. And let go of the cross-hatching fill pattern.
 
@@ -66,9 +67,8 @@ Solution: combine bar & bubble in one data story. And let go of the cross-hatchi
 ![](https://github.com/limegimlet/data_viz/blob/dev/final_project/images/proto2_sketch.jpg)
 
 
-## Feedback
+## Feedback overview
 
-Summary: 
 * 4 out of 4 clearly understood the overall message. 
 * However, only 1 out of 4 liked the animation. The other 3 were puzzled why it couldn't be static.
 * 1 person didn't understand that bubble size represented group size. 
@@ -91,7 +91,7 @@ It did make me uneasy ignoring such a common refrain, so I create a version with
 
 While only 1 person complained about it, it bothered me too. Unfortunately I could not figure out how to fix it. I tried to add a `.transition.delay()` to this series variable through also through D3, but it didn't work.
 
-====
+## Feedback details
 
 ### v1
 
