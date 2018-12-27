@@ -43,15 +43,16 @@ Issues:
 * The customized tooltip returns 0 for negative y-values and all x-values!
 * It's statistically incorrect. Since `HR` and `avg` are not normally distributed, it's misleading to assume a mean of 0 with standardized values (this is the Central Limit Theorem).
 
-Solution: use regular baseball data.
+Solution: use the original baseball data.
 
-#### Prototype 1b: Bubble plot with original data
+#### Prototype 1b: Bubble plot with non-standardized data
 
 ![](https://github.com/limegimlet/data_viz/blob/dev/final_project/images/proto1_b.png)
 
 Issues:
 * While bubbles are efficent in that they represent 3 variables at once, it also means there's more to absorb.
-* The fill patterns are too noisy, especially when bubbles overlap (as they will for height & weight)
+* The fill patterns are too noisy, especially when bubbles overlap
+* Custom tooltip still returns 0 for x-values.
 
 Solution: Instead, use a bar plot.
 
@@ -63,7 +64,7 @@ Issues:
 * Unlike bubbles, the bars are side by side, so the fill pattern is hard on the eyes.
 * Bars don't do as good a job as bubbles for contrasting performance differences of the 3 groups vs size differences.
 
-Solution: combine bar & bubble in one data story. And let go of the cross-hatching fill pattern. 
+Solution: combine bar & bubble in one data story. And let go of the custom fill patterns. 
 
 Back to the drawing board!
 
@@ -90,15 +91,15 @@ Solution: Keep plot 1 (the bar plot) animated, but plots 2 & 3 would be static b
 
 This was the version that was sent first for feedback.
 
-http://bl.ocks.org/limegimlet/9a3ffd08e82fa35f878717b939a1cf08
+[View on bl.ocks.org](http://bl.ocks.org/limegimlet/9a3ffd08e82fa35f878717b939a1cf08)
 
 ### v1.1 & v1.2
 
-These are interim versions I made after receiving feedback. These are explained in the 'Feedback - Details' section.
+These are interim versions I made after receiving feedback. See the 'Feedback - Details' section for a description of changes.
 
 ### V2.0 - Final version
 
-This version reflects the changes after 3 rounds of feedback and subsequent iterations. 
+This is the version being submitted and included in this repo. See the 'Feedback - Details' section for a desciription of changes.
 
 ## Feedback
 
@@ -122,8 +123,7 @@ To summarize:
 
 ### For [v1.1](http://bl.ocks.org/limegimlet/2e635b97f6e405aa8e4968f0d878d46d)
 
-Changes to address feedback:
-
+Changes to address Karsten's feedback:
 * Updated .csv file to make values more explicit on x-axis and legend
   * `hr` => `homeruns`
   * `avg` => `batting avg`
@@ -137,7 +137,7 @@ Changes to address feedback:
 
 ### For [v1.2](http://bl.ocks.org/limegimlet/5159b4a9c7fe20814f19217a6dccedad)
 
-Changes to address feedback:
+Changes to address Paula's feedback:
 * Increased duration time for frames: `story.FrameDuration=4000;`
 * Hid the y-axis
 * Made the hover text lighter, so it was easier to see the button change to 'Pause' after clicking
@@ -148,13 +148,13 @@ Changes to address feedback:
 #### From Kinga - Mobile Application Developer, BAM software
 ![](https://github.com/limegimlet/data_viz/blob/dev/final_project/feedback/feedback_kinga_dec24.png)
 
-### For v2.0 - Final version
+### [v2.0[(http://bl.ocks.org/limegimlet/255dbc945c697a77b49ef86b6be1899b) - Final version
 
-Changes to address feedback:
+Changes to address Shoko & Kinga's feedback:
 * In plot 1, to reduce the 'noise' inherent with animations, I removed redundant tooltip text.
 * In plot 3, added units of measure to axes labels
 
-Additional changes:
+Additional changes based on my own assessments:
 * To provide context, added a short description of dataset beneath plot 1.
 * In plot 2 & 3, adjusted axes ranges to reinforce idea that bubbles represent means, i.e. towards the middle of plot, rather than upper right corner. Specifically:
    * plot 2: set `x.overrideMax` to the max value for `batting avg`. I did NOT do the same for `y.overrideMax` since it's such an extreme outlier.
