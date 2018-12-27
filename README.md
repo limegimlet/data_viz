@@ -26,7 +26,44 @@ This plot highlights the difference in average homeruns and batting averages for
 * the user can click to comparing the other two numeric variables, height and weight, where there is nearly no difference between right- and left-handed players. 
 * inspriration is this [plot](http://dimplejs.org/advanced_examples_viewer.html?id=advanced_storyboard_control). 
 
-## Evolution of prototypes
+## Evolution
+
+### Prototype 1
+
+Sketch:
+
+![](https://github.com/limegimlet/data_viz/blob/dev/final_project/images/proto1_sketch.png)
+
+Dimple plot
+
+![](https://github.com/limegimlet/data_viz/blob/dev/final_project/images/proto1_a.png)
+
+Problems: 
+
+* Standardized axes over-complicates message
+* More critically, since `HR` and `avg` are not normally distributed, assuming a mean of 0 (central limit theorem) does not apply!
+
+Solution: revert to regular data
+
+![](https://github.com/limegimlet/data_viz/blob/dev/final_project/images/proto1_b.png)
+
+Problems:
+* While bubbles are efficent in that they represent 3 variables at once, it also means there's more to absorb.
+* The cross-hatching is too noisy, especially when bubbles overlap (as they will for height & weight)
+
+Solution: introduce a simpler bar plot
+
+![](https://github.com/limegimlet/data_viz/blob/dev/final_project/images/proto1_c.png)
+
+Problems: 
+* Doesn't fix problem of cross-hatching.
+* Doesn't do as good a job as bubbles with contrasting handedness performance differences vs size differences.
+
+Solution: combine bar & bubble in one data story. And let go of the cross-hatching fill pattern.
+
+### Back to drawing board: Prototype 2
+
+![](https://github.com/limegimlet/data_viz/blob/dev/final_project/images/proto2_sketch.png)
 
 
 ## Feedback
