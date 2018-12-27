@@ -36,7 +36,7 @@ Sketch:
 
 Dimple plot
 
-![](https://github.com/limegimlet/data_viz/blob/dev/final_project/images/proto1_a.png)
+#![](https://github.com/limegimlet/data_viz/blob/dev/final_project/images/proto1_a.png)
 
 Problems: 
 
