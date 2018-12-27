@@ -31,7 +31,7 @@ The evolution is documented below.
 
 ### Prototypes
 
-#### 1a: Bubble plot with standardized data (z-scores)
+#### Prototype 1a: Bubble plot with standardized data (z-scores)
 
 ![](https://github.com/limegimlet/data_viz/blob/dev/final_project/images/proto1_sketch.jpg)
 
@@ -45,7 +45,7 @@ Issues:
 
 Solution: use regular baseball data.
 
-#### 1b: Bubble plot with original data
+#### Prototype 1b: Bubble plot with original data
 
 ![](https://github.com/limegimlet/data_viz/blob/dev/final_project/images/proto1_b.png)
 
@@ -55,7 +55,7 @@ Issues:
 
 Solution: Instead, use a bar plot.
 
-#### 1c: Animated bar plot
+#### Prototype 1c: Animated bar plot
 
 ![](https://github.com/limegimlet/data_viz/blob/dev/final_project/images/proto1_c.png)
 
@@ -67,7 +67,7 @@ Solution: combine bar & bubble in one data story. And let go of the cross-hatchi
 
 Back to the drawing board!
 
-#### 2a:'Overview' bar plot +  2 bubble/scatter plots
+#### Prototype 2a:'Overview' bar plot +  2 bubble/scatter plots
 
 ![](https://github.com/limegimlet/data_viz/blob/dev/final_project/images/proto2_sketch.jpg)
 
@@ -82,7 +82,7 @@ Issue:
 
 Solution: Keep plot 1 (the bar plot) animated, but plots 2 & 3 would be static bubble plots.
 
-#### 2a:'Overview' bar plot +  2 bubble plots
+#### Prototype 2a:'Overview' bar plot +  2 bubble plots
 
 [View on bl.ocks.org](http://bl.ocks.org/limegimlet/16252e6d8b900ae42783a3cddbdc16fa)
 
@@ -92,64 +92,64 @@ This was the version that was sent first for feedback.
 
 http://bl.ocks.org/limegimlet/9a3ffd08e82fa35f878717b939a1cf08
 
-### V2.0 - Ready for submission to Udacity
+### v1.1 & v1.2
 
-This version reflects the changes after 3 rounds of feedback and subsequent iterations. You can see the feedback and the changes I made in the Feedback - Details section.
+These are interim versions I made after receiving feedback. These are explained in the 'Feedback - Details' section.
+
+### V2.0 - Final version
+
+This version reflects the changes after 3 rounds of feedback and subsequent iterations. 
 
 ## Feedback
+
+4 people in total gave gave feedback on 3 different iterations of the data story.
 
 To summarize:
 
 * 4 out of 4 clearly understood the overall message. 
 * However, only 1 out of 4 liked the animation. The other 3 were puzzled why it couldn't be static.
+* 1 person really liked the changing y-axis, another hated it.
 * 1 person didn't understand that bubble size represented group size. 
 * Surprsingly (to me), only 1 person complained about the lag time after pressing "Play".
 
 ## Feedback details
 
-4 people in total gave a total of 3 rounds of feedback.
+### For [v1.0](http://bl.ocks.org/limegimlet/9a3ffd08e82fa35f878717b939a1cf08)
 
-### Round 1: From Karsten, Director Solution Management, SAP Global GTM Analytics
-
-[v1.0 plot](http://bl.ocks.org/limegimlet/9a3ffd08e82fa35f878717b939a1cf08)
+#### From Karsten, Director Solution Management, SAP Global GTM Analytics
 
 ![](https://github.com/limegimlet/data_viz/blob/dev/final_project/feedback/feedback_karsten_dec20.png)
 
-### v2
+### For [v1.1](http://bl.ocks.org/limegimlet/2e635b97f6e405aa8e4968f0d878d46d)
 
-Changes:
+Changes to address feedback:
 
-* Updated .csv file to make values more explicit.
+* Updated .csv file to make values more explicit on x-axis and legend
   * `hr` => `homeruns`
   * `avg` => `batting avg`
   * `weight` => `weight (lbs)`
   * `height` => `height (in)`
   * `B` => `Both`
 
-http://bl.ocks.org/limegimlet/2e635b97f6e405aa8e4968f0d878d46d
-
-#### Feedback from Paula, Director, Learning & Knowledge Management, Vision Critical
+#### From Paula, Director, Learning & Knowledge Management, Vision Critical
 
 ![](https://github.com/limegimlet/data_viz/blob/dev/final_project/feedback/feedback_paula_dec21.png)
 
-### v3
+### For [v1.2](http://bl.ocks.org/limegimlet/5159b4a9c7fe20814f19217a6dccedad)
 
 Changes to address feedback:
 * Increased duration time for frames: `story.FrameDuration=4000;`
 * Hid the y-axis
-* Made the hover text lighter, so it was easier to see the button change to 'Pause' after clicking.
+* Made the hover text lighter, so it was easier to see the button change to 'Pause' after clicking
 
-http://bl.ocks.org/limegimlet/5159b4a9c7fe20814f19217a6dccedad
-
-Dec 24 2018
-
-#### Shoko - Visual Artist / Writer / Translator
+#### From Shoko - Visual Artist / Writer / Translator
 ![](https://github.com/limegimlet/data_viz/blob/dev/final_project/feedback/feedback_shoko_dec24.png)
 
-#### Kinga - Mobile Application Developer, BAM software
+#### From Kinga - Mobile Application Developer, BAM software
 ![](https://github.com/limegimlet/data_viz/blob/dev/final_project/feedback/feedback_kinga_dec24.png)
 
-### v4 - Final version
+### For v2.0 - Final version
+
 Changes to address feedback:
 * In plot 1, to reduce the 'noise' inherent with animations, I removed redundant tooltip text.
 * In plot 3, added units of measure to axes labels
