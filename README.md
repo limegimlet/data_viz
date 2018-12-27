@@ -31,9 +31,25 @@ This plot highlights the difference in average homeruns and batting averages for
 
 ## Feedback
 
-Summary:
+Summary: 
+* 4 out of 4 clearly understood the overall message. 
+* However, only 1 out of 4 liked the animation. The other 3 were puzzled why it couldn't be static.
+* 1 person didn't understand that bubble size represented group size. 
+* Surprsingly (to me), only 1 person complained about the lag time after pressing "play".
 
-Evolution of feedback
+**Why I did NOT remove the animation, despite the negative feedback**
+
+The main reason I animated plot 1 is that if it were static, it would show 4 groups of 3 bars. 12 bars is a lot to process, and would make this visualization look like just another corporate dashboard, i.e. something easy to dismiss.
+
+Moreover, by forcing the viewer to press the Play/Pause button to see the bars and read the tooltips, it introduces ['cognitive disfluency'](https://blogs.allari.com/are-dashboards-and-visualization-too-good). In other words, by interacting with the visualization, the user needs to pay more attention to it. This was something I noticed back in the 2000s, designing elearning courses for enterprise software (a then-unfamiliar format for a perpetually dull topic: bad combo). It was only in the last few years I learned the offical term for it.
+
+I must say, it also solved the awkwardness of having batting average (a decimal) share the same y-axis with homeruns, weight & height. However, even without batting average, I would have taken the same approach. A declarative title for a mostly-empty plot with a 'Play' button is an invitation to the viewer to dive deeper.
+
+That being said, it made me uneasy ignoring such a common refrain, so I did create a version with a static plot, and one that left out plot 1 altogether, to compare. 
+
+(I did NOT send them back to those who gave the feedback, because it's Christmas and I want to keep them as friends, but tried to look at them objectively as I could.)
+
+Without only plot 2 & 3, it did convey the message but it seemed like the story aspect was gone, without a 
 
 ## v1
 
@@ -76,6 +92,17 @@ Dec ??? 2018 - Feedback from
 
 #### Kinga
 ![](https://github.com/limegimlet/data_viz/blob/dev/final_project/feedback/feedback_kinga_dec24.png)
+
+### v4 - Final version
+Changes to address feedback:
+* In plot 1, to reduce the 'noise' inherent with animations, I removed redundant tooltip text.
+* In plot 3, added units of measure to axes labels
+
+Additional changes:
+* To provide context, added a short description of dataset beneath plot 1.
+* In plot 2 & 3, adjusted axes ranges to reinforce idea that bubbles represent means, i.e. towards the middle of plot, rather than i upper right corner. Specifically:
+   * plot 2: set `x.overrideMax` to the max value for `batting avg`. I did NOT do the same for `y.overrideMax` since it's such an extreme outlier.
+   * plot 3: set both `x.overrideMix` & `y.overrideMin` to the minumum value for weight & height. This makes it more clear that the `Both` group is a bit shorter and lighter, although still close to the `L` & `R` means.
   
 ## Resources
 
