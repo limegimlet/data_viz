@@ -68,13 +68,13 @@ Solution: combine bar & bubble in one data story. And let go of the custom fill 
 
 Back to the drawing board!
 
-#### Prototype 2a:'Overview' bar plot +  2 bubble/scatter plots
-
 ![](https://github.com/limegimlet/data_viz/blob/dev/final_project/images/proto2_sketch.jpg)
 
 Initially, I envisioned animating each of the 3 plots. 
 * The bar plot introduces to the data story. By displaying bars L, B, R for each statistic in turn, the viewer can more easily digest compare the handedness groups for each variable.
 * The bubble plots provide the main point of the story. They would toggle to show the non-aggregated data as a scatterplot OR the means as bubbles.
+
+#### Prototype 2a:'Overview' bar plot +  2 bubble/scatter plots
 
 [View on bl.ocks.org](http://bl.ocks.org/limegimlet/3d31190dfc1637c74e438e3c902a110e)
 
@@ -83,7 +83,7 @@ Issue:
 
 Solution: Keep plot 1 (the bar plot) animated, but plots 2 & 3 would be static bubble plots.
 
-#### Prototype 2a:'Overview' bar plot +  2 bubble plots
+#### Prototype 2b:'Overview' bar plot +  2 bubble plots
 
 [View on bl.ocks.org](http://bl.ocks.org/limegimlet/16252e6d8b900ae42783a3cddbdc16fa)
 
