@@ -32,7 +32,7 @@ This plot highlights the difference in average homeruns and batting averages for
 
 Sketch:
 
-![](https://github.com/limegimlet/data_viz/blob/dev/final_project/images/proto1_sketch.png)
+![](https://github.com/limegimlet/data_viz/blob/dev/final_project/images/proto1_sketch.jpg)
 
 Dimple plot
 
@@ -63,7 +63,7 @@ Solution: combine bar & bubble in one data story. And let go of the cross-hatchi
 
 ### Back to drawing board: Prototype 2
 
-![](https://github.com/limegimlet/data_viz/blob/dev/final_project/images/proto2_sketch.png)
+![](https://github.com/limegimlet/data_viz/blob/dev/final_project/images/proto2_sketch.jpg)
 
 
 ## Feedback
