@@ -1,10 +1,20 @@
 # Visualizing major-league baseball stats with dimple.js
 
-Course files & final project for the Udacity Data Visualization, part of the Data Analyst nanodegree.
+Course files & final project for the Udacity Data Visualization course, part of the Data Analyst nanodegree.
 
 ## Summary
 
 This plot highlights the difference in average homeruns and batting averages for right-, left-, and ambidextrous major-league baseball players, without any clear correlation to height or weight. It uses the [dimple.js](http://dimplejs.org/) charting library.
+
+## Data
+
+The data comes originally Udacity's baseball [data set](https://s3.amazonaws.com/udacity-hosted-downloads/ud507/baseball_data.csv) of stats for 1157 professional players.
+
+The final visualizations use 2 datasets that are slightly modified versions of the original:
+
+* Plot 1 uses a long-format version of the dataset, `baseball_data_long.csv`. The variable names were stacked into an `attribute` category column, and their values into a `value` column. This allows the creation of a categorical x-axis for all 4 baseball metrics.
+* Plots 2 & 3 use the original wide-format `baseball_data.csv` with an additional `counts` column. It stores the total number of people in that player's `handedness` group, so it can be used to size the bubbles.
+* Both .csv's had column names and values renamed, described in the Feedback details section.
 
 ## Design
 
@@ -89,17 +99,18 @@ Solution: Keep plot 1 (the bar plot) animated, but plots 2 & 3 would be static b
 
 ### V1.0 - Ready for outside feedback
 
-This was the version that was sent first for feedback.
+* Added titles to each plot that together formed a sentence. Aside from that, kept text minimal as the plots pretty much speak for themselves.
+* Restored the handwriting-like font 'Shadow into Light'
 
 [View on bl.ocks.org](http://bl.ocks.org/limegimlet/9a3ffd08e82fa35f878717b939a1cf08)
 
 ### v1.1 & v1.2
 
-These are interim versions I made after receiving feedback. See the 'Feedback - Details' section for a description of changes.
+These are interim versions I made after receiving feedback. See the 'Feedback details' section for a description of changes.
 
 ### V2.0 - Final version
 
-This is the version being submitted and included in this repo. See the 'Feedback - Details' section for a desciription of changes.
+This is the version being submitted and included in this repo. See the 'Feedback details' section for a desciription of changes.
 
 ## Feedback
 
@@ -170,17 +181,23 @@ Moreover, by forcing the viewer to press the Play/Pause button to see the bars a
 
 I must say, it also solved the awkwardness of having batting average (a decimal) share the same y-axis with the other stats. However, even without batting average, I would have taken the same approach. A declarative title for a mostly-empty plot with a 'Play' button is an invitation to dive deeper.
 
-It did make me uneasy ignoring such a common refrain, so I create a version with a static plot, and another that left out plot 1 altogether, to compare. 
+It did make me uneasy ignoring such a common refrain, so I create a version with a [static plot 1](http://bl.ocks.org/limegimlet/78260a3948950a74e260f52a4aba377c), and another that [left out plot 1 altogether](http://bl.ocks.org/limegimlet/ef2e059afe48a0360254b8af75247bae), to compare. Still preferred keeping an animated plot 1.
 
 (I did NOT send them back to those who gave the feedback, because it's Christmas and I want to keep them as friends)
 
 
 #### Lag time for 'Play' button
 
-While only 1 person complained about it, it bothered me too. Unfortunately I could not figure out how to fix it. I tried to add a `.transition.delay()` to this series variable through also through D3, but it didn't work.
+While only 1 person complained about it, it bothered me too. Unfortunately I could not figure out how to fix it. I tried to add a `.transition.delay()` to this series & stories variables, as well as through D3, but it didn't work.
   
 ## Resources
 
-_list any sources you consulted to create your visualization_
-
+* Dimple documentation https://github.com/PMSI-AlignAlytics/dimple/wiki
+* Inspiration for the first design http://dimplejs.org/advanced_examples_viewer.html?id=advanced_bars_sketchy
+* Example of storyboards in action, plus how to create onClick events: http://dimplejs.org/advanced_examples_viewer.html?id=advanced_storyboard_control
+* Creating a play button https://bl.ocks.org/officeofjane/47d2b0bfeecfcb41d2212d06d095c763
+* Information on overriding Dimple inline styles: https://stackoverflow.com/questions/27830560/custom-tooltip-color-and-font-size-in-dimple-js
+* Writing reusable javascript: https://medium.com/@_kamerontanseli/writing-reusable-javascript-d220aa501e67
+* Seeing what's available in an object: https://stackoverflow.com/questions/957537/how-can-i-display-a-javascript-object
+* D3 transistions: https://bl.ocks.org/Kcnarf/9e4813ba03ef34beac6e
 
