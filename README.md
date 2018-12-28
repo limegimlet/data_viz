@@ -72,7 +72,7 @@ Solution: Instead, use a bar plot.
 
 Issues: 
 * Unlike bubbles, the bars are side by side, so the fill pattern is hard on the eyes.
-* Bars don't do as good a job as bubbles for contrasting performance differences of the 3 groups vs size differences.
+* Bars don't do as good a job as bubbles for contrasting performance differences vs size differences.
 
 Solution: combine bar & bubble in one data story. And let go of the custom fill patterns. 
 
@@ -118,7 +118,7 @@ This is the version being submitted and included in this repo. See the 'Feedback
 
 To summarize:
 
-* 4 out of 4 clearly understood the overall message. 
+* All 4 clearly understood the overall message. 
 * However, only 1 out of 4 liked the animation. The other 3 were puzzled why it couldn't be static.
 * 1 person really liked the changing y-axis, another hated it.
 * 1 person didn't understand that bubble size represented group size. 
@@ -179,7 +179,7 @@ The main reason I animated plot 1 is that if it were static, it would show 4 gro
 
 Moreover, by forcing the viewer to press the Play/Pause button to see the bars and read the tooltips, it introduces ['cognitive disfluency'](https://blogs.allari.com/are-dashboards-and-visualization-too-good): interacting with the visualization means the user needs to pay more attention to it. 
 
-I must say, it also solved the awkwardness of having batting average (a decimal) share the same y-axis with the other stats. However, even without batting average, I would have taken the same approach. A declarative title for a mostly-empty plot with a 'Play' button is an invitation to dive deeper.
+It also solved the awkwardness of having batting average (a decimal) share the same y-axis with the other stats. However, even without batting average, I would have taken the same approach. A declarative title for a mostly-empty plot with a 'Play' button is an invitation to dive deeper.
 
 It did make me uneasy ignoring such a common refrain, so I create a version with a [static plot 1](http://bl.ocks.org/limegimlet/78260a3948950a74e260f52a4aba377c), and another that [left out plot 1 altogether](http://bl.ocks.org/limegimlet/ef2e059afe48a0360254b8af75247bae), to compare. Still preferred keeping an animated plot 1.
 
