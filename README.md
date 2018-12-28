@@ -18,7 +18,7 @@ The final visualizations use 2 datasets that are slightly modified versions of t
 
 ## Design
 
-In retrospect, I focused too much initially on customizing look & feel instead of assessing the effectiveness of my design choices. On top of thought, I ran into some showstopper bugs with customizing tooltips. In the end, I had to go back to the drawing board before I had something working well enough to seek outside feedback.
+In retrospect, I focused too much initially on customizing look & feel instead of assessing the effectiveness of my design choices. On top of that, I ran into some showstopper bugs with customizing tooltips. In the end, I had to go back to the drawing board before I had something working well enough to seek outside feedback.
 
 The evolution is documented below.
 
@@ -195,6 +195,7 @@ While only 1 person complained about it, it bothered me too. Unfortunately I cou
 * Dimple documentation https://github.com/PMSI-AlignAlytics/dimple/wiki
 * Inspiration for the first design http://dimplejs.org/advanced_examples_viewer.html?id=advanced_bars_sketchy
 * Example of storyboards in action, plus how to create onClick events: http://dimplejs.org/advanced_examples_viewer.html?id=advanced_storyboard_control
+* bug with negative values in mouseover: https://github.com/PMSI-AlignAlytics/dimple/issues/204
 * Creating a play button https://bl.ocks.org/officeofjane/47d2b0bfeecfcb41d2212d06d095c763
 * Information on overriding Dimple inline styles: https://stackoverflow.com/questions/27830560/custom-tooltip-color-and-font-size-in-dimple-js
 * Writing reusable javascript: https://medium.com/@_kamerontanseli/writing-reusable-javascript-d220aa501e67
