@@ -5,22 +5,23 @@
   <script src="http://d3js.org/d3.v4.min.js"></script>
   <script src="http://dimplejs.org/dist/dimple.v2.3.0.min.js"></script>
 
-  <!-- Props to Kimerly Geswein for her font Shadows Into Light */ -->
+  <!-- Props to Kimerly Geswein for her font Shadows Into Light -->
   <link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
   <style>
 
   #play-button {
       position: absolute;
-      top: 210px;
-      left: 660px;
+      top: 250px;
+      left: 650px;
       background: #f08080;
       font-family: 'Shadows Into Light', cursive;
-      font-size: 16px;
-      font-weight: 700;
-      letter-spacing: .5px;
+      font-size: 18px;
+      font-weight: 800;
+      letter-spacing: 1.5px;
 
       padding-right: 26px;
-      border : 1px solid black;
+      border : 2px solid black;
       color: black;
 
       margin: 0;
@@ -32,7 +33,9 @@
 
     #play-button:hover {
       background-color: #696969;
+      color: lightgrey;
     }
+
 
     .line {
       fill: none;
@@ -48,31 +51,32 @@
       font-size: 20px;
       font-weight: 700;
     }
-    .hatch_1 {
-      fill: url(#down-hatch);
-    }
-    .hatch_2 {
-      fill: url(#cross-hatch);
-    }
-    .hatch_3 {
-      fill: url(#up-hatch);
-    }
+
     .title {
       font-family: 'Shadows Into Light' !important;
       font-size: 18pt !important;
       letter-spacing: .8px;
       font-weight: 900;
+    }
 
+    .section-overview {
+        width: 650px;
+        padding-left: 50px;
     }
 
     text {
         font-family: 'Shadows Into Light' !important;
         font-size: 14pt !important;
     }
+
+    p {
+        display: block;
+        font-family: 'Raleway', sans-serif;
+    }
   </style>
   <script type="text/javascript">
 
-  <!-- Helper functions -->
+ /* Helper functions */
 
   function addStory(chart, category) {
       var story = chart.setStoryboard(category);
@@ -90,7 +94,7 @@
       return playButton;
   };
 
-  function addClickEvent(playButton, story) {
+  function addClickEvent(playButton, story, series) {
       return playButton
                .on("click", function() {
                var button = d3.select(this);
@@ -100,17 +104,19 @@
                } else {
                      story.startAnimation();
                      button.text("Pause");
-                     //s.shapes
-                             //.transition()
-                             //.duration();
+                     // trying to reduce lag time
+                     // after pressing 'play'
+                     series.shapes
+                             .transition()
+                                .attr("delay", 0);
                }
        })
   };
 
-  function addStoryWithButton(chart, category) {
+  function addStoryWithButton(chart, category, series) {
       var story = addStory(chart, category);
       var playButton = addPlayButton("Play", story);
-      addClickEvent(playButton, story);
+      addClickEvent(playButton, story, series);
 
       return {
           "story": story,
@@ -118,7 +124,7 @@
       };
   };
 
-  <!-- Main functions -->
+  /* Main functions */
 
   function draw(data) {
 
@@ -127,7 +133,7 @@
     */
 
       "use strict";
-      var margin = 100,
+      var margin = 200,
           width = 800 - margin,
           height = 600 - margin;
 
@@ -137,16 +143,17 @@
         // populate vars used in function
         var title = "In baseball, 'handedness' tends to matter more than size";
         var chartdiv = "#chartContainer"
+        var orderlist = ['homeruns','batting avg','height (in)', 'weight (lbs)']
 
         // create empty svg & chart
         var svg = dimple.newSvg(chartdiv, 690, 500);
         var myChart = new dimple.chart(svg, data);
-        myChart.setMargins(90, 110, 60, 100);
+        myChart.setMargins(100, 110, 60, 80);
 
         // x-axis def
         var x = myChart.addCategoryAxis("x", ["attribute", "handedness"]);
-        x.addOrderRule(["HR", "avg", "height", "weight"]);
-        x.addGroupOrderRule(["L", "B", "R"]);
+        x.addOrderRule(orderlist);
+        x.addGroupOrderRule(["L", "Both", "R"]);
         x.title = null;
 
         // y-axis def
@@ -154,26 +161,44 @@
         y.showGridlines = false;
         y.tickFormat = ',.2f';
         y.title = null;
-
+        y.hidden = true;
 
         // Map category values to bars in plot
         var s = myChart.addSeries(["handedness"], dimple.plot.bar);
         s.aggregate = dimple.aggregateMethod.avg;
         s.barGap = 0.3;
+        s.getTooltipText = function(e) {
+            var serName = e.aggField;
+            var x = e.cx;
+            var y = e.cy;
+            // show mean batting average as decimal to 3 places
+            if (x === 'batting avg') {
+                return [
+                    serName + ": " + d3.format(",.3f")(y)
+                ];
+            } else {
+                return [
+                    serName + ": " + d3.format(",.1f")(y)
+                ];
+
+            }
+
+        };
 
         // Add play-pause button to control animation
-        var story_btn = addStoryWithButton(myChart, "attribute");
+        var story_btn = addStoryWithButton(myChart, "attribute", s);
         var story = story_btn.story;
         var playButton = story_btn.button;
+        story.addOrderRule(orderlist);
 
+        var myLegend = myChart.addLegend(660, 100, 45, 300, "Right");
 
-        var myLegend = myChart.addLegend(650, 100, 50, 300, "Right");
 
         // Add plot title
         svg.append("text")
             .attr("class", "title")
             .attr("x", (width / 2))
-            .attr("y", (50))
+            .attr("y", 80)
             .attr("text-anchor", "middle")
             .text(title);
 
@@ -192,10 +217,9 @@
         D3.js setup code
       */
 
-        "use strict";
-        var margin = 200,
-            width = 800 - margin,
-            height = 600 - margin;
+      var margin = 200,
+          width = 800 - margin,
+          height = 600 - margin;
 
       /*
         Dimple.js Chart construction code
@@ -203,8 +227,8 @@
 
       // populate vars used in function
       var title = "Compare the difference in performance...";
-      var xcol = "avg";
-      var ycol = "HR";
+      var xcol = "batting avg";
+      var ycol = "homeruns";
       var zcol = "count";
       var series = "handedness"
       var chartdiv = "#chartContainer2"
@@ -212,18 +236,21 @@
       // create empty svg & chart
       var svg = dimple.newSvg(chartdiv, 590, 500);
       var myChart = new dimple.chart(svg, data);
-      myChart.setMargins(90, 110, 60, 100);
+      myChart.setMargins(100, 110, 60, 110);
 
       // x-axis def
       var x = myChart.addMeasureAxis("x", xcol);
       x.tickFormat = ',.3f';
+      x.ticks = 5;
+      x.overrideMax = .328;
       x.showGridlines = false;
-      x.title = "Mean batting average"
+      x.title = "batting average"
 
       // y-axis def
       var y = myChart.addMeasureAxis("y", ycol);
       y.showGridlines = false;
-      y.title = "Mean homeruns"
+      y.ticks = 6;
+      y.title = "homeruns"
 
       // Map bubble size to data column
       var z = myChart.addMeasureAxis("z", zcol);
@@ -270,17 +297,22 @@
         // create empty svg & chart
         var svg = dimple.newSvg(chartdiv, 590, 500);
         var myChart = new dimple.chart(svg, data);
-        myChart.setMargins(90, 110, 60, 100);
+        myChart.setMargins(100, 110, 60, 110);
 
         // x-axis pattern_def
         var x = myChart.addMeasureAxis("x", xcol);
         x.showGridlines = false;
-        x.title = "Mean weight"
+        x.ticks = 5;
+        x.overrideMin = 140;
+        x.overrideMax = 245;
+        x.title = "weight (lbs)"
 
         // y-axis pattern_def
         var y = myChart.addMeasureAxis("y", ycol);
         y.showGridlines = false;
-        y.title = "Mean height"
+        y.overrideMin = 65;
+        y.overrideMax = 80;
+        y.title = "height (in)"
 
         // Map bubble size to data column
         var z = myChart.addMeasureAxis("z", zcol);
@@ -299,36 +331,35 @@
             .text(title);
 
         myChart.draw();
+
       };
 
   </script>
 
  </head>
  <body>
-<div class='section-overview'>
-
 <div id="chartContainer">
         <script type="text/javascript">
-            url = "https://gist.githubusercontent.com/limegimlet/305666a97306d741d76484323bfe9512/raw/8ce2cba0a09f0edbb71b7f85197d2c528e260e19/baseball_data_long.csv"
-           d3.csv(url, draw)
+        var url_long = "https://gist.githubusercontent.com/limegimlet/3c19492bf74db975055ec6210e6ad43e/raw/fd46ed9e90a2834c7cd833e862cddefbe05e7067/baseball_data_long_v2.csv"
+        d3.csv(url_long, draw)
 
      </script>
 </div>
+<div class="section-overview">
+    <p> The plots on this page summarize
+        <a href="https://s3.amazonaws.com/udacity-hosted-downloads/ud507/baseball_data.csv" target="_blank" >stats</a>
+        for 1157 professional baseball players, showing the means for left-, right-, and both-handed players.</p>
 </div>
-<div class='section-HR-avg'>
-  <div id="chartContainer2">
+ <div id="chartContainer2">
      <script type="text/javascript">
-        url = "https://gist.githubusercontent.com/limegimlet/d32fac720ddc71b81262be8e1a7a153a/raw/348f7311ddf36d2d44db86f4728aa0e6f4839e05/baseball_data.csv"
-        d3.csv(url, draw2)
+     var url = "https://gist.githubusercontent.com/limegimlet/4bfcac0897fc6f3f96bbeed47b484446/raw/5412b996ebef7c3ee2c148cef3b1d6f8b75d22fa/baseball_data_v2.csv"
+     d3.csv(url, draw2)
 
   </script>
 </div>
-</div>
-<div class='section-height-weight'>
 <div id="chartContainer3">
    <script type="text/javascript">
       d3.csv(url, draw3)
-
 </script>
 </div>
 </div>
